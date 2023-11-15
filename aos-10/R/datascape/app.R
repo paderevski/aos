@@ -36,7 +36,7 @@ ui <- fluidPage(titlePanel("DataScape"),
                   tabPanel("Enter Data", textViewerUI("textViewer")),
                   tabPanel("Load CSV", csvViewerUI("csvViewer")),
                   tabPanel("Visualize Data", dataGraphUI("dataGraph")),
-                  tabPanel("Analyze Data",
+                  tabPanel("Analyze Statistics",
                            sidebarLayout(
                              sidebarPanel(
                                radioButtons(

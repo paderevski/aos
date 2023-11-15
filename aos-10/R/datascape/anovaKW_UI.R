@@ -19,16 +19,24 @@ anovaKWUI <- function(id) {
         "))
     ),
     tags$h3("One-Way Non-parametric (Kruskall-Wallace) ANOVA Test"),
-    tags$p("Use this test to"),
-    checkboxGroupInput(ns("columns"), "Choose columns to plot:",
+    tags$p("Use this test to compare multiple populations when you are unable to assume
+           the underlying population is normal, or if your sample size is small (much less than 30).
+           The null hypothesis is that all distributions are located in the same place. If this
+           test rejects, further analysis is needed to determine which sample differs from the others.
+           You should be careful if sample sizes differ because this can expose you to errors
+           when the population variances are not known to be the same."),
+    checkboxGroupInput(ns("columns"), "Choose columns to analyze:",
                        choices = NULL, 
                        selected = NULL,
                        inline = TRUE),
     numericInput(ns("alpha_level"),
                  "Significance Level (alpha):", 
-                 0.05),
+                 0.05,
+                 width="100pt"),
     actionButton(ns("test_button"), "Perform ANOVA-KW Test"),
     DTOutput(ns("test_result")),
+    tags$br(),
+    textOutput(ns("test_conclusion"))
   )
 }
 

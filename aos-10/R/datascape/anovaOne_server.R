@@ -76,6 +76,7 @@ anovaOneServer <- function(id, data) {
         perform_anova(df = data(), column_names = input$columns)
       sa <- summary(test)
       df <- as.data.frame(sa[[1]])
+      p_value = df$`Pr(>F)`[1] 
       
       # Display the test results
 
@@ -89,11 +90,7 @@ anovaOneServer <- function(id, data) {
           searching = FALSE,
           ordering = FALSE
         ))
-        
-        # Check if last column has very small values
-        # if (any(df[, ncol(df)] < 0.01)) {
-        #   df[, ncol(df)] <- format(df[, ncol(df)], scientific = TRUE, digits=3)
-        # }
+
         datatableObject <- datatableObject %>%
             formatSignif(columns = 5, digits=4)
         datatableObject <- datatableObject %>%
@@ -102,7 +99,14 @@ anovaOneServer <- function(id, data) {
         # Return the datatable object
         datatableObject
       })
-      
+     
+      output$test_conclusion <- renderText({
+        if (p_value < alpha) {
+          "Reject null hypothesis: Not all population means are identical"
+        } else {
+          "Fail to reject null hypothesis: Insufficient evidence to conclude that population means differ"
+        }
+      }) 
     }
     
     

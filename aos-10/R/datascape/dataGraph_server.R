@@ -48,7 +48,7 @@ dataGraphServer <- function(id, data) {
           theme_light() +
           labs(fill = "Columns")  + # Set the legend title for 'fill'
           scale_fill_manual(values = c("blue", "red", "green")) +  # Colors for different series
-          ggtitle("Histogram") +
+          ggtitle("Histograms") + 
           theme(axis.text = element_text(size = 12)) +  # Increase the font size of axis text
           labs(x = input$column)  # Set the x-axis label to the column name
       }

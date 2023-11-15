@@ -56,8 +56,9 @@ anovaKWServer <- function(id, data) {
         perform_anova(df = data(), column_names = input$columns)
 
       # Display the test results
-
-      output$testResultTable <- renderDT({
+      cat('t3\n')      
+      
+      output$test_result <- renderDT({
         # Extracting the test statistic and p-value
         data_frame <- data.frame(
           Test_Statistic = test$statistic,
@@ -68,12 +69,27 @@ anovaKWServer <- function(id, data) {
         data_frame$P_Value <- round(data_frame$P_Value, 4)
         
         # Convert to datatable
-        datatable(data_frame, rownames = FALSE, options = list(
+        datatableObject <- datatable(data_frame, rownames = FALSE, options = list(
           paging = FALSE,
           searching = FALSE,
           ordering = FALSE
         ))
+        
+        datatableObject <- datatableObject %>%
+          formatSignif(columns = 2, digits=4) %>%
+          formatRound(columns = 1, digits = 3)
+        
+        # Return the datatable object
+        datatableObject
       })
+      
+      output$test_conclusion <- renderText({
+        if (test$p.value < alpha) {
+          "<b>Reject null hypothesis</b>: Not all distributions are identical"
+        } else {
+          "Fail to reject null hypothesis: Insufficient evidence to conclude that distributions differ"
+        }
+      }) 
 
     }
     
