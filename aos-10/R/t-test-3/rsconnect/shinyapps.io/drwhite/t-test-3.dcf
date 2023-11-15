@@ -1,0 +1,12 @@
+name: t-test-3
+title: t-test-3
+username: drwhite
+account: drwhite
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10469599
+bundleId: 7907122
+url: https://drwhite.shinyapps.io/t-test-3/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

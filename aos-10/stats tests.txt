@@ -1,0 +1,6 @@
+ANOVA, 1 way
+Wilcoxon Signed Rank, 1 sample, median
+Mann Whitney, 2 sample, median
+Kruskall Wallace
+Chi-Squared GOF
+Chi-Squared Independence

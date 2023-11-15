@@ -1,0 +1,12 @@
+name: StatsTests
+title: StatsTests
+username: drwhite
+account: drwhite
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10466342
+bundleId: 7907134
+url: https://drwhite.shinyapps.io/StatsTests/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
