@@ -107,6 +107,23 @@ anovaOneServer <- function(id, data) {
           "Fail to reject null hypothesis: Insufficient evidence to conclude that population means differ"
         }
       }) 
+      
+      output$tukey_result <- renderDT({
+        req(test)
+        tukey = TukeyHSD(test)
+        tukey_df = as.data.frame(tukey[[1]])
+        
+        datatableObject <- datatable(tukey_df, options = list(
+          paging = FALSE,
+          searching = FALSE,
+          ordering = FALSE
+        ))
+        datatableObject <- datatableObject %>%
+          formatSignif(columns = 4, digits=4)
+        datatableObject <- datatableObject %>%
+          formatRound(columns=1:3, digits = 3)
+        datatableObject
+      })
     }
     
     
