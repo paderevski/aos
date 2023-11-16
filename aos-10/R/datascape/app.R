@@ -72,7 +72,27 @@ ui <- fluidPage(titlePanel("DataScape"),
                                conditionalPanel(condition = "input.tTestType == 'anova_kw'",
                                                 anovaKWUI("anovaKW"))
                              )
-                           ))
+                           )),
+                  tabPanel("About",
+                           fluidPage(
+                             h3("About DataScape"),
+                             p("DataScape is a data exploration application designed to help students and
+                               scientists analyze their experimental data. It has been designed
+                               using R and the shiny package, so all the statistical results
+                               are professional grade and use the most up-to-date algorithms. The
+                               app is designed to make it easy to perform a group of
+                               related calculations in just a few clicks. On the other hand,
+                               detailed statistical analyses should be continued in R or
+                               similar software because this app does not provide
+                               extensive options to customize output or further analyze data."),
+                             p("Currently this should be considered BETA software, particularly when
+                               it comes to catching errors or unexpected inputs. Please
+                               report any errors to the creator."),
+                             p("Created by: Dr. Patrick White, Academies of Loudoun"),
+                             p("For more information, email: "),
+                             a(href = "mailto:pwhite2@lcps.org", "Patrick White"),
+                           )
+                  )
                 ))
 
 server <-
