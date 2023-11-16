@@ -34,10 +34,12 @@ anovaKWUI <- function(id) {
                  0.05,
                  width="100pt"),
     actionButton(ns("test_button"), "Perform ANOVA-KW Test"),
+    uiOutput(ns("tableATitle")),
     DTOutput(ns("test_result")),
     tags$br(),
     uiOutput(ns("test_conclusion")),
     tags$hr(),
+    uiOutput(ns("tableBTitle")),
     DTOutput(ns("dunn_result"))
   )
 }

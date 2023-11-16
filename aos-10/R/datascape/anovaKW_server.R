@@ -3,6 +3,9 @@ library(FSA)
 
 anovaKWServer <- function(id, data) {
   moduleServer(id, function(input, output, session) {
+    
+    outputVisible <- reactiveVal(FALSE)
+    
     observe({
       if (!is.null(data()) && ncol(data()) > 0) {
         # Filter to include only numeric columns
@@ -61,7 +64,9 @@ anovaKWServer <- function(id, data) {
     perform_test <- function() {
       req(data())
       req(input$columns)
+      
       if (is.null(input$columns) || length(input$columns) < 3) {
+        outputVisible(FALSE)
         output$test_result <- NULL
         output$test_conclusion <-
           renderText({
@@ -78,6 +83,13 @@ anovaKWServer <- function(id, data) {
         perform_anova(df = data(), column_names = input$columns)
 
       # Display the test results
+      
+      output$tableATitle <- renderUI({
+        if(outputVisible()) {
+          tags$h4("ANOVA Table", style = "text-align: left; padding-top: 12pt;")
+        }
+      })
+      
       output$test_result <- renderDT({
         req(df)  # Ensure df is available
         # Extracting the test statistic and p-value
@@ -90,7 +102,8 @@ anovaKWServer <- function(id, data) {
         datatableObject <- datatable(data_frame, rownames = FALSE, options = list(
           paging = FALSE,
           searching = FALSE,
-          ordering = FALSE
+          ordering = FALSE,
+          info = FALSE
         ))
         
         datatableObject <- datatableObject %>%
@@ -110,15 +123,23 @@ anovaKWServer <- function(id, data) {
         }
       }) 
       
+      output$tableBTitle <- renderUI({
+        if(outputVisible()) {
+          tags$h4("Dunn Test Results", style = "text-align: left;")
+        }
+      })
+      
       output$dunn_result <- renderDT({
         req(test)
+        req(df)
         dunn_result = perform_dunn(df = data(), column_names = input$columns)
         dunn_df = as.data.frame(dunn_result[[2]])
         
         datatableObject <- datatable(dunn_df, options = list(
           paging = FALSE,
           searching = FALSE,
-          ordering = FALSE
+          ordering = FALSE,
+          info = FALSE
         ))
         
         datatableObject <- datatableObject %>%
@@ -133,6 +154,7 @@ anovaKWServer <- function(id, data) {
     
     # Observe test button click
     observeEvent(input$test_button, {
+      outputVisible(TRUE)
       perform_test()
     })
     

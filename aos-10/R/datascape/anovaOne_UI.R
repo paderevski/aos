@@ -35,10 +35,12 @@ anovaOneUI <- function(id) {
                  step = 0,
                  width = "100pt"),
     actionButton(ns("test_button"), "Perform ANOVA Test"),
+    uiOutput(ns("tableATitle")),
     DTOutput(ns("test_result")),
     tags$br(),
     uiOutput(ns("test_conclusion")),
     tags$hr(),
+    uiOutput(ns("tableBTitle")),
     DTOutput(ns("tukey_result")),
   )
 }

@@ -2,6 +2,9 @@ library(DT)
 
 anovaOneServer <- function(id, data) {
   moduleServer(id, function(input, output, session) {
+    
+    outputVisible <- reactiveVal(FALSE)
+    
     observe({
       if (!is.null(data()) && ncol(data()) > 0) {
         # Filter to include only numeric columns
@@ -35,34 +38,13 @@ anovaOneServer <- function(id, data) {
       return(anova_result)
     }
     
-    convert_anova_to_df <- function(anova_result) {
-      anova_summary <- summary(anova_result, digits = 10)
-      summary_df <- data.frame(
-        Term = rownames(anova_summary[[1]]),
-        Df = anova_summary[[1]]$Df,
-        Sum_Sq = anova_summary[[1]]$`Sum Sq`,
-        Mean_Sq = anova_summary[[1]]$`Mean Sq`,
-        F_value = anova_summary[[1]]$`F value`,
-        Pr_F = anova_summary[[1]]$`Pr(>F)`,
-        row.names = NULL
-      )
-      summary_df$Df <- round(summary_df$Df, 2)
-      summary_df$Sum_Sq <- round(summary_df$Sum_Sq, 2)
-      summary_df$Mean_Sq <- round(summary_df$Mean_Sq, 2)
-      summary_df$F_value <- round(summary_df$F_value, 2)
-      summary_df$Pr_F <-
-        round(summary_df$Pr_F, 6)  # Adjust decimal places as needed
-      
-      summary_df
-    }
-    
-    
     # Function to perform ANOVA test and show results
     perform_test <- function() {
       req(data())
       req(input$columns)
       
       if (is.null(input$columns) || length(input$columns) < 3) {
+        outputVisible(FALSE)
         output$test_result <- NULL
         output$test_conclusion <-
           renderText({
@@ -82,6 +64,11 @@ anovaOneServer <- function(id, data) {
       p_value = df$`Pr(>F)`[1]
       
       # Display the test results
+      output$tableATitle <- renderUI({
+        if(outputVisible()) {
+          tags$h4("ANOVA Table", style = "text-align: left;  padding-top: 12pt;")
+        }
+      })
       
       output$test_result <- renderDT({
         # Assuming 'df' is your data frame
@@ -92,7 +79,8 @@ anovaOneServer <- function(id, data) {
                                      options = list(
                                        paging = FALSE,
                                        searching = FALSE,
-                                       ordering = FALSE
+                                       ordering = FALSE,
+                                       info = FALSE
                                      ))
         
         datatableObject <- datatableObject %>%
@@ -113,6 +101,12 @@ anovaOneServer <- function(id, data) {
         }
       })
       
+      output$tableBTitle <- renderUI({
+        if(outputVisible()) {
+          tags$h4("Tukey HST Test Results", style = "text-align: left;")
+        }
+      })
+      
       output$tukey_result <- renderDT({
         req(test)
         tukey = TukeyHSD(test)
@@ -122,7 +116,8 @@ anovaOneServer <- function(id, data) {
                                      options = list(
                                        paging = FALSE,
                                        searching = FALSE,
-                                       ordering = FALSE
+                                       ordering = FALSE,
+                                       info = FALSE
                                      ))
         datatableObject <- datatableObject %>%
           formatSignif(columns = 4, digits = 4)
@@ -135,6 +130,7 @@ anovaOneServer <- function(id, data) {
     
     # Observe test button click
     observeEvent(input$test_button, {
+      outputVisible(TRUE)
       perform_test()
     })
     
