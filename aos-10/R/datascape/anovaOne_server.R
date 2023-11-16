@@ -50,7 +50,8 @@ anovaOneServer <- function(id, data) {
       summary_df$Sum_Sq <- round(summary_df$Sum_Sq, 2)
       summary_df$Mean_Sq <- round(summary_df$Mean_Sq, 2)
       summary_df$F_value <- round(summary_df$F_value, 2)
-      summary_df$Pr_F <- round(summary_df$Pr_F, 6)  # Adjust decimal places as needed
+      summary_df$Pr_F <-
+        round(summary_df$Pr_F, 6)  # Adjust decimal places as needed
       
       summary_df
     }
@@ -61,11 +62,13 @@ anovaOneServer <- function(id, data) {
       req(data())
       req(input$columns)
       
-      if (is.null(input$columns) || length(input$columns) < 2) {
-        output$test_result <-
-          renderPrint({
-            "Please provide at least two columns to perform a test."
+      if (is.null(input$columns) || length(input$columns) < 3) {
+        output$test_result <- NULL
+        output$test_conclusion <-
+          renderText({
+            "Please provide at least three columns to perform a test."
           })
+        output$tukey_result <- NULL
         return()
       }
       
@@ -76,52 +79,54 @@ anovaOneServer <- function(id, data) {
         perform_anova(df = data(), column_names = input$columns)
       sa <- summary(test)
       df <- as.data.frame(sa[[1]])
-      p_value = df$`Pr(>F)`[1] 
+      p_value = df$`Pr(>F)`[1]
       
       # Display the test results
-
+      
       output$test_result <- renderDT({
         # Assuming 'df' is your data frame
         req(df)  # Ensure df is available
         
         # Create a DT::datatable object
-        datatableObject <- datatable(df, options = list(
-          paging = FALSE,
-          searching = FALSE,
-          ordering = FALSE
-        ))
-
+        datatableObject <- datatable(df,
+                                     options = list(
+                                       paging = FALSE,
+                                       searching = FALSE,
+                                       ordering = FALSE
+                                     ))
+        
         datatableObject <- datatableObject %>%
-            formatSignif(columns = 5, digits=4)
+          formatSignif(columns = 5, digits = 4)
         datatableObject <- datatableObject %>%
-            formatRound(columns=2:4, digits = 2)
+          formatRound(columns = 2:4, digits = 2)
         
         # Return the datatable object
         datatableObject
       })
-     
+      
       output$test_conclusion <- renderText({
         if (p_value < alpha) {
           "Reject null hypothesis: Not all population means are identical"
         } else {
           "Fail to reject null hypothesis: Insufficient evidence to conclude that population means differ"
         }
-      }) 
+      })
       
       output$tukey_result <- renderDT({
         req(test)
         tukey = TukeyHSD(test)
         tukey_df = as.data.frame(tukey[[1]])
         
-        datatableObject <- datatable(tukey_df, options = list(
-          paging = FALSE,
-          searching = FALSE,
-          ordering = FALSE
-        ))
+        datatableObject <- datatable(tukey_df,
+                                     options = list(
+                                       paging = FALSE,
+                                       searching = FALSE,
+                                       ordering = FALSE
+                                     ))
         datatableObject <- datatableObject %>%
-          formatSignif(columns = 4, digits=4)
+          formatSignif(columns = 4, digits = 4)
         datatableObject <- datatableObject %>%
-          formatRound(columns=1:3, digits = 3)
+          formatRound(columns = 1:3, digits = 3)
         datatableObject
       })
     }
