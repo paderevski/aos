@@ -13,7 +13,9 @@ wTest2PUI <- function(id) {
                  0.05),
     actionButton(ns("test_one_sided_button"), "Perform One-Sided Test"),
     actionButton(ns("test_two_sided_button"), "Perform Two-Sided Test"),
-    verbatimTextOutput(ns("result")),
-    tableOutput(ns("test_result")),
-  )
+    div(
+      style = "padding-top: 12pt;",
+      tableOutput(ns("test_result")),
+    ),
+    )
 }

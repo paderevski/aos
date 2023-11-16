@@ -14,8 +14,10 @@ tTest2PUI <- function(id) {
                  0.05),
     actionButton(ns("ttest_one_sided_button"), "Perform One-Sided t-test"),
     actionButton(ns("ttest_two_sided_button"), "Perform Two-Sided t-test"),
-    verbatimTextOutput(ns("result")),
-    tableOutput(ns("ttest_result")),
+    div(
+      style = "padding-top: 12pt;",
+      tableOutput(ns("ttest_result")),
+    ),
     plotOutput(ns("t_dist_plot")),
   )
 }
