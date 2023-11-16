@@ -43,41 +43,52 @@ wTestServer <- function(id, data) {
       }
       
       cat("alpha = ", alpha, "mu = ", hypothesized_median, "\n")
-      test <-
-        wilcox.test(
-          num_vector,
-          mu = hypothesized_median,
-          alternative = alternative,
-          conf.level = 1 - alpha,
-          conf.int = TRUE
-        )
-      
-      # Display the test results
-      output$test_result <- renderTable({
-        results <- data.frame(
-          Description = c(
-            "P-Value",
-            "Confidence Interval Lower",
-            "Confidence Interval Upper",
-            "Sample Median",
-            "Hypothesized Median",
-            "Test Result"
-          ),
-          Value = c(
-            test$p.value,
-            test$conf.int[1],
-            test$conf.int[2],
-            median(num_vector),
-            hypothesized_median,
-            ifelse(
-              test$p.value < alpha,
-              "Reject Null Hypothesis: Difference is significant",
-              "Fail to Reject Null Hypothesis: Difference is not significant"
+      displayResults <- function(test) {
+        # Display the test results
+        output$test_result <- renderTable({
+          results <- data.frame(
+            Description = c(
+              "P-Value",
+              "Confidence Interval Lower",
+              "Confidence Interval Upper",
+              "Sample Median",
+              "Hypothesized Median",
+              "Test Result"
+            ),
+            Value = c(
+              test$p.value,
+              test$conf.int[1],
+              test$conf.int[2],
+              median(num_vector),
+              hypothesized_median,
+              ifelse(
+                test$p.value < alpha,
+                "Reject Null Hypothesis: Difference is significant",
+                "Fail to Reject Null Hypothesis: Difference is not significant"
+              )
             )
           )
-        )
-        results
-      }, align = 'l', rownames = FALSE)
+          results
+        }, align = 'l', rownames = FALSE)
+      }
+      tryCatch({
+        # Example t.test, replace with your actual test
+        test <-
+          wilcox.test(
+            num_vector,
+            mu = hypothesized_median,
+            alternative = alternative,
+            conf.level = 1 - alpha,
+            conf.int = TRUE
+          )
+        displayResults(test)
+      }, error = function(e) {
+        # Display error message in a notification
+        showNotification(toString(e$message), type = "error")
+      })
+      
+      
+      
     }
     
     # Observe one-sided test button click
