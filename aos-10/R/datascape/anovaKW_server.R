@@ -79,6 +79,7 @@ anovaKWServer <- function(id, data) {
 
       # Display the test results
       output$test_result <- renderDT({
+        req(df)  # Ensure df is available
         # Extracting the test statistic and p-value
         data_frame <- data.frame(
           Test_Statistic = test$statistic,
@@ -100,11 +101,12 @@ anovaKWServer <- function(id, data) {
         datatableObject
       })
       
-      output$test_conclusion <- renderText({
+      output$test_conclusion <- renderUI({
         if (test$p.value < alpha) {
-          "Reject null hypothesis: Not all distributions are identical"
+          HTML("<b>Conclusion:</b> Reject null hypothesis: Not all distributions are identical")
         } else {
-          "Fail to reject null hypothesis: Insufficient evidence to conclude that distributions differ"
+          HTML("<b>Conclusion:</b> Fail to reject null hypothesis: Insufficient evidence to 
+                conclude that distributions differ")
         }
       }) 
       

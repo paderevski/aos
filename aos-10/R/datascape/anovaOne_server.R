@@ -104,11 +104,12 @@ anovaOneServer <- function(id, data) {
         datatableObject
       })
       
-      output$test_conclusion <- renderText({
+      output$test_conclusion <- renderUI({
         if (p_value < alpha) {
-          "Reject null hypothesis: Not all population means are identical"
+          HTML("<b>Conclusion:</b> Reject null hypothesis: Not all population means are identical.")
         } else {
-          "Fail to reject null hypothesis: Insufficient evidence to conclude that population means differ"
+          HTML("<b>Conclusion:</b> Fail to reject null hypothesis: Insufficient
+                    evidence to conclude that population means differ.")
         }
       })
       
