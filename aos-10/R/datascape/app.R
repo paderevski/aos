@@ -28,6 +28,8 @@ source("anovaKW_UI.R")
 source("anovaKW_server.R")
 source("chiSquare_GOF_UI.R")
 source("chiSquare_GOF_server.R")
+source("chiSquare_indy_UI.R")
+source("chiSquare_indy_server.R")
 
 ui <- fluidPage(titlePanel("DataScape"),
                 tags$p("A data exploration application"),
@@ -74,7 +76,9 @@ ui <- fluidPage(titlePanel("DataScape"),
                                conditionalPanel(condition = "input.tTestType == 'anova_kw'",
                                                 anovaKWUI("anovaKW")),
                                conditionalPanel(condition = "input.tTestType == 'chi_square_gof'",
-                                                chiSquareGOFUI("chisquaregof"))
+                                                chiSquareGOFUI("chisquaregof")),
+                               conditionalPanel(condition = "input.tTestType == 'chi_square_indy'",
+                                                chiSquareIndyUI("chisquareindy"))
                              )
                            )),
                   tabPanel("About",
@@ -115,6 +119,7 @@ server <-
     anovaOneServer("anova1",data)
     anovaKWServer("anovaKW",data)
     chiSquareGOFServer("chisquaregof", data)
+    chiSquareIndyServer("chisquareindy", data)
   }
 
 shinyApp(ui = ui, server = server)

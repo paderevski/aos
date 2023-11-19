@@ -1,0 +1,13 @@
+app <- ShinyDriver$new("../../")
+app$snapshotInit("chi_indy_1")
+
+app$setInputs(`textViewer-parse_text` = "click")
+app$setInputs(`textViewer-table_rows_current` = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), allowInputNoBinding_ = TRUE)
+app$setInputs(`textViewer-table_rows_all` = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), allowInputNoBinding_ = TRUE)
+app$setInputs(`textViewer-table_state` = c(1700362514135, 0, 1000, "", TRUE, FALSE, TRUE, c(TRUE, "", TRUE, FALSE, TRUE), c(TRUE, "", TRUE, FALSE, TRUE), c(TRUE, "", TRUE, FALSE, TRUE), c(TRUE, "", TRUE, FALSE, TRUE)), allowInputNoBinding_ = TRUE)
+app$setInputs(tTestType = "chi_square_indy")
+app$setInputs(`chisquareindy-columns` = "x")
+app$setInputs(`chisquareindy-columns` = c("x", "y"))
+app$setInputs(`chisquareindy-columns` = c("x", "y", "z"))
+app$setInputs(`chisquareindy-chi_test_button` = "click")
+app$snapshot()

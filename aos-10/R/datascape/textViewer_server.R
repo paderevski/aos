@@ -18,13 +18,7 @@ textViewerServer <- function(id, data) {
     num_vector <- na.omit(num_vector)
   }
   
-  x = c(rep("one", 2))
-  y = c(rep("two", 10))
-  z = c(rep("three", 5))
-  
-  makePaddedDataFrame(list(x = x, y = y, z = z))
-  
-  
+
   moduleServer(id, function(input, output, session) {
     observeEvent(input$parse_text, {
       cat("Pressed\n")

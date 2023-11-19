@@ -1,0 +1,218 @@
+{
+  "input": {
+    "anova1-alpha_level": 0.05,
+    "anova1-columns": null,
+    "anova1-test_button": 0,
+    "anovaKW-alpha_level": 0.05,
+    "anovaKW-columns": null,
+    "anovaKW-test_button": 0,
+    "chisquaregof-alpha_level": 0.05,
+    "chisquaregof-chi_test_button": 0,
+    "chisquaregof-column_p": "",
+    "chisquaregof-column_x": "",
+    "chisquareindy-alpha_level": 0.05,
+    "chisquareindy-chi_test_button": 1,
+    "chisquareindy-columns": null,
+    "csvViewer-file1": null,
+    "dataGraph-columns": null,
+    "textViewer-clear_text": 0,
+    "textViewer-numbers_x": "20, 22, 23, 24, 25, 21, 20, 23, 24",
+    "textViewer-numbers_y": "23, 25, 26, 27, 21, 19, 18, 30, 31, 32, 33, 27",
+    "textViewer-numbers_z": "1, 2, 3, 6, 7",
+    "textViewer-parse_text": 1,
+    "textViewer-table_rows_all": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "textViewer-table_rows_current": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "textViewer-table_state": [
+      "1700362514135",
+      "0",
+      "1000",
+      "",
+      "TRUE",
+      "FALSE",
+      "TRUE",
+      "TRUE",
+      "",
+      "TRUE",
+      "FALSE",
+      "TRUE",
+      "TRUE",
+      "",
+      "TRUE",
+      "FALSE",
+      "TRUE",
+      "TRUE",
+      "",
+      "TRUE",
+      "FALSE",
+      "TRUE",
+      "TRUE",
+      "",
+      "TRUE",
+      "FALSE",
+      "TRUE"
+    ],
+    "tTest-alpha_level": 0.05,
+    "tTest-column": "",
+    "tTest-hypothesized_mean": 20,
+    "tTest-ttest_one_sided_button": 0,
+    "tTest-ttest_two_sided_button": 0,
+    "tTest2-alpha_level": 0.05,
+    "tTest2-column_x": "",
+    "tTest2-column_y": "",
+    "tTest2-ttest_one_sided_button": 0,
+    "tTest2-ttest_two_sided_button": 0,
+    "tTest3-alpha_level": 0.05,
+    "tTest3-column_x": "",
+    "tTest3-column_y": "",
+    "tTest3-ttest_one_sided_button": 0,
+    "tTest3-ttest_two_sided_button": 0,
+    "tTestType": "chi_square_indy",
+    "wTest-alpha_level": 0.05,
+    "wTest-column": "",
+    "wTest-hypothesized_median": 0,
+    "wTest-test_one_sided_button": 0,
+    "wTest-test_two_sided_button": 0,
+    "wTest2-alpha_level": 0.05,
+    "wTest2-column_x": "",
+    "wTest2-column_y": "",
+    "wTest2-test_one_sided_button": 0,
+    "wTest2-test_two_sided_button": 0,
+    "wTest3-alpha_level": 0.05,
+    "wTest3-column_x": "",
+    "wTest3-column_y": "",
+    "wTest3-test_one_sided_button": 0,
+    "wTest3-test_two_sided_button": 0
+  },
+  "output": {
+    "textViewer-table": {
+      "x": {
+        "filter": "none",
+        "vertical": false,
+        "container": "<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>x<\/th>\n      <th>y<\/th>\n      <th>z<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>",
+        "options": {
+          "scrollX": true,
+          "scrollY": "50vh",
+          "pageLength": 1000,
+          "columnDefs": [
+            {
+              "className": "dt-right",
+              "targets": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "orderable": false,
+              "targets": 0
+            }
+          ],
+          "order": [
+
+          ],
+          "autoWidth": false,
+          "orderClasses": false,
+          "lengthMenu": [
+            10,
+            25,
+            50,
+            100,
+            1000
+          ],
+          "ajax": {
+            "type": "POST",
+            "data": "function(d) {\nd.search.caseInsensitive = true;\nd.search.smart = true;\nd.escape = true;\nvar encodeAmp = function(x) { x.value = x.value.replace(/&/g, \"%26\"); }\nencodeAmp(d.search);\n$.each(d.columns, function(i, v) {encodeAmp(v.search);});\n}"
+          },
+          "serverSide": true,
+          "processing": true
+        },
+        "selection": {
+          "mode": "multiple",
+          "selected": null,
+          "target": "row",
+          "selectable": null
+        }
+      },
+      "evals": [
+        "options.ajax.data"
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+        {
+          "name": "jquery",
+          "version": "3.6.0",
+          "src": {
+            "href": "jquery-3.6.0"
+          },
+          "meta": null,
+          "script": "jquery-3.6.0.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        },
+        {
+          "name": "dt-core",
+          "version": "1.13.4",
+          "src": {
+            "href": "dt-core-1.13.4"
+          },
+          "meta": null,
+          "script": "js/jquery.dataTables.min.js",
+          "stylesheet": [
+            "css/jquery.dataTables.min.css",
+            "css/jquery.dataTables.extra.css"
+          ],
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": false
+        },
+        {
+          "name": "crosstalk",
+          "version": "1.2.0",
+          "src": {
+            "href": "crosstalk-1.2.0"
+          },
+          "meta": null,
+          "script": "js/crosstalk.min.js",
+          "stylesheet": "css/crosstalk.min.css",
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        }
+      ]
+    }
+  },
+  "export": {
+
+  }
+}
