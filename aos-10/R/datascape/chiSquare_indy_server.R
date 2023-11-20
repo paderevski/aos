@@ -41,8 +41,6 @@ chiSquareIndyServer <- function(id, data) {
       # Create a new dataframe
       chi_df <- data.frame(value = numeric())
       
-      browser()
-      
       # Loop through column names and add data to the anova_df
       for (col in column_names) {
         temp_df <- data.frame(value = df[[col]])

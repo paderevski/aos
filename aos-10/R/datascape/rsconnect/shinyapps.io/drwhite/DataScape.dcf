@@ -5,9 +5,9 @@ account: drwhite
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10512729
-bundleId: 7933512
+bundleId: 7945450
 url: https://drwhite.shinyapps.io/DataScape/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: .RData|anova.ipynb
+ignoredFiles: anova.ipynb
