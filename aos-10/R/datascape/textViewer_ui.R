@@ -1,7 +1,11 @@
 textViewerUI <- function(id) {
   ns <- NS(id)
   fluidPage(
-    tags$p("Enter data observations (separated by spaces, commas, or newlines)"),
+    tags$h3("Enter data"),
+    tags$p("Enter up to 3 datasets below. Each dataset must be one-dimensional, numeric
+           and with entries separated by whitespace or commas. Once entered, click on 
+           \"Load Data\" to parse and store your data. Check the tables to ensure your
+           data looks as expected."),
     fluidRow(
       column(4, 
              textAreaInput(ns("numbers_x"), 

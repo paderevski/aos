@@ -3,7 +3,7 @@
 chiSquareIndyUI <- function(id) {
   ns <- NS(id)
   fluidPage(
-    tags$h3("Chi-Square Test of Independence"),
+    tags$h3("Chi-Square Test of such Independence"),
     tags$p(
       id="text_chi_indy",
       "Use this test when you aim to assess whether there is a significant association between two categorical variables.",

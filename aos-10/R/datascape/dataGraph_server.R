@@ -2,6 +2,8 @@ dataGraphServer <- function(id, data) {
   moduleServer(id, function(input, output, session) {
     ns <- NS(id)
     # Using observeEvent to listen for changes in 'data'
+    output$status <- renderText({"No valid data found"})
+    
     observeEvent(data(), {
       # Print debugging information
       cat("observeEvent triggered at", Sys.time(), "\n")
@@ -21,8 +23,10 @@ dataGraphServer <- function(id, data) {
         numeric_columns <- names(data())[sapply(data(), is.numeric)]
         # Update the select input with names of numeric columns
         updateCheckboxGroupInput(session, "columns", choices = numeric_columns)
+        output$status <- renderText({""})
       } else {
         updateCheckboxGroupInput(session, "columns", choices = NULL)
+        output$status <- renderText({"No valid data found"})
       }
     }, ignoreNULL = FALSE)
     
