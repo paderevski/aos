@@ -1,26 +1,26 @@
-dataGraphServer <- function(id, data) {
+dataGraphServer <- function(id, loaded_data) {
   moduleServer(id, function(input, output, session) {
     ns <- NS(id)
     # Using observeEvent to listen for changes in 'data'
     output$status <- renderText({"No valid data found"})
     
-    observeEvent(data(), {
+    observeEvent(loaded_data(), {
       # Print debugging information
       cat("observeEvent triggered at", Sys.time(), "\n")
-      cat("Contents of data():\n")
+      cat("Contents of loaded_data():\n")
       
-      # Safely print a portion of data() to avoid console flooding
-      if (!is.null(data()) && nrow(data()) > 0) {
-        print(head(data(), n = 5))  # Adjust 'n' as needed
-        cat("Total rows in data:", nrow(data()), "\n")
-        cat("Total columns in data:", ncol(data()), "\n")
+      # Safely print a portion of loaded_data() to avoid console flooding
+      if (!is.null(loaded_data()) && nrow(loaded_data()) > 0) {
+        print(head(loaded_data(), n = 5))  # Adjust 'n' as needed
+        cat("Total rows in data:", nrow(loaded_data()), "\n")
+        cat("Total columns in data:", ncol(loaded_data()), "\n")
       } else {
         cat("Data is NULL or empty.\n")
       }
       
-      if (!is.null(data()) && ncol(data()) > 0) {
+      if (!is.null(loaded_data()) && ncol(loaded_data()) > 0) {
         # Filter to include only numeric columns
-        numeric_columns <- names(data())[sapply(data(), is.numeric)]
+        numeric_columns <- names(loaded_data())[sapply(loaded_data(), is.numeric)]
         # Update the select input with names of numeric columns
         updateCheckboxGroupInput(session, "columns", choices = numeric_columns)
         output$status <- renderText({""})
@@ -31,19 +31,19 @@ dataGraphServer <- function(id, data) {
     }, ignoreNULL = FALSE)
     
     output$plot1 <- renderPlot({
-      req(data())
+      req(loaded_data())
       req(input$columns)
-      # selected_col <- data()[[input$column]]
+      # selected_col <- loaded_data()[[input$column]]
       if (length(input$columns) >= 1 &&
           length(input$columns) <= 3) {
         # Histogram with Sturges method
-        ggplot(data()) +
+        ggplot(loaded_data()) +
           lapply(input$columns, function(col) {
             geom_histogram(
               aes_string(x = col, fill = as.factor(col), group = as.factor(col)),
               breaks = pretty(
-                range(na.omit(data()[[col]])),
-                n = nclass.Sturges(na.omit(data()[[col]])),
+                range(na.omit(loaded_data()[[col]])),
+                n = nclass.Sturges(na.omit(loaded_data()[[col]])),
                 min.n = 1
               ),
               alpha = 0.5
@@ -59,10 +59,10 @@ dataGraphServer <- function(id, data) {
     })
     
     output$plot2 <- renderPlot({
-      req(data())
+      req(loaded_data())
       req(input$columns)
       if (length(input$columns) >= 1 && length(input$columns) <= 3) {
-        ggplot(data()) +
+        ggplot(loaded_data()) +
           lapply(input$columns, function(col) {
             geom_boxplot(
               aes_string(x = as.factor(col), y = col, fill = as.factor(col)),
@@ -79,11 +79,11 @@ dataGraphServer <- function(id, data) {
     })
     
     # output$plot2 <- renderPlot({
-    #   req(data())
+    #   req(loaded_data())
     #   req(input$column)
-    #   selected_col <- data()[[input$column]]
+    #   selected_col <- loaded_data()[[input$column]]
     #   if (is.numeric(selected_col)) {
-    #     x = data()[[input$column]]
+    #     x = loaded_data()[[input$column]]
     #
     #     # Create a data frame from the vector, as ggplot2 works with data frames
     #     df <- data.frame(value = x)
@@ -95,11 +95,11 @@ dataGraphServer <- function(id, data) {
     # })
     #
     output$plot3 <- renderPlot({
-      req(data())
+      req(loaded_data())
       req(input$columns)
       if (length(input$columns) >= 1 && length(input$columns) <= 3) {
         # Prepare the data in long format for faceting
-        long_data <- reshape2::melt(data(), measure.vars = input$columns)
+        long_data <- reshape2::melt(loaded_data(), measure.vars = input$columns)
         
         # Create QQ plots
         ggplot(long_data, aes(sample = value)) +
@@ -114,11 +114,11 @@ dataGraphServer <- function(id, data) {
     })
     
     # output$plot3 <- renderPlot({
-    #   req(data())
+    #   req(loaded_data())
     #   req(input$column)
-    #   selected_col <- data()[[input$column]]
+    #   selected_col <- loaded_data()[[input$column]]
     #   if (is.numeric(selected_col)) {
-    #     x = data()[[input$column]]
+    #     x = loaded_data()[[input$column]]
     #     qqnorm(x)
     #   }
     # })

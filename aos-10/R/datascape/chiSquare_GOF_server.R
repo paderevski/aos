@@ -1,10 +1,10 @@
 
-chiSquareGOFServer <- function(id, data) {
+chiSquareGOFServer <- function(id, loaded_data) {
   moduleServer(id, function(input, output, session) {
     observe({
-      if (!is.null(data()) && ncol(data()) > 0) {
+      if (!is.null(loaded_data()) && ncol(loaded_data()) > 0) {
         # Filter to include only numeric columns
-        numeric_columns <- names(data())[sapply(data(), is.numeric)]
+        numeric_columns <- names(loaded_data())[sapply(loaded_data(), is.numeric)]
         # Update the select input with names of numeric columns
         updateSelectInput(session, "column_x", choices = numeric_columns)
         updateSelectInput(session, "column_p", choices = numeric_columns)
@@ -17,11 +17,11 @@ chiSquareGOFServer <- function(id, data) {
     
     # Function to perform test
     perform_chi_test <- function() {
-      req(data())
+      req(loaded_data())
       req(input$column_x)
       req(input$column_p)
-      num_vector_x <- data()[[input$column_x]]
-      num_vector_p <- data()[[input$column_p]]
+      num_vector_x <- loaded_data()[[input$column_x]]
+      num_vector_p <- loaded_data()[[input$column_p]]
       num_vector_x <- na.omit(num_vector_x)
       num_vector_p <- na.omit(num_vector_p)
       cat("x\n", num_vector_x)

@@ -1,13 +1,13 @@
 
-chiSquareIndyServer <- function(id, data) {
+chiSquareIndyServer <- function(id, loaded_data) {
   moduleServer(id, function(input, output, session) {
     outputVisible <- reactiveVal(FALSE)
     
     observe({
-      if (!is.null(data()) && ncol(data()) > 0) {
+      if (!is.null(loaded_data()) && ncol(loaded_data()) > 0) {
         # Filter to include only numeric columns
         numeric_columns <-
-          names(data())[sapply(data(), is.numeric)]
+          names(loaded_data())[sapply(loaded_data(), is.numeric)]
         # Update the select input with names of numeric columns
         updateCheckboxGroupInput(session, "columns", choices = numeric_columns)
       } else {
@@ -17,13 +17,13 @@ chiSquareIndyServer <- function(id, data) {
     
     # Function to perform test
     perform_chi_test <- function() {
-      req(data())
+      req(loaded_data())
       req(input$columns)
-      df <- data()
+      df <- loaded_data()
       column_names <- input$columns
       
       # Check if the column names exist in the dataframe
-      if (!all(column_names %in% names(data()))) {
+      if (!all(column_names %in% names(loaded_data()))) {
         stop("One or more specified columns do not exist in the dataframe.")
       }
       

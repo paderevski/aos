@@ -1,15 +1,15 @@
 library(DT)
 
-anovaOneServer <- function(id, data) {
+anovaOneServer <- function(id, loaded_data) {
   moduleServer(id, function(input, output, session) {
     
     outputVisible <- reactiveVal(FALSE)
     
     observe({
-      if (!is.null(data()) && ncol(data()) > 0) {
+      if (!is.null(loaded_data()) && ncol(loaded_data()) > 0) {
         # Filter to include only numeric columns
         numeric_columns <-
-          names(data())[sapply(data(), is.numeric)]
+          names(loaded_data())[sapply(loaded_data(), is.numeric)]
         # Update the select input with names of numeric columns
         updateCheckboxGroupInput(session, "columns", choices = numeric_columns)
       } else {
@@ -40,7 +40,7 @@ anovaOneServer <- function(id, data) {
     
     # Function to perform ANOVA test and show results
     perform_test <- function() {
-      req(data())
+      req(loaded_data())
       req(input$columns)
       
       if (is.null(input$columns) || length(input$columns) < 3) {
@@ -58,7 +58,7 @@ anovaOneServer <- function(id, data) {
         input$alpha_level  # Get the alpha level from the input
       
       test <-
-        perform_anova(df = data(), column_names = input$columns)
+        perform_anova(df = loaded_data(), column_names = input$columns)
       sa <- summary(test)
       df <- as.data.frame(sa[[1]])
       p_value = df$`Pr(>F)`[1]
