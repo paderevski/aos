@@ -3,7 +3,7 @@ csvViewerServer <- function(id, loaded_data) {
     moduleServer(id, function(input, output, session) {
         observeEvent(input$file1, {
             file <- input$file1
-            if (is.null(file)) {
+            if (is.null(file)) { 
                 loaded_data(read.csv("./Minsk-2019.csv"))
             } else {
                 loaded_data(read.csv(file$datapath))

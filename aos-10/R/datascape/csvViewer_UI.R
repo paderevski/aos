@@ -1,6 +1,6 @@
 csvViewerUI <- function(id) {
   ns <- NS(id)
-  datasets<-list()
+  datasets<-list("")
   lists = data()$result[,'Item']
   lists = as.list(sort(unlist(lists)))
   for (x in lists) {
@@ -34,6 +34,8 @@ csvViewerUI <- function(id) {
         ".csv"
       )
     ),
+    tags$h3("Or load a built in dataset"),
+    tags$p("The datasets below are built in to R. Select one for experimentation."),
     selectInput(ns("dataset"), "Choose a dataset:", choices = datasets),
     tags$hr(),
     DTOutput(ns("table"))
