@@ -1,3 +1,6 @@
+library(ggplot2)
+library(reshape2)
+
 dataGraphServer <- function(id, data) {
   moduleServer(id, function(input, output, session) {
     ns <- NS(id)
@@ -30,33 +33,58 @@ dataGraphServer <- function(id, data) {
       }
     }, ignoreNULL = FALSE)
     
+    # output$plot1 <- renderPlot({
+    #   req(data())
+    #   req(input$columns)
+    #   # selected_col <- data()[[input$column]]
+    #   if (length(input$columns) >= 1 &&
+    #       length(input$columns) <= 3) {
+    #     # Histogram with Sturges method
+    #     ggplot(data()) +
+    #       lapply(input$columns, function(col) {
+    #         geom_histogram(
+    #           aes_string(x = col, fill = as.factor(col), group = as.factor(col)),
+    #           breaks = pretty(
+    #             range(na.omit(data()[[col]])),
+    #             n = nclass.Sturges(na.omit(data()[[col]])),
+    #             min.n = 1
+    #           ),
+    #           alpha = 0.5
+    #         )
+    #       }) +
+    #       theme_light() +
+    #       labs(fill = "Columns")  + # Set the legend title for 'fill'
+    #       scale_fill_manual(values = c("blue", "red", "green")) +  # Colors for different series
+    #       ggtitle("Histograms") + 
+    #       theme(axis.text = element_text(size = 12)) +  # Increase the font size of axis text
+    #       labs(x = input$column)  # Set the x-axis label to the column name
+    #   }
+    # })
+    
+    
     output$plot1 <- renderPlot({
       req(data())
       req(input$columns)
-      # selected_col <- data()[[input$column]]
-      if (length(input$columns) >= 1 &&
-          length(input$columns) <= 3) {
-        # Histogram with Sturges method
-        ggplot(data()) +
-          lapply(input$columns, function(col) {
-            geom_histogram(
-              aes_string(x = col, fill = as.factor(col), group = as.factor(col)),
-              breaks = pretty(
-                range(na.omit(data()[[col]])),
-                n = nclass.Sturges(na.omit(data()[[col]])),
-                min.n = 1
-              ),
-              alpha = 0.5
-            )
-          }) +
+      
+      if (length(input$columns) >= 1 && length(input$columns) <= 3) {
+        # Reshape data to long format
+        long_data <- melt(data(), measure.vars = input$columns)
+        
+        # Create a named vector of colors
+        colors <- c("blue", "red", "green")
+        names(colors) <- input$columns
+        
+        # Create histograms with variable number of bins and different colors
+        ggplot(long_data, aes(x = value, fill = variable)) +
+          geom_histogram(bins = nclass.Sturges(long_data$value), alpha = 0.4,
+                         width = 0.2) +
+          scale_fill_manual(values = colors) +  # Apply the colors
+          facet_wrap(~ variable) +
           theme_light() +
-          labs(fill = "Columns")  + # Set the legend title for 'fill'
-          scale_fill_manual(values = c("blue", "red", "green")) +  # Colors for different series
-          ggtitle("Histograms") + 
-          theme(axis.text = element_text(size = 12)) +  # Increase the font size of axis text
-          labs(x = input$column)  # Set the x-axis label to the column name
+          labs(title = "Side-by-Side Histograms with Variable Bins", x = "Value", y = "Count")
       }
     })
+    
     
     output$plot2 <- renderPlot({
       req(data())
