@@ -1,16 +1,16 @@
 library(DT)
 library(FSA)
 
-anovaKWServer <- function(id, data) {
+anovaKWServer <- function(id, loaded_data) {
   moduleServer(id, function(input, output, session) {
     
     outputVisible <- reactiveVal(FALSE)
     
     observe({
-      if (!is.null(data()) && ncol(data()) > 0) {
+      if (!is.null(loaded_data()) && ncol(loaded_data()) > 0) {
         # Filter to include only numeric columns
         numeric_columns <-
-          names(data())[sapply(data(), is.numeric)]
+          names(loaded_data())[sapply(loaded_data(), is.numeric)]
         # Update the select input with names of numeric columns
         updateCheckboxGroupInput(session, "columns", choices = numeric_columns)
       } else {
@@ -62,7 +62,7 @@ anovaKWServer <- function(id, data) {
     
     # Function to perform ANOVA test and show results
     perform_test <- function() {
-      req(data())
+      req(loaded_data())
       req(input$columns)
       
       if (is.null(input$columns) || length(input$columns) < 3) {
@@ -80,7 +80,7 @@ anovaKWServer <- function(id, data) {
         input$alpha_level  # Get the alpha level from the input
       
       test <-
-        perform_anova(df = data(), column_names = input$columns)
+        perform_anova(df = loaded_data(), column_names = input$columns)
 
       # Display the test results
       
@@ -132,7 +132,7 @@ anovaKWServer <- function(id, data) {
       output$dunn_result <- renderDT({
         req(test)
         req(df)
-        dunn_result = perform_dunn(df = data(), column_names = input$columns)
+        dunn_result = perform_dunn(df = loaded_data(), column_names = input$columns)
         dunn_df = as.data.frame(dunn_result[[2]])
         
         datatableObject <- datatable(dunn_df, options = list(

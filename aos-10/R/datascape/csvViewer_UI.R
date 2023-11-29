@@ -1,5 +1,21 @@
 csvViewerUI <- function(id) {
   ns <- NS(id)
+  datasets<-list("")
+  lists = data()$result[,'Item']
+  lists = as.list(sort(unlist(lists)))
+  for (x in lists) {
+    tryCatch( {
+      x = sub(" .*","",x)
+      # data(list = x)
+      d <- get(x)
+      cat(x, data.class(d), "\n")
+      if (data.class(d)=='data.frame') {
+        datasets <- c(datasets, x)
+      }
+    },
+    error = function(cond) {}
+    )
+  }
   fluidPage(
     tags$h3("Load data file"),
     tags$p(
@@ -18,6 +34,10 @@ csvViewerUI <- function(id) {
         ".csv"
       )
     ),
+    tags$h3("Or load a built in dataset"),
+    tags$p("The datasets below are built in to R. Select one for experimentation."),
+    selectInput(ns("dataset"), "Choose a dataset:", choices = datasets),
+    tags$hr(),
     DTOutput(ns("table"))
   )
 }

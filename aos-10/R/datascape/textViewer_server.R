@@ -1,6 +1,6 @@
 
 
-textViewerServer <- function(id, data) {
+textViewerServer <- function(id, loaded_data) {
   na.pad <- function(x, len) {
     x[1:len]
   }
@@ -38,7 +38,7 @@ textViewerServer <- function(id, data) {
       if (length(z) == 0) {
         df <- subset(df, select=-c(z))
       }
-      data( df )
+      loaded_data( df )
     })
     
     observeEvent(input$clear_text, {
@@ -46,12 +46,12 @@ textViewerServer <- function(id, data) {
       updateTextAreaInput(session, "numbers_x", value = "")
       updateTextAreaInput(session, "numbers_y", value = "")
       updateTextAreaInput(session, "numbers_z", value = "")
-      data(NULL)
+      loaded_data(NULL)
     })
     
     output$table <- renderDT({
-      req(data())
-      datatable(data(),
+      req(loaded_data())
+      datatable(loaded_data(),
                 options = list(
                   scrollX = TRUE,
                   # Enable horizontal scrolling

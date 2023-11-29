@@ -114,21 +114,21 @@ ui <- fluidPage(
 
 server <-
   function(input, output, session) {
-    data <- reactiveVal()
+    loaded_data <- reactiveVal()
     
-    textViewerServer("textViewer", data)
-    csvViewerServer("csvViewer", data)
-    dataGraphServer("dataGraph", data)
-    tTestServer("tTest", data)
-    tTest2Server("tTest2", data)
-    tTest2PServer("tTest3", data)
-    wTestServer("wTest", data)
-    wTest2Server("wTest2", data)
-    wTest2PServer("wTest3", data)
-    anovaOneServer("anova1", data)
-    anovaKWServer("anovaKW", data)
-    chiSquareGOFServer("chisquaregof", data)
-    chiSquareIndyServer("chisquareindy", data)
+    textViewerServer("textViewer", loaded_data)
+    csvViewerServer("csvViewer", loaded_data)
+    dataGraphServer("dataGraph", loaded_data)
+    tTestServer("tTest", loaded_data)
+    tTest2Server("tTest2", loaded_data)
+    tTest2PServer("tTest3", loaded_data)
+    wTestServer("wTest", loaded_data)
+    wTest2Server("wTest2", loaded_data)
+    wTest2PServer("wTest3", loaded_data)
+    anovaOneServer("anova1", loaded_data)
+    anovaKWServer("anovaKW", loaded_data)
+    chiSquareGOFServer("chisquaregof", loaded_data)
+    chiSquareIndyServer("chisquareindy", loaded_data)
   }
 
 shinyApp(ui = ui, server = server)
