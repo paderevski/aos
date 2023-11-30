@@ -1,7 +1,7 @@
 library(ggplot2)
 library(reshape2)
 
-dataGraphServer <- function(id, data) {
+dataGraphServer <- function(id, loaded_data) {
   moduleServer(id, function(input, output, session) {
     ns <- NS(id)
     # Using observeEvent to listen for changes in 'data'
@@ -68,7 +68,7 @@ dataGraphServer <- function(id, data) {
       
       if (length(input$columns) >= 1 && length(input$columns) <= 3) {
         # Reshape data to long format
-        long_data <- melt(data(), measure.vars = input$columns)
+        long_data <- melt(loaded_data(), measure.vars = input$columns)
         
         # Create a named vector of colors
         colors <- c("blue", "red", "green")
