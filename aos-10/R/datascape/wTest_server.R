@@ -48,6 +48,7 @@ wTestServer <- function(id, loaded_data) {
         output$test_result <- renderTable({
           results <- data.frame(
             Description = c(
+              "Statistic",
               "P-Value",
               "Confidence Interval Lower",
               "Confidence Interval Upper",
@@ -56,6 +57,7 @@ wTestServer <- function(id, loaded_data) {
               "Test Result"
             ),
             Value = c(
+              test$statistic,
               test$p.value,
               test$conf.int[1],
               test$conf.int[2],
