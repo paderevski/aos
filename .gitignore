@@ -6,3 +6,10 @@
 aos-10/.DS_Store
 aos-10/R/.DS_Store
 aos-10/R/datascape/.DS_Store
+aos-10/R/aos-data
+aos-10/R/aosDatasets
+*.gz
+aos-10/R/data-package
+aos-10/R/dataPackage*
+data-raw
+aos-10/R/aosDatasets.Rcheck

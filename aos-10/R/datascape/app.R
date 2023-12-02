@@ -2,6 +2,10 @@ library(shiny)
 library(DT)
 library(ggplot2)
 library(ggsci)
+library(devtools)
+remotes::install_github('paderevski/aosDatasets',lib="./libs/", force=TRUE)
+
+library(aosDatasets, lib.loc = "./libs/")
 
 # Source the module files
 source("csvViewer_UI.R")
