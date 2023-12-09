@@ -5,7 +5,7 @@ account: drwhite
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10512729
-bundleId: 7997229
+bundleId: 8026068
 url: https://drwhite.shinyapps.io/DataScape/
 version: 1
 asMultiple: FALSE
