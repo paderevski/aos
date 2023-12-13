@@ -8,7 +8,6 @@ csvViewerUI <- function(id) {
       x = sub(" .*","",x)
       # data(list = x)
       d <- get(x)
-      cat(x, data.class(d), "\n")
       if (data.class(d)=='data.frame') {
         datasets <- c(datasets, x)
       }

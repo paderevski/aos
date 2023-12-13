@@ -131,6 +131,7 @@ anovaOneServer <- function(id, loaded_data) {
     # Observe test button click
     observeEvent(input$test_button, {
       outputVisible(TRUE)
+      cat("Performing ANOVA one-way test\n")
       perform_test()
     })
     
