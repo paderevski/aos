@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[margin=0.5in]{geometry}
+
+\begin{document}
+\title{Graphing Sinusoid Functions: Key}
+\maketitle
+\begin{multicols}{2}
+The standard form of a sinusoid function is
+$$ y = A \sin(B(x-C)) + D $$
+or
+$$ y = A \cos(B(x-C)) + D $$
+in which $A$ represents the vertical stretch or
+\textit{amplitude}, $B$ represents the horizontal stretch
+(related to frequency and period), $C$ is the horizontal
+shift (called \textit{phase shift}) and $D$ is the vertical shift.
+
+Practice these transformations here. For each problem graph
+the parent function and the given function on the same axis,
+graphing the parent function first.
+
+\begin{enumerate}
+	\item $y=\frac52 \sin x$ \\
+	\includegraphics*[width=3in]{q1.png}
+	\item $y=-2 \cos x$ \\
+	\includegraphics*[width=3in]{q2.png}
+	\item $y=\sin \frac12 x$ \\
+	\includegraphics*[width=3in]{q3.png}
+	\item $y=\cos 2x$ \\
+	\includegraphics*[width=3in]{q4.png}
+	\item $y=\sin(x-\frac{\pi}{2})$ \\
+	\includegraphics*[width=3in]{q5.png}
+	\item $y=\cos(x+\pi)$ \\
+	\includegraphics*[width=3in]{q6.png}
+\end{enumerate}
+
+Sinusoid functions are omnipresent in nature, from the motion of the
+sun and planets to the undulation of waves in the ocean to sound waves
+to the alternating current that powers all our houses. Each transformation above has a physical meaning
+
+\begin{itemize}
+	\item The \textbf{amplitude} of a wave corresponds directly to the amount of energy in the wave. This could be the strength of an electric current or the loudness of a sound wave. Or it could be the radius of a planet orbiting a star.
+	\item The \textbf{period} and \textbf{frequency} and \textbf{wavelength} are all related to $B$. The wavelength is how long it takes a periodic wave to repeat itself. For a $\sin$ or $\cos$ wave, this is $2\pi$ -- the radians in a circle. The period is a synonym for wavelength. The period of $\sin(Bx)$ is $\frac{2\pi}{B}$ meaning that multiplying $x$ by a value greater than 1 corresponds to the wave "speeding up" by a factor of "B". The period of $\sin(4x)$ is $\frac{2\pi}{4} = \frac{\pi}{2}$. Higher pitched sounds have a shorter period as do redder wavelengths of light. Frequency by definition is the reciprocal of the period.
+	\item The \textbf{phase shift} of a wave is its horizontal displacement. So $\sin(x-\pi)$ has a phase shift of $+\pi$, meaning the wave is displaced $\pi$ units in the positive $x$-direction. A wave is phase shifted depending on when its oscillation starts. If a physical system consists of multiple simultaneous waves of the same wavelength, if they have the same phase shift they will all peak at the same time. This is important in optimizing the efficiency of a system.
+	\item The vertical shift of a wave is difficult to find a physical interpretation for. One example is something called "DC Offset" which is a phenomenon in oscilloscopes when the signal you're measuring is mixed in with some underlying noise or current that basically keeps the signal from being "zeroed out"
+\end{itemize}
+
+\subsection*{Check your understanding}
+
+\begin{enumerate}
+	\setlength{\itemsep}{6ex}
+	\item What is the period of $y=3 \sin (\frac23(\pi-\frac{\pi}{6}))$ \\ $3\pi$
+	\item What is the phase shift of $y=\cos(x+\pi)$ \\ $-\pi$ or $\pi$ to the left
+	\item Write an equation for a sinusoid with a period of 3 $y=\sin(\frac{2\pi}{3}x)$
+	\item Write two versions of $y=A\sin (Bx-C)$ that have the same graph as $y=\sin x$ but
+				different phase shifts. Use Desmos to check your answer. \\
+				$y = \sin(x-2\pi) \qquad y = \sin(x+2\pi) \qquad y = \sin(x+4\pi)$
+	\item  Write two versions of $y=A\cos (Bx-C)$ that have the same
+				graph as $y=\cos 2x$ but different phase shifts.
+				Use Desmos to check your answer. \\
+				$y = \cos(2(x-2\pi)) \qquad y = \cos(2(x+2\pi)) \qquad y = \cos(2(x+4\pi))$
+
+	\item Write a verison of $y=A\tan(x+C)$ that has the same graph as $y=\cot x$.
+				Use Desmos to check your answer. \\
+				$y = -\tan(x+\pi/2)$
+\end{enumerate}
+
+\subsection*{Multiple Transformations}
+\noindent
+Try your hand at graphing these with more than one transformation. It is recommended to take one transformation at a time -- $A$ and $B$ first, then $C$ and finally $D$. Check you work with Desmos. 2 blanks are provided for each problem in case it might help.
+\begin{enumerate}
+	\item $y=3\sin (2(x-\frac{\pi}{2}))$ \\
+	\includegraphics*[width=3in]{q7.png} \\
+	\item $y=2\sin (2(x+\frac{\pi}{4})) + 1$ \\
+	\includegraphics*[width=3in]{q8.png} \\
+\end{enumerate}
+\end{multicols}
+\end{document}
