@@ -1,0 +1,228 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fullpage}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\author{}
+\date{}
+
+\begin{document}
+\pagestyle{empty}
+\hypertarget{test-7}{%
+\section{AOS Senior BC Test 7A}\label{test-7}}
+
+\noindent \textbf{Multiple Choice}. Circle the letter of the best answer. Problems
+with no work may receive no credit! Partial credit may be available in limited
+instances.
+
+\begin{enumerate}
+	\setlength{\itemsep}{1in}
+\def\labelenumi{\arabic{enumi}.}
+\begin{minipage}{\linewidth}
+\item
+  Which of the following expressions is equal to
+  \(\displaystyle \int_0^2 \dfrac{17x+4}{3x^2-7x-6} \; dx\)?
+
+	\vspace{2ex}
+  \begin{enumerate}
+		\setlength{\itemsep}{2ex}\def\labelenumi{\Alph{enumi}.}
+
+\item
+  \(\displaystyle \int_0^2 \dfrac{5}{x-3} \; dx + \displaystyle \int_0^2 \dfrac{2}{3x+2} \; dx\)
+\item
+  \(\displaystyle \int_0^2 \dfrac{4}{x-3} \; dx + \displaystyle \int_0^2 \dfrac{17x}{3x+2} \; dx\)
+\item
+  \(\displaystyle \int_0^2 \dfrac{17x}{x-3} \; dx + \displaystyle \int_0^2 \dfrac{4}{3x+2} \; dx\)
+\item
+  \(\displaystyle \int_0^2 \dfrac{2}{x-3} \; dx + \displaystyle \int_0^2 \dfrac{5}{3x+2} \; dx\)
+\end{enumerate}
+\vspace{0.25in}
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{\linewidth}
+\item
+  Integrate \(\displaystyle \int \dfrac{x}{2} e^{-3x/4} \; dx\)
+
+	\vspace{2ex}
+  \begin{enumerate}
+		\setlength{\itemsep}{2ex}		\def\labelenumi{\Alph{enumi}.}
+		\item
+    \(-\frac{x}{2}e^{-3x/4} + \frac38 e^{-3x/4} + C\)
+		 \item
+    \(-\frac{3x}{4}e^{-3x/4} + \frac34 e^{-3x/4} + C\)
+  \item
+    \(-\frac{2x}{3}e^{-3x/4} - \frac89 e^{-3x/4} + C\)
+  \item
+    \(\frac{x}{2}e^{-3x/4} - \frac12 e^{-3x/4} + C\)
+  \end{enumerate}
+	\vspace{0.25in}
+
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{\linewidth}
+\item
+  If the series
+  \(\displaystyle \sum_{n=1}^\infty (-1)^{n+1} \frac{1}{2n+1}\) is
+  approximated by a partial sum of the first 15 terms, which of the
+  following is the alternating series upper bound on the error
+  \(\left | \displaystyle \sum_{n=1}^\infty (-1)^{n+1} \frac{1}{2n+1} - \displaystyle \sum_{n=1}^{15} (-1)^{n+1} \frac{1}{2n+1}\right |\)?
+
+	\vspace{2ex}
+  \begin{enumerate}
+		\setlength{\itemsep}{2ex}		\def\labelenumi{\Alph{enumi}.}
+   \item
+    \(\dfrac{1}{31}\)
+  \item
+    \(\dfrac{1}{33}\)
+		\item
+    \(\dfrac{1}{15}\)
+  \item
+    \(\dfrac{1}{16}\)
+
+  \end{enumerate}
+
+	\vspace{0.25in}
+	\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{\linewidth}
+\item
+  Which of the following series converge?
+
+	\vspace{2ex}
+  \begin{enumerate}
+		\setlength{\itemsep}{2ex}		\def\labelenumi{\Alph{enumi}.}
+    \item
+    \(\displaystyle \sum_{n=1}^\infty \dfrac{3n}{n+2}\)
+  \item
+    \(\displaystyle \sum_{n=1}^\infty \dfrac{3n}{n^2+2}\)
+  \item
+    \(\displaystyle \sum_{n=1}^\infty \dfrac{3n}{n^2+2n}\)
+  \item
+    \(\displaystyle \sum_{n=1}^\infty \dfrac{3n^2}{n^4+2n}\)
+  \item
+    \(\displaystyle \sum_{n=1}^\infty \dfrac{3n^2}{n^3+2n}\)
+  \end{enumerate}
+	\vspace{0.25in}
+
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{\linewidth}
+\item
+  Which of the following series converge?
+
+	\vspace{2ex}
+  \begin{enumerate}
+		\setlength{\itemsep}{2ex}  \def\labelenumii{\arabic{enumii}.}
+    \item
+    \(\displaystyle \sum_{n=1}^\infty \frac{1}{\sqrt n}\)
+  \item
+    \(\displaystyle \sum_{n=1}^\infty \frac{3^n}{n!}\)
+  \item
+    \(\displaystyle \sum_{n=1}^\infty \left(\frac{\pi}{e}\right)^n\)
+
+    \begin{enumerate}
+			\def\labelenumi{\Alph{enumi}.}
+			\item
+      None
+    \item
+      ii only
+    \item
+      iii only
+    \item
+      ii and iii only
+    \end{enumerate}
+  \end{enumerate}
+	\vspace{0.25in}
+
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{\linewidth}
+\item
+  Which of the following is the fourth-degree Taylor polynomial for
+  \(f(x) = \ln x\) about \(x=1\)?
+	\vspace{2ex}
+  \begin{enumerate}
+		\setlength{\itemsep}{2ex}
+		\def\labelenumi{\Alph{enumi}.}
+		\item
+    \(P_4(x) = x - \frac12 x^2 + \frac13 x^3-\frac14 x^4\)
+    \item \(P_4(x) = (x-1) - \frac12(x-1)^2 + \frac13(x-1)^3-\frac14(x-1)^4\)
+  \item
+    \(P_4(x) = (x-1) - (x-1)^2 + 2(x-1)^3-6(x-1)^4\)
+  \item
+    \(P_4(x) = (x-1) + \frac12(x-1)^2 + \frac13(x-1)^3+\frac14(x-1)^4\)
+
+  \end{enumerate}
+	\vspace{0.75in}
+
+\end{minipage}
+
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hypertarget{evaluate-the-following-integrals-using-the-appropriate-method}{%
+\subsection{Evaluate the following integrals using the appropriate
+method}\label{evaluate-the-following-integrals-using-the-appropriate-method}}
+
+\begin{enumerate}
+	\setlength{\itemsep}{2in}
+	\setcounter{enumi}{6}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \(\displaystyle \int \dfrac{6x-13}{x^2+5x-4} \; dx\)
+\item
+  \(\displaystyle \int x^2 \ln x \; dx\)
+\item
+  \(\displaystyle \int x^2 \cos(5x^3) \; dx\)
+\item
+  \(\displaystyle \int_0^\infty \dfrac{1}{x^2+9} \; dx\)
+\end{enumerate}
+
+\end{document}
