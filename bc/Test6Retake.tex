@@ -1,0 +1,115 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{fullpage}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{test-6-retake}{%
+\section{Test 6 Retake}\label{test-6-retake}}
+\pagestyle{empty}
+Select appropriate problems (all the series is one option, the taylor
+question, and the interval question are 2 other options) based on what
+you missed on the first test.
+
+\hypertarget{convergence-tests-3pts-each}{%
+\subsection{Convergence Tests (3pts
+each)}\label{convergence-tests-3pts-each}}
+
+Prove convergence or divergence using appropriate tests. Show all
+relevant work and give precise jusitifications
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setlength{\itemsep}{1.5in}
+\item
+  \(\displaystyle \sum_{n=1}^\infty \dfrac{n+1}{\sqrt{2n^3+1}}\)
+\item
+  \(\displaystyle \sum_{n=1}^\infty \dfrac{6}{2n+1}\)
+\item
+  \(\displaystyle \sum_{n=1}^\infty \dfrac{n!}{2^{2n+1}}\)
+\item
+  \(\displaystyle \sum_{n=1}^\infty n^2\dfrac{3}{2^n}\)
+\end{enumerate}
+\vspace{1.5in*}
+
+For the following alternating series, additionally test for absolute
+convergence (4pts).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  \(\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\dfrac{\sqrt{n+1}}{3n!}\)
+\end{enumerate}
+\vspace{1.5in*}
+
+\hypertarget{interval-of-convergence-4-pts}{%
+\subsection{Interval of Convergence (4
+pts)}\label{interval-of-convergence-4-pts}}
+
+Give the interval of convergence for the following problem. You do not
+need to test endpoints.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  \(\displaystyle \sum_{n=1}^{\infty} \frac{(-1)^n (2x-1)^n}{n^3}\)
+\end{enumerate}
+\vspace{2.5in*}
+
+\hypertarget{taylor-series-4-pts}{%
+\subsection{Taylor Series (4 pts)}\label{taylor-series-4-pts}}
+
+Write the Maclaurin Series for \(f(x) = 3+2x\cos(3x^2)\), stopping after
+the 4th term. Your answer must use transformations from a known series.
+
+\end{document}
