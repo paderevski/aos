@@ -1,0 +1,161 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{fullpage}
+\pagestyle{empty}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{the-circle}{%
+\section{The Circle}\label{the-circle}}
+
+The circle is one of the most basic shapes, known to humans for tens of
+thousands of years according to the archaeological record. It defines
+everybody's favorite constant, \(\pi\), and is the basis of analytic
+trigonometry.
+
+\textbf{Geometric Definition}: The circle is the locus of points all
+equidistant from a given \emph{center}. The distance from any such point
+to the center is called the \emph{radius}.
+
+\textbf{Parent Equation}: \(x^2+y^2=1\) is the equation for the unit
+circle, a circle centered at the origin with radius 1.
+
+\textbf{General Equation}: \((x-h)^2 + (y-k)^2 = r^2\) is a circle with
+radius \(r\) centered at \((h,k)\)
+
+\textbf{Paremetric Equations}. A circle can be defined parametrically as
+the set of points \(x = r \cos \theta, y = r \sin \theta\) for
+\(\theta \in [0,2\pi)\). These equations trace the circle
+counterclockwise starting at the point \((r,0).\) Transforming these
+equations to a center of \((h,k)\) results in
+\(x = h + r \cos \theta, y = k + r \sin \theta\).
+
+\textbf{Polar Equation:} The polar equation for a circle centered at the
+origin is \(r = R\), where \(R\) is the radius. Translating this to a
+different center is extremely difficult in polar coordinates.
+
+\hypertarget{problems}{%
+\subsection{Problems}\label{problems}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Find the radius of the circle \(x^2 + y^2 = 100\)
+\item
+  Find the radius of the circle \(x^2 + y^2 = 72\)
+\item
+  Find the radius and center of the circle \((x-8)^2 + (y+4)^2 = 20\)
+\item
+  Find the radius and center of the circle
+  \((3x-4)^2 = 100 - (3x + 1)^2\)
+\item
+  Write the equation of a circle with radius 5 and center \((3,-4)\)
+\item
+  Write the equation of a circle with radius \(\frac{\sqrt{17}}{3}\) and
+  center \((\frac13,\frac{-2}{3})\). Eliminate all denominators.
+\item
+  A diameter of a certain circle joins the points \((-12,7)\) and
+  \((12,14)\). Find the equation of the circle.
+\item
+  An equilateral triangle has its base as the line segment joining the
+  points \((-4,-2)\) and \((4,-2)\). Find the third point of the
+  triangle. Circumscribe a circle around this triangle and find the
+  equation of the circle. (Hint: the center of the circle is the average
+  of the three triangle vertices).
+\item
+  Given the circle \(x^2 + y^2 = 72\), find four points on the circle
+  that form the vertices of a square.
+\item
+  Write the circle \((x+8)^2 + (y - \sqrt2)^2 = 15\sqrt 2\) in general
+  form.
+\item
+  Complete the square to write the following in standard form:
+  \(x^2 + 10x + y^2 - 20y - 50 = 0\)
+\item
+  Complete the square to write the following in standard form:
+  \(4x^2 + 8x + 4y^2 - 20y = 100\)
+\item
+  In the general form equation of a circle \(Ax^2+Cx+Dy^2+Ey+F=0\), can
+  \(A\) be greater than \(D\)? Can it be less than \(D\)? Why or why
+  not?
+\item
+  Write an inequality which constrains \(F\) in terms of the other
+  coefficients in the general form equation of a circle. (Hint: find the
+  center and radius of the general equation first by completing the
+  square.)
+\item
+  Find the intersection points of the circle \(x^2 + y^2 = 80\) with the
+  line \(y=2x+1\). Round your answer to 3 places. (Hint: substitute the
+  second equation into the first equation).
+\item
+  A regular hexagon is inscribed in a unit circle. What is its
+  perimeter?
+\item
+  The circle \(x^2 + y^2 = 25\) contains the points \((3,4)\) and
+  \((3,-4)\). The tangent line to the circle at the point \((3,4)\) is
+  perpendicular to the line segment from the origin to \((3,4)\). Write
+  the equation of this tangent line. Also write the equation of the
+  tangent line through \((3,-4)\).
+\item
+  Circle \(C_1\) has radius 1 and is centered at the origin. Circle
+  \(C_2\) is tangent to circle \(C_1\) at the point
+  \((-\frac{\sqrt2}{2},-\frac{\sqrt2}{2})\), entirely contains circle
+  \(C_1\) and has twice the area of \(C_1\). Write the equation of
+  \(C_2\) in standard form.
+\item
+  Write the parametric equations of a circle centered at \((5,-6)\) with
+  radius \(\sqrt{17}\).
+\item
+  What is the qualitative difference, if any, between the parametric
+  equations \(x = 3 + \cos(t), y = 3 + \sin(t)\) and the equations
+  \(x = 3-\cos(t), y=3-\sin(t)\)?
+\end{enumerate}
+
+\end{document}

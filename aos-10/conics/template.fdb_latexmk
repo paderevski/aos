@@ -1,0 +1,16 @@
+# Fdb version 3
+["pdflatex"] 1702928616 "/home/pewhite/github/aos/aos-10/conics/template.tex" "template.pdf" "template" 1702928616
+  "$documentclass$.cls" 0 -1 0 ""
+  "/etc/texmf/web2c/texmf.cnf" 1691608243 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/pewhite/github/aos/aos-10/conics/template.tex" 1702928616 12478 394f1387e1362a27370457c3526752a2 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty" 1623096352 230915 97a8817f13de4e61bbc3592cb2caa995 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1635798903 56029 3f7889dab51d620aa43177c391b7b190 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1698347574 1405656 2c7e5addc8a49aa5012a28241c305640 ""
+  "template.aux" 1702928616 32 3985256e7290058c681f74d7a3565a19 ""
+  "template.tex" 1702928616 12478 394f1387e1362a27370457c3526752a2 ""
+  (generated)
+  "template.log"
+  "template.pdf"

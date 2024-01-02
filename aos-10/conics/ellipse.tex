@@ -1,0 +1,283 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\let\oldsection\section
+\renewcommand{\section}[1]{\clearpage\oldsection{#1}}
+  \def\tightlist{}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{the-ellipse}{%
+\section{The Ellipse}\label{the-ellipse}}
+
+The ellipse is, geometrically, a circle that has been stretched in the
+\(x\) and/or \(y\) directions. It has useful reflection properties and
+is most famous, perhaps, for defining the shape of a closed orbit in a
+2-body orbital system.
+
+\textbf{Geometric Definition}: Given two fixed points in a plane,
+\(F_1\) and \(F_2\), and a constant \(k > 0\), the ellipse is the locus
+of points \(P\) in the same plane such that \(||PF_1| + ||PF_2|| = k\).
+The line through \(F_1\) and \(F_2\) is the \emph{major axis} of the
+ellipse. The two points \(A,B\) are the \emph{foci} (singular:
+\emph{focus}) of the ellipse. The \emph{minor axis} is perpendicular to
+the major axis. The 4 points at which the ellipse intersects an axis are
+the vertices.
+
+\textbf{Parent Equation}: \(\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1\) is the
+equation for an ellipse centered at the origin. The semi-major axis
+length is \(\max(a,b)\) and the semi-minor axis length is \(\min(a,b)\).
+
+\textbf{General Equation}:
+\(\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1\) is an ellipse
+centered at \((h,k)\).
+
+\textbf{Properties}
+
+\begin{itemize}
+\tightlist
+\item
+  Length of axes are \(2a\) and \(2b\). The longer one is the major
+  axis.
+\item
+  The distance from the center to either focus is \(c\) where
+  \(c^2 = |a^2-b^2|\).
+\item
+  The sum of the distances from any point to both foci is
+  \(\max(2a,2b)\)
+\item
+  The eccentricity of an ellipse is defined as \(e = \dfrac{c}{a}\).
+\item
+  The area of an ellipse is \(\pi a b\).
+\item
+  The perimeter of an ellipse is very complicated\footnote{If you really
+    want to know, it's the value of the ``complete elliptic integral of
+    the second kind''
+    \(4a \int_0^{\pi/2} \sqrt{1 - e^2 \sin^2 \theta} \; d\theta\), which
+    can be approximated by the series
+    \(p = \pi(a+b)\left(1 + \frac14 h + \frac{1}{64}h^2 + \frac{1}{256}h^3 + \ldots\right)\)
+    where \(h = \frac{(a-b)^2}{(a+b)^2}\)}
+\item
+  Any ray of light or sound which emanates from one focus will reflect
+  to the other focus. You may have experienced this in the US Capitol's
+  Whispering Gallery.
+\end{itemize}
+
+\textbf{Relation to a circle}. A circle is an ellipse with \(a=b\). You
+can think of \(a\) as the ``x-radius'' of the ellipse and \(b\) as the
+``y-radius'' of the ellipse. (These are not widely accepted terms, just
+mental aids).
+
+\textbf{Parametric Equations}. An ellipse can be defined parametrically
+as the set of points \(x = a \cos \theta, y = b \sin \theta\) for
+\(\theta \in [0,2\pi)\). These equations trace the ellipse
+counterclockwise starting at the point \((b,0).\) Transforming these
+equations to a center of \((h,k)\) results in
+\(x = h + a \cos \theta, y = k + b \sin \theta\).
+
+\textbf{Polar Equation:} The polar equation for an ellipse is \ldots{}
+
+(Note: this presentation differs from many texts which enforce that
+\(a>b\) so there are 2 version of every equation and definition. This is
+silly. It's easier to say \(a\) always goes with \(x\) and the major
+axis goes with whichever of \(a,b\) is larger.)
+
+\begin{figure}
+\centering
+\includegraphics[width=2in,height=\textheight]{workspace.jpeg}
+\caption{Ellipse Schematic}
+\end{figure}
+
+\hypertarget{problems}{%
+\subsection{Problems}\label{problems}}
+
+\begin{enumerate}
+\tightlist
+\item
+  Find the equation of an ellipse in standard form, centered at the
+  origin with
+
+  \begin{enumerate}
+  \tightlist
+  \item
+    Major axis of length 12, minor axis of length 6
+  \item
+    Passes through the points \$(0,6) and \((3,0)\)
+  \item
+    Foci: \((\pm 4,0)\), major axis 10
+  \item
+    Vertices: \((\pm 7,0)\), foci: \((\pm 2,0)\)
+  \item
+    Vertices: \((0, \pm 8)\), foci: \((0, \pm 4)\)
+  \end{enumerate}
+\item
+  Find the equation of an ellipse in standard form
+
+  \begin{enumerate}
+  \tightlist
+  \item
+    Vertices: \((2,0), (10,0)\); minor axis length 4
+  \item
+    Foci: \((0,0), (4,0)\), major axis length 6
+  \item
+    Center: \((2,-1)\), vertex \((2,\frac12)\),minor axis length 2
+  \end{enumerate}
+\item
+  Find the center, vertices, foci, eccentricity and sketch
+
+  \begin{enumerate}
+  \tightlist
+  \item
+    \(\dfrac{x^2}{25} + \dfrac{y^2}{16} = 1\)
+  \item
+    \(\dfrac{x^2}{16} + \dfrac{y^2}{81} = 1\)
+  \item
+    \(\dfrac{(x-4)^2}{16} + \dfrac{(y+1)^2}{25} = 1\)
+  \item
+    \(\dfrac{(x-5)^2}{9/4} + (y-1)^2 = 1\)
+  \item
+    \(9x^2 + 4y^2 + 36x - 24y + 36 = 0\)
+  \item
+    \(12x^2 + 20y^2 - 12x + 40y - 37 = 0\)
+  \end{enumerate}
+\item
+  Find the equation of an ellipse with vertices \((\pm 5,0)\) and
+  eccentricity \(e = \dfrac{4}{5}\).
+\item
+  Statuary Hall is an elliptical room in the United States Capitol in
+  Washington, D.C. The room is also called the Whispering Gallery
+  because a person standing at one focus of the room can hear even a
+  whisper spoken by a person standing at the other focus. The dimensions
+  of Statuary Hall are 46 feet wide by 97 feet long.
+
+  \begin{enumerate}
+  \tightlist
+  \item
+    Find an equation of the shape of the room.
+  \item
+    Determine the distance between the foci.
+  \end{enumerate}
+\item
+  The first artificial satellite to orbit Earth was Sputnik I (launched
+  by the former Soviet Union in 1957). Its highest point above Earth's
+  surface was 939 kilometers, and its lowest point was 215 kilometers
+  (see figure). The center of Earth was at one focus of the elliptical
+  orbit. Find the eccentricity of the orbit. (Assume the radius of Earth
+  is 6378 kilometers.)
+\item
+  Find an equation of an ellipse such that for any point \(P\) on the
+  ellipse, the sum of the distances from the point \(P\) to the points
+  \((2, 2)\) and \((10, 2)\) is 36.
+\item
+  How many ellipses centered at the origin contain the points \((1,1)\)
+  and \((1,-1)\)?
+\item
+  Find all solutions to the previous problem.
+\item
+  Write the formula for eccentricity using only \(a\) and \(b\). Analyze
+  the limits as \(a \to b\) and as \(a \to \infty\).
+\item
+  Orbital mechanics:
+
+  \begin{enumerate}
+  \tightlist
+  \item
+    The Earth orbits the sun in an (approximately\footnote{It would be a
+      perfect ellipse if it weren't for the moon, and Jupiter and, to a
+      much smaller extent, all the other planets.}) elliptical orbit
+    with the Sun at one focus. This is Kepler's Law. The average from
+    the sun to the earth is defined as one astronomical units (AUs).
+    Since the distance varies, there is a point when the earth is
+    closest to the sun (perihelion) and furthest (aphelion).
+  \item
+    Using a reliable resource, determine the values of the distances at
+    aphelion and perihelion for the Earth in AU.
+  \item
+    Using these value, write the equation of the Earth's orbit in
+    standard form, where \(x\) and \(y\) are measured in units of AU.
+    Assume the Sun is positioned to the right of the center of the
+    ellipse, on the \(x\)-axis.
+  \end{enumerate}
+\item
+  Match the following
+\end{enumerate}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\endhead
+\includegraphics[width=1in,height=\textheight]{e.pdf} &
+\includegraphics[width=1in,height=\textheight]{e.pdf}\tabularnewline
+\includegraphics[width=1in,height=\textheight]{e.pdf} &
+\includegraphics[width=1in,height=\textheight]{e.pdf}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\end{document}
