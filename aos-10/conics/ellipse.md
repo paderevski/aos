@@ -5,7 +5,6 @@ reflection properties and is most famous, perhaps, for defining the shape of a c
 
 **Geometric Definition**: Given two fixed points in a plane, $F_1$ and $F_2$, and a constant $k > 0$, the ellipse is the locus of points $P$ in the same plane such that $||PF_1| + ||PF_2|| = k$. The line through $F_1$ and $F_2$ is the *major axis* of the ellipse. The two points $A,B$ are the *foci* (singular: *focus*) of the ellipse. The *minor axis* is perpendicular to the major axis. The 4 points at which the ellipse intersects an axis are the vertices.
 
-
 ![Ellipse Schematic](workspace.jpeg){width=2in}
 
 **Parent Equation**: $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ is the equation for an ellipse centered at the origin. The semi-major axis length is $\max(a,b)$ and the semi-minor axis length is $\min(a,b)$.
