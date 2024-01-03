@@ -2,10 +2,11 @@
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[
-]{article}
+\documentclass[11pt]{article}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
+\usepackage[inline]{enumitem}
+
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -63,13 +64,11 @@
 \def\fps@figure{htbp}
 \makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+%\providecommand{}{%
+%  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \let\oldsection\section
 \renewcommand{\section}[1]{\clearpage\oldsection{#1}}
-  \def\tightlist{}
-
 \author{}
 \date{}
 
@@ -87,14 +86,22 @@ is most famous, perhaps, for defining the shape of a closed orbit in a
 \(F_1\) and \(F_2\), and a constant \(k > 0\), the ellipse is the locus
 of points \(P\) in the same plane such that \(||PF_1| + ||PF_2|| = k\).
 The line through \(F_1\) and \(F_2\) is the \emph{major axis} of the
-ellipse. The two points \(A,B\) are the \emph{foci} (singular:
+ellipse. The two points \(F_1,F_2\) are the \emph{foci} (singular:
 \emph{focus}) of the ellipse. The \emph{minor axis} is perpendicular to
 the major axis. The 4 points at which the ellipse intersects an axis are
 the vertices.
 
+\begin{figure}
+\centering
+\includegraphics[width=2in,height=\textheight]{workspace.jpeg}
+\caption{Ellipse Schematic}
+\end{figure}
+
 \textbf{Parent Equation}: \(\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1\) is the
 equation for an ellipse centered at the origin. The semi-major axis
 length is \(\max(a,b)\) and the semi-minor axis length is \(\min(a,b)\).
+(The major and minor axis lengths are twice the semi-major axis and
+semi-minor axis lengths.)
 
 \textbf{General Equation}:
 \(\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1\) is an ellipse
@@ -103,13 +110,13 @@ centered at \((h,k)\).
 \textbf{Properties}
 
 \begin{itemize}
-\tightlist
+
 \item
   Length of axes are \(2a\) and \(2b\). The longer one is the major
   axis.
 \item
-  The distance from the center to either focus is \(c\) where
-  \(c^2 = |a^2-b^2|\).
+  The distance from the center of the ellipse to either focus is \(c\)
+  where \(c^2 = |a^2-b^2|\).
 \item
   The sum of the distances from any point to both foci is
   \(\max(2a,2b)\)
@@ -136,41 +143,59 @@ can think of \(a\) as the ``x-radius'' of the ellipse and \(b\) as the
 ``y-radius'' of the ellipse. (These are not widely accepted terms, just
 mental aids).
 
-\textbf{Parametric Equations}. An ellipse can be defined parametrically
-as the set of points \(x = a \cos \theta, y = b \sin \theta\) for
-\(\theta \in [0,2\pi)\). These equations trace the ellipse
-counterclockwise starting at the point \((b,0).\) Transforming these
-equations to a center of \((h,k)\) results in
-\(x = h + a \cos \theta, y = k + b \sin \theta\).
-
-\textbf{Polar Equation:} The polar equation for an ellipse is \ldots{}
-
 (Note: this presentation differs from many texts which enforce that
-\(a>b\) so there are 2 version of every equation and definition. This is
-silly. It's easier to say \(a\) always goes with \(x\) and the major
-axis goes with whichever of \(a,b\) is larger.)
-
-\begin{figure}
-\centering
-\includegraphics[width=2in,height=\textheight]{workspace.jpeg}
-\caption{Ellipse Schematic}
-\end{figure}
+\(a>b\) leading two 2 version of every equation and definition, one for
+tall ellipses and one for wide ellipses. This is silly. It's easier to
+say \(a\) always goes with \(x\) and the major axis goes with whichever
+of \(a,b\) is larger.)
 
 \hypertarget{problems}{%
 \subsection{Problems}\label{problems}}
 
+Unless otherwise specified, any ellipse equations should be given in
+standard form
+
+\hypertarget{fundamental-concepts}{%
+\paragraph{Fundamental Concepts}\label{fundamental-concepts}}
+
 \begin{enumerate}
-\tightlist
+\def\labelenumi{\arabic{enumi}.}
+
+\item Match the following equations
+\vspace{0ex} \\
+
+	\begin{enumerate*}[label=\itshape\Alph*\upshape)]
+		\item
+			\(\dfrac{x^2}{4}+\dfrac{y^2}{9} = 1\)\hspace{3ex}
+		\item
+			\(\dfrac{x^2}{9}+\dfrac{y^2}{4} = 1\)\hspace{3ex}
+		\item
+			\(\dfrac{(x-2)^2}{16} + (y+1)^2 = 1\)\hspace{3ex}
+		\item
+			\(\dfrac{(x+2)^2}{9}+\dfrac{(y+2)^2}{4} = 1\)
+		\end{enumerate*}
+		\\
+
+	with the graphs below
+	\vspace{0ex}\\
+
+	\begin{enumerate*} [label=\roman*\upshape)]
+		\item \includegraphics*[width=1.5in]{pD.pdf}
+		\item \includegraphics*[width=1.5in]{pA.pdf}
+		\item \includegraphics*[width=1.5in]{pC.pdf}
+		\item \includegraphics*[width=1.5in]{pB.pdf}
+	\end{enumerate*}
+	\vspace{1ex}\\
+
 \item
-  Find the equation of an ellipse in standard form, centered at the
-  origin with
+  For each of the following problems, find an equation os an ellipse in standard form
 
   \begin{enumerate}
-  \tightlist
+
   \item
     Major axis of length 12, minor axis of length 6
   \item
-    Passes through the points \$(0,6) and \((3,0)\)
+    Passes through the points \((0,6)\) and \((3,0)\)
   \item
     Foci: \((\pm 4,0)\), major axis 10
   \item
@@ -179,10 +204,9 @@ axis goes with whichever of \(a,b\) is larger.)
     Vertices: \((0, \pm 8)\), foci: \((0, \pm 4)\)
   \end{enumerate}
 \item
-  Find the equation of an ellipse in standard form
-
+  For each of the following problems, find an equation of an ellipse in standard form
   \begin{enumerate}
-  \tightlist
+
   \item
     Vertices: \((2,0), (10,0)\); minor axis length 4
   \item
@@ -194,7 +218,7 @@ axis goes with whichever of \(a,b\) is larger.)
   Find the center, vertices, foci, eccentricity and sketch
 
   \begin{enumerate}
-  \tightlist
+
   \item
     \(\dfrac{x^2}{25} + \dfrac{y^2}{16} = 1\)
   \item
@@ -211,6 +235,16 @@ axis goes with whichever of \(a,b\) is larger.)
 \item
   Find the equation of an ellipse with vertices \((\pm 5,0)\) and
   eccentricity \(e = \dfrac{4}{5}\).
+
+\end{enumerate}
+
+\hypertarget{deeper-understanding}{%
+\paragraph{Deeper Understanding}\label{deeper-understanding}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+
 \item
   Statuary Hall is an elliptical room in the United States Capitol in
   Washington, D.C. The room is also called the Whispering Gallery
@@ -219,7 +253,7 @@ axis goes with whichever of \(a,b\) is larger.)
   of Statuary Hall are 46 feet wide by 97 feet long.
 
   \begin{enumerate}
-  \tightlist
+
   \item
     Find an equation of the shape of the room.
   \item
@@ -248,7 +282,7 @@ axis goes with whichever of \(a,b\) is larger.)
   Orbital mechanics:
 
   \begin{enumerate}
-  \tightlist
+
   \item
     The Earth orbits the sun in an (approximately\footnote{It would be a
       perfect ellipse if it weren't for the moon, and Jupiter and, to a
@@ -267,17 +301,45 @@ axis goes with whichever of \(a,b\) is larger.)
     ellipse, on the \(x\)-axis.
   \end{enumerate}
 \item
-  Match the following
-\end{enumerate}
+  Confocal ellipses have the same foci. Show that, for \(k>0\), all
+  ellipses of the form \(\dfrac{x^2}{6+k}+\dfrac{y^2}{k}=1\) are
+  confocal.
+\item
+  A square is inscribed inside an ellipse with major axis length 5 and
+  minor axis length 4. What is the area of the square? (\emph{Inscribed}
+  means the vertices of the square are on the ellipse).
+\item
+	The ellipse \(E\) has vertices at \((\pm 6,0)\) and \((0, \pm 4)\).
 
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-\endhead
-\includegraphics[width=1in,height=\textheight]{e.pdf} &
-\includegraphics[width=1in,height=\textheight]{e.pdf}\tabularnewline
-\includegraphics[width=1in,height=\textheight]{e.pdf} &
-\includegraphics[width=1in,height=\textheight]{e.pdf}\tabularnewline
-\bottomrule
-\end{longtable}
+	\begin{enumerate}
+	\item
+  The line \(y=4\) is tangent to the ellipse at point \(P = (0,4)\). The
+  angles \(\alpha\) and \(\beta\) are the same in Figure 3. Find
+  \(\alpha\). \\
+	\begin{center}
+		\includegraphics*[width=2in]{ellipse2.pdf}
+	\end{center}
+
+  \item
+    Let
+    \(Q\) be the point on \(E\) in the first quadrant with
+    \(x\)-coordinate 2. The tangent line at \(Q\) also makes equivalent
+    angles with the lines from \(Q\) to the two foci. Find the equation
+    of the tangent line.
+		\begin{center}
+			\includegraphics*[width=2in]{ellipse3.pdf}
+		\end{center}
+  \item
+    Find the coordinate in the first quadrant at which the tangent line
+    makes a \(30^\circ\) angle with the lines to the foci.
+  \item
+    What is the maximum angle the tangent line makes with the lines to
+    the foci?
+  \end{enumerate}
+
+\item
+  Derive the parent equation of an ellipse from its geometric
+  definition.
+\end{enumerate}
 
 \end{document}

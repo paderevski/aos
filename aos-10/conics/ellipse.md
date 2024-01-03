@@ -3,18 +3,18 @@
 The ellipse is, geometrically, a circle that has been stretched in the $x$ and/or $y$ directions. It has useful
 reflection properties and is most famous, perhaps, for defining the shape of a closed orbit in a 2-body orbital system.
 
-**Geometric Definition**: Given two fixed points in a plane, $F_1$ and $F_2$, and a constant $k > 0$, the ellipse is the locus of points $P$ in the same plane such that $||PF_1| + ||PF_2|| = k$. The line through $F_1$ and $F_2$ is the *major axis* of the ellipse. The two points $A,B$ are the *foci* (singular: *focus*) of the ellipse. The *minor axis* is perpendicular to the major axis. The 4 points at which the ellipse intersects an axis are the vertices.
+**Geometric Definition**: Given two fixed points in a plane, $F_1$ and $F_2$, and a constant $k > 0$, the ellipse is the locus of points $P$ in the same plane such that $||PF_1| + ||PF_2|| = k$. The line through $F_1$ and $F_2$ is the *major axis* of the ellipse. The two points $F_1,F_2$ are the *foci* (singular: *focus*) of the ellipse. The *minor axis* is perpendicular to the major axis. The 4 points at which the ellipse intersects an axis are the vertices.
 
 ![Ellipse Schematic](workspace.jpeg){width=2in}
 
-**Parent Equation**: $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ is the equation for an ellipse centered at the origin. The semi-major axis length is $\max(a,b)$ and the semi-minor axis length is $\min(a,b)$.
+**Parent Equation**: $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ is the equation for an ellipse centered at the origin. The semi-major axis length is $\max(a,b)$ and the semi-minor axis length is $\min(a,b)$. (The major and minor axis lengths are twice the semi-major axis and semi-minor axis lengths.)
 
 **General Equation**: $\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1$ is an ellipse centered at $(h,k)$.
 
 **Properties**
 
 * Length of axes are $2a$ and $2b$. The longer one is the major axis.
-* The distance from the center to either focus is $c$ where $c^2 = |a^2-b^2|$.
+* The distance from the center of the ellipse to either focus is $c$ where $c^2 = |a^2-b^2|$.
 * The sum of the distances from any point to both foci is $\max(2a,2b)$
 * The eccentricity of an ellipse is defined as $e = \dfrac{c}{a}$.
 * The area of an ellipse is $\pi a b$.
@@ -23,26 +23,30 @@ reflection properties and is most famous, perhaps, for defining the shape of a c
 
 **Relation to a circle**. A circle is an ellipse with $a=b$. You can think of $a$ as the "x-radius" of the ellipse and $b$ as the "y-radius" of the ellipse. (These are not widely accepted terms, just mental aids).
 
+<!---
 **Parametric Equations**. An ellipse can be defined parametrically as the set of points $x = a \cos \theta, y = b \sin \theta$ for $\theta \in [0,2\pi)$. These equations trace the ellipse counterclockwise starting at the point $(b,0).$ Transforming these equations to a center of $(h,k)$ results in $x = h + a \cos \theta, y = k + b \sin \theta$.
 
 **Polar Equation:** The polar equation for an ellipse is ...
+--->
 
-(Note: this presentation differs from many texts which enforce that $a>b$ so there are 2 version of every equation and definition. This is silly. It's easier to say $a$ always goes with $x$ and the major axis goes with whichever of $a,b$ is larger.)
+(Note: this presentation differs from many texts which enforce that $a>b$ leading two 2 version of every equation and definition, one for tall ellipses and one for wide ellipses. This is silly. It's easier to say $a$ always goes with $x$ and the major axis goes with whichever of $a,b$ is larger.)
 
 
 ## Problems
 
 #. Match the following
 
-	| a | b | c | d |
-	|:---:|:--:|:----:|:------:|
-	|$\dfrac{x^2}{4}+\dfrac{y^2}{9} = 1$|  $\dfrac{x^2}{9}+\dfrac{y^2}{4} = 1$  | $\dfrac{(x-2)^2}{16} + (y+1)^2 = 1$  |    $\dfrac{(x+2)^2}{9}+\dfrac{(y+2)^2}{4} = 1$ |
+  #. $\dfrac{x^2}{4}+\dfrac{y^2}{9} = 1$
+  #. $\dfrac{x^2}{9}+\dfrac{y^2}{4} = 1$
+  #. $\dfrac{(x-2)^2}{16} + (y+1)^2 = 1$
+  #. $\dfrac{(x+2)^2}{9}+\dfrac{(y+2)^2}{4} = 1$
 
-| A | B | C | D |
-|:------:|:-----:|:---------:|:------:|
-| ![](pA.pdf){width=1.5in} |  ![](pB.pdf){width=1.5in} | ![](pC.pdf){width=1in} | ![](pD.pdf){width=1.5in} |
+	![](pA.pdf){width=1.5in}
+	![](pB.pdf){width=1.5in}
+	![](pC.pdf){width=1in}
+	![](pD.pdf){width=1.5in}
 
-2. Find the equation of an ellipse in standard form, centered at the origin with
+1. Find the equation of an ellipse in standard form, centered at the origin with
    #.  Major axis of length 12, minor axis of length 6
    #.  Passes through the points $(0,6)$ and $(3,0)$
    #.  Foci: $(\pm 4,0)$, major axis 10
@@ -73,7 +77,7 @@ reflection properties and is most famous, perhaps, for defining the shape of a c
     #. Using a reliable resource, determine the values of the distances at aphelion and perihelion for the Earth in AU.
     #. Using these value, write the equation of the Earth's orbit in standard form, where $x$ and $y$ are measured in units of AU. Assume the Sun is positioned to the right of the center of the ellipse, on the $x$-axis.
 
-13. Confocal ellipses have the same foci. Show that, for  $k>0$, all ellipses of the form  $\dfrac{x^2}{6+k}+\dfrac{y^2}{k}=1$ are confocal.
+1.  Confocal ellipses have the same foci. Show that, for  $k>0$, all ellipses of the form  $\dfrac{x^2}{6+k}+\dfrac{y^2}{k}=1$ are confocal.
 
 #. A square is inscribed inside an ellipse with major axis length 5 and minor axis length 4. What is the area of the square? (*Inscribed* means the vertices of the square are on the ellipse).
 
