@@ -4,7 +4,9 @@ The circle is one of the most basic shapes, known to humans for tens of thousand
 everybody's favorite constant, $\pi$, and is the basis of analytic trigonometry.
 
 **Geometric Definition**: The circle is the locus of points all equidistant
-from a given *center*. The distance from any such point to the center is called the *radius*.
+from a given *center*. The distance from any such point to the center is called the *radius*.  As a conic section, the circle is produced
+from the intersection of a cone with any plane perpendicular to the central axis of
+the cone.
 
 
 ![](fig-circle.pdf){height=1.5in}
