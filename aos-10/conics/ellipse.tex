@@ -94,38 +94,45 @@ the vertices.
 \begin{figure}
 \centering
 \includegraphics[width=2in,height=\textheight]{workspace.jpeg}
-\caption{Ellipse Schematic}
+\caption{Ellipse Schematic}S
 \end{figure}
 
 \textbf{Parent Equation}: \(\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1\) is the
-equation for an ellipse centered at the origin. The semi-major axis
-length is \(\max(a,b)\) and the semi-minor axis length is \(\min(a,b)\).
+equation for a "wide" ellipse centered at the origin and the equation 
+\(\dfrac{x^2}{b^2}+\dfrac{y^2}{a^2}=1\) is the
+equation for a "tall" ellipse centered at the origin. Yes, they are the same,
+it's just we have a habit of associating $a$ with the larger denominator.
+The semi-major axis
+length is $a$ and the semi-minor axis length is $b$.
 (The major and minor axis lengths are twice the semi-major axis and
 semi-minor axis lengths.)
 
 \textbf{General Equation}:
-\(\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1\) is an ellipse
+\begin{itemize}
+  \item \(\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1\) is a wide ellipse
 centered at \((h,k)\).
-
+  \item \(\dfrac{(x-h)^2}{b^2} + \dfrac{(y-k)^2}{a^2} = 1\) is a tall ellipse
+  centered at \((h,k)\).
+\end{itemize}
 \textbf{Properties}
 
 \begin{itemize}
 
 \item
-  Length of axes are \(2a\) and \(2b\). The longer one is the major
+  Length of axes are \(2a\) and \(2b\). The longer one $2a$ is the major
   axis.
 \item
   The distance from the center of the ellipse to either focus is \(c\)
-  where \(c^2 = |a^2-b^2|\).
+  where \(c^2 = a^2-b^2\).
 \item
   The sum of the distances from any point to both foci is
-  \(\max(2a,2b)\)
+  \(2a\)
 \item
   The eccentricity of an ellipse is defined as \(e = \dfrac{c}{a}\).
 \item
   The area of an ellipse is \(\pi a b\).
 \item
-  The perimeter of an ellipse is very complicated\footnote{If you really
+  The perimeter of an ellipse is very complicated.\footnote{If you really
     want to know, it's the value of the ``complete elliptic integral of
     the second kind''
     \(4a \int_0^{\pi/2} \sqrt{1 - e^2 \sin^2 \theta} \; d\theta\), which
@@ -138,16 +145,7 @@ centered at \((h,k)\).
   Whispering Gallery.
 \end{itemize}
 
-\textbf{Relation to a circle}. A circle is an ellipse with \(a=b\). You
-can think of \(a\) as the ``x-radius'' of the ellipse and \(b\) as the
-``y-radius'' of the ellipse. (These are not widely accepted terms, just
-mental aids).
-
-(Note: this presentation differs from many texts which enforce that
-\(a>b\) leading two 2 version of every equation and definition, one for
-tall ellipses and one for wide ellipses. This is silly. It's easier to
-say \(a\) always goes with \(x\) and the major axis goes with whichever
-of \(a,b\) is larger.)
+\textbf{Relation to a circle}. A circle is an ellipse with \(a=b\).
 
 \hypertarget{problems}{%
 \subsection{Problems}\label{problems}}
@@ -215,7 +213,7 @@ standard form
     Center: \((2,-1)\), vertex \((2,\frac12)\),minor axis length 2
   \end{enumerate}
 \item
-  Find the center, vertices, foci, eccentricity and sketch
+  Find the center, vertices, foci, eccentricity and sketch each of the following
 
   \begin{enumerate}
 
@@ -246,7 +244,7 @@ standard form
 \setcounter{enumi}{5}
 
 \item
-  Statuary Hall is an elliptical room in the United States Capitol in
+  \textbf{Echo Chamber} Statuary Hall is an elliptical room in the United States Capitol in
   Washington, D.C. The room is also called the Whispering Gallery
   because a person standing at one focus of the room can hear even a
   whisper spoken by a person standing at the other focus. The dimensions
