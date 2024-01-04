@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1704397191 "/home/pewhite/github/aos/aos-10/conics/ellipse.tex" "ellipse.pdf" "ellipse" 1704397192
+["pdflatex"] 1704398108 "/home/pewhite/github/aos/aos-10/conics/ellipse.tex" "ellipse.pdf" "ellipse" 1704398109
   "/etc/texmf/web2c/texmf.cnf" 1691608243 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pewhite/github/aos/aos-10/conics/ellipse.tex" 1704397190 12778 b756b17b0059af4a4e8ca0ea1e04c9c8 ""
+  "/home/pewhite/github/aos/aos-10/conics/ellipse.tex" 1704398107 12843 cb4ba28a908ebbb7e1153fe090581fc9 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -152,8 +152,8 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1698347574 1405656 2c7e5addc8a49aa5012a28241c305640 ""
   "conic_ellipse.png" 1704396998 11260 9eb23f3300e8f74bf63301f1c0e904e1 ""
   "ellipse-schematic.pdf" 1703011962 6772 4f23e9f6ab7f60763dcd1be250a9195f ""
-  "ellipse.aux" 1704397191 1722 02c852ef018460787acac76d0a589d4b "pdflatex"
-  "ellipse.tex" 1704397190 12778 b756b17b0059af4a4e8ca0ea1e04c9c8 ""
+  "ellipse.aux" 1704398108 1722 26b1e8c3c64f6dee87b5ca30f1cc7ee1 "pdflatex"
+  "ellipse.tex" 1704398107 12843 cb4ba28a908ebbb7e1153fe090581fc9 ""
   "ellipse2.pdf" 1703041332 5773 827e2b27cee5ba9bc53792190216d2c5 ""
   "ellipse3.pdf" 1703041359 5824 9051717778939995fca797c6656ab86b ""
   "pA.pdf" 1704322729 5505 92fe3f459f6c88945a90db5afef4edb5 ""
