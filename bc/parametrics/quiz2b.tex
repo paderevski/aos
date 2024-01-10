@@ -1,0 +1,74 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{fullpage}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{parametrics-quiz-2}{%
+\section{Parametrics Quiz 2}\label{parametrics-quiz-2}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\def\itemsep{2in}
+\item
+  Find \(\dfrac{dy}{dx}\) and \(\dfrac{dy^2}{dx^2}\) for the parametric
+  system \(x(t)=t^2\) and \(y(t) = t^2+6t+5\)
+\item
+  A Curve \(C\) is defined by the parametric equation \(x(t) = t^2+t-1\)
+  and \(y(t) = t^3-t^2\). Find an equation to the tangent line to \(C\)
+  at the point where \(t=2\).
+\item
+  Find the points of horizontal and vertical tangency to \(x(t)=t+5\),
+  \(y(t) = t^2-4t\).
+\item
+  Write an integral expression for the arc length of \(x(t) = e^{2t}\)
+  and \(y(t) = 3t-1\) over the interval \(-2 \leq t \leq 2\)
+\end{enumerate}
+
+\end{document}
