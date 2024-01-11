@@ -2,13 +2,12 @@
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[12pt
+\documentclass[
 ]{article}
 \usepackage{lmodern}
+\usepackage{fullpage}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fullpage}
-
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
@@ -50,7 +49,7 @@
 \date{}
 
 \begin{document}
-\thispagestyle{empty}
+
 \hypertarget{parametrics-quiz-2}{%
 \section{Parametrics Quiz 2}\label{parametrics-quiz-2}}
 
@@ -58,14 +57,14 @@
 \def\labelenumi{\arabic{enumi}.}
 \def\itemsep{2in}
 \item
-  Find \(\dfrac{dy}{dx}^2\) and \(\dfrac{dy}{dx^2}\) for the parametric
-  system \(x(t)=t^2+2\) and \(y(t) = t^2+5t+6\)
+  Find \(\dfrac{dy}{dx}\) and \(\dfrac{dy^2}{dx^2}\) for the parametric
+  system \(x(t)=t^2\) and \(y(t) = t^2+6t+5\)
 \item
-  A Curve \(C\) is defined by the parametric equation \(x(t) = 2t^2+t-1\)
-  and \(y(t) = t^3-2t^2\). Find an equation to the tangent line to \(C\)
+  A Curve \(C\) is defined by the parametric equation \(x(t) = t^2+t-1\)
+  and \(y(t) = t^3-t^2\). Find an equation to the tangent line to \(C\)
   at the point where \(t=2\).
 \item
-  Find the points of horizontal and vertical tangency, if any, to \(x(t)=t^2+5\),
+  Find the points of horizontal and vertical tangency to \(x(t)=t+5\),
   \(y(t) = t^2-4t\).
 \item
   Write an integral expression for the arc length of \(x(t) = e^{2t}\)
