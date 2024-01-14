@@ -1,0 +1,244 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.30)  6 JAN 2024 17:30
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/pewhite/github/projects/aos/aos-10/conics/asy/ellipse.tex
+(/Users/pewhite/github/projects/aos/aos-10/conics/asy/ellipse.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/asymptote/asymptote.sty
+Package: asymptote 2021/12/29 v1.37 Asymptote style file for LaTeX
+ (./ellipse.pre)
+\ASYbox=\box51
+\ASYdimen=\dimen141
+\c@asy=\count193
+\AsyStream=\write3
+\AsyPreStream=\write4
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+\openout4 = `ellipse.pre'.
+
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box52
+)
+No file ellipse.aux.
+\openout1 = `ellipse.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count195
+\scratchdimen=\dimen144
+\scratchbox=\box53
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen145
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks18
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\openout3 = `ellipse-1.asy'.
+
+ (./ellipse-1.tex
+<ellipse-1_0.pdf, id=1, 284.52296pt x 190.69241pt>
+File: ellipse-1_0.pdf Graphic file (type pdf)
+<use ellipse-1_0.pdf>
+Package pdftex.def Info: ellipse-1_0.pdf  used on input line 9.
+(pdftex.def)             Requested size: 284.52225pt x 190.69194pt.
+
+./ellipse-1.tex:15: Undefined control sequence.
+l.15 \ASYalign
+              (-249.732032,92.791076)(-1.000000,-0.820001){$F_1$}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 15.
+./ellipse-1.tex:19: Undefined control sequence.
+l.19 \ASYalign
+              (-34.795527,92.791076)(0.000000,-0.820001){$F_2$}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ellipse-1.tex:23: Undefined control sequence.
+l.23 \ASYalign
+              (-92.791076,142.133733)(0.000000,0.000000){$P$}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ellipse-1.tex:27: Undefined control sequence.
+l.27 \ASYalign
+              (-88.122520,95.344395)(0.000000,-0.500000){$S$}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ellipse-1.tex:31: Undefined control sequence.
+l.31 \ASYalign
+              (-93.942526,144.812262)(-0.366025,-0.000000){$\alpha$}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ellipse-1.tex:35: Undefined control sequence.
+l.35 \ASYalign
+              (-90.435464,141.869487)(-0.000000,-0.048097){$\beta$}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ellipse-1.tex:39: Undefined control sequence.
+l.39 \ASYalign
+              (-91.514417,135.750437)(0.000000,-0.688891){$\gamma$}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Overfull \hbox (43.35403pt too wide) in paragraph at lines 9--96
+[][][][]\OT1/cmr/m/n/12 (-249.732032,92.791076)(-
+ []
+
+
+Overfull \hbox (198.77336pt too wide) in paragraph at lines 9--96
+\OT1/cmr/m/n/12 1.000000,-0.820001)$\OML/cmm/m/it/12 F[]$[][]\OT1/cmr/m/n/12 (-34.795527,92.791076)(0.000000,-0.820001)$\OML/cmm/m/it/12 F[]$[][]\OT1/cmr/m/n/12 (-92.791076,142.133733)(0.000000,0.000000)$\OML/cmm/m/it/12 P$[][]\OT1/cmr/m/n/12 (-
+ []
+
+
+Overfull \hbox (14.15692pt too wide) in paragraph at lines 9--96
+\OT1/cmr/m/n/12 88.122520,95.344395)(0.000000,-0.500000)$\OML/cmm/m/it/12 S$[][]\OT1/cmr/m/n/12 (-93.942526,144.812262)(-0.366025,-
+ []
+
+
+Overfull \hbox (84.39925pt too wide) in paragraph at lines 9--96
+\OT1/cmr/m/n/12 0.000000)$\OML/cmm/m/it/12 $[][]\OT1/cmr/m/n/12 (-90.435464,141.869487)(-0.000000,-0.048097)$\OML/cmm/m/it/12 ^^L$[][]\OT1/cmr/m/n/12 (-91.514417,135.750437)(0.000000,-
+ []
+
+[1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./ellipse-1_0.pdf>] (./ellipse.aux) ) 
+Here is how much of TeX's memory you used:
+ 2193 strings out of 476025
+ 39988 string characters out of 5790016
+ 1850388 words of memory out of 5000000
+ 22628 multiletter control sequences out of 15000+600000
+ 515023 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,5n,76p,263b,154s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on ellipse.pdf (1 page, 34580 bytes).
+PDF statistics:
+ 26 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
