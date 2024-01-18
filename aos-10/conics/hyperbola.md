@@ -25,8 +25,8 @@ unlike an "exploded ellipse" and its equations are all very similar to ellipse e
 * The foci are on the transverse axis and the distance between them is $2c$.
 * The difference between  the distances from any point on a hyperbola to both foci is $2a$
 * The eccentricity of a hyperbola is defined as $e = \dfrac{c}{a}$.
-* The asymptotes of a horizontal hyperbola are $(y-k) = \pm \dfrac{a}{b}(x-h)$ and a vertical hyperbola are
-$(y-k) = \pm \dfrac{b}{a}(x-h)$. You don't have to remember this if you follow the instructions in the next paragraph.
+* The asymptotes of a horizontal hyperbola are $(y-k) = \pm \dfrac{b}{a}(x-h)$ and a vertical hyperbola are
+$(y-k) = \pm \dfrac{a}{b}(x-h)$. You don't have to remember this if you follow the instructions in the next paragraph.
 
 
 **How to draw a hyperbola**. Draw an ellipse first! (Pretend the minus is a plus). Draw a rectangle around the ellipse and lightly sketch the diagonals, extending to infinity. These are the asymptotes of your parabola. Determine if the hyperbola opens along the $x$ or $y$ axis (which term is positive in the equation?). Place the vertices on the edge of the rectangle intersecting the transverse axis and draw the hyperbola through the vertices and approaching the asymptotes. Done! Now you can add the foci and co-vertices.
@@ -43,7 +43,7 @@ $(y-k) = \pm \dfrac{b}{a}(x-h)$. You don't have to remember this if you follow t
 2. Find the center, vertices, foci. Sketch the hyperbola and its asymptotes
    1. $x^2-y^2 = 1$
    2. $\dfrac{y^2}{36} - \dfrac{x^2}{100} = 1$
-   3. $\dfrac{(x-1)^2}{4} + \dfrac{(y+2)^2}{1} = 1$
+   3. $\dfrac{(x-1)^2}{4} - \dfrac{(y+2)^2}{1} = 1$
    4. $9x^2 - y^2 - 36x - 6y + 18 = 0$
 3. For the previous problem, write the equations of the asymptotes of the hyperbolas, for each of the 4 given hyperbolas.
 4. Write the standard form of the equation of the hyperbola with the given characteristics:
