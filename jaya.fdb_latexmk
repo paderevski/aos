@@ -1,0 +1,19 @@
+# Fdb version 4
+["pdflatex"] 1704946405 "/Users/pewhite/github/projects/aos/jaya.tex" "jaya.pdf" "jaya" 1704946406 0
+  "/Users/pewhite/github/projects/aos/jaya.tex" 1704946405 2835 947bd8c0ed8c940e9acb5a054ec8fe62 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty" 1654720880 5048 84b05796b49b69e2d4257d537721c960 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/letter.cls" 1654720880 13728 74a484407bc362706099c1e318859ec2 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size10.clo" 1667332637 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1673989714 30429 213676d4c7327a21d91ddaed900e7b81 ""
+  "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
+  "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698679999 4623355 b8cad38412faebe1ce5b780a45db67bd ""
+  "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698679961 7883456 80d62bbb1f9681ea94aea15ff5c1edd7 ""
+  "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
+  "jaya.aux" 1704946406 205 8630e0adbc887abf28bd1b2ad9dbe9db "pdflatex"
+  "jaya.tex" 1704946405 2835 947bd8c0ed8c940e9acb5a054ec8fe62 ""
+  (generated)
+  "jaya.aux"
+  "jaya.log"
+  "jaya.pdf"
+  (rewritten before read)
