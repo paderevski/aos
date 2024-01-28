@@ -35,93 +35,93 @@ try:
 except:
  _st_.goboom(58)
 try:
- _st_.current_tex_line = 59
- _st_.plot(2, format='notprovided', _p_=hyperbola(1,1,-2,1))
-except:
- _st_.goboom(59)
-try:
  _st_.current_tex_line = 60
- _st_.plot(3, format='notprovided', _p_=hyperbola(1,1,-2,2))
+ _st_.plot(2, format='notprovided', _p_=hyperbola(1,1,-2,1))
 except:
  _st_.goboom(60)
 try:
- _st_.current_tex_line = 72
+ _st_.current_tex_line = 61
+ _st_.plot(3, format='notprovided', _p_=hyperbola(1,1,-2,2))
+except:
+ _st_.goboom(61)
+try:
+ _st_.current_tex_line = 73
  _st_.inline(0, latex((x-0)^2))
 except:
- _st_.goboom(72)
+ _st_.goboom(73)
 try:
- _st_.current_tex_line = 72
+ _st_.current_tex_line = 73
  _st_.inline(1, latex(3^2))
 except:
- _st_.goboom(72)
+ _st_.goboom(73)
 try:
- _st_.current_tex_line = 72
+ _st_.current_tex_line = 73
  _st_.inline(2, latex((y-2)^2))
 except:
- _st_.goboom(72)
+ _st_.goboom(73)
 try:
- _st_.current_tex_line = 72
+ _st_.current_tex_line = 73
  _st_.inline(3, latex(sqrt(7)^2))
 except:
- _st_.goboom(72)
+ _st_.goboom(73)
 try:
- _st_.current_tex_line = 81
+ _st_.current_tex_line = 82
  _st_.inline(4, latex((x-0)^2))
 except:
- _st_.goboom(81)
+ _st_.goboom(82)
 try:
- _st_.current_tex_line = 81
+ _st_.current_tex_line = 82
  _st_.inline(5, latex(3^2))
 except:
- _st_.goboom(81)
+ _st_.goboom(82)
 try:
- _st_.current_tex_line = 81
+ _st_.current_tex_line = 82
  _st_.inline(6, latex((y-2)^2))
 except:
- _st_.goboom(81)
+ _st_.goboom(82)
 try:
- _st_.current_tex_line = 81
+ _st_.current_tex_line = 82
  _st_.inline(7, latex(sqrt(7)^2))
 except:
- _st_.goboom(81)
+ _st_.goboom(82)
 try:
- _st_.current_tex_line = 90
+ _st_.current_tex_line = 91
  _st_.inline(8, latex((x-0)^2))
 except:
- _st_.goboom(90)
+ _st_.goboom(91)
 try:
- _st_.current_tex_line = 90
+ _st_.current_tex_line = 91
  _st_.inline(9, latex(3^2))
 except:
- _st_.goboom(90)
+ _st_.goboom(91)
 try:
- _st_.current_tex_line = 90
+ _st_.current_tex_line = 91
  _st_.inline(10, latex((y-2)^2))
 except:
- _st_.goboom(90)
+ _st_.goboom(91)
 try:
- _st_.current_tex_line = 90
+ _st_.current_tex_line = 91
  _st_.inline(11, latex(sqrt(7)^2))
 except:
- _st_.goboom(90)
+ _st_.goboom(91)
 try:
- _st_.current_tex_line = 99
+ _st_.current_tex_line = 100
  _st_.inline(12, latex((x-0)^2))
 except:
- _st_.goboom(99)
+ _st_.goboom(100)
 try:
- _st_.current_tex_line = 99
+ _st_.current_tex_line = 100
  _st_.inline(13, latex(3^2))
 except:
- _st_.goboom(99)
+ _st_.goboom(100)
 try:
- _st_.current_tex_line = 99
+ _st_.current_tex_line = 100
  _st_.inline(14, latex((y-2)^2))
 except:
- _st_.goboom(99)
+ _st_.goboom(100)
 try:
- _st_.current_tex_line = 99
+ _st_.current_tex_line = 100
  _st_.inline(15, latex(sqrt(7)^2))
 except:
- _st_.goboom(99)
+ _st_.goboom(100)
 _st_.endofdoc()
