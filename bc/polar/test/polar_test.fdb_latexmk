@@ -1,0 +1,160 @@
+# Fdb version 4
+["cusdep asy pdf asy/polar_test-1"] 1706477980 "asy/polar_test-1.asy" "asy/polar_test-1.pdf" "asy/polar_test-1" 1706481205 0
+  "asy/polar_test-1.asy" 1706481205 353 7738579287a16eba6b65d97414cd4b87 "pdflatex"
+  (generated)
+  "asy/polar_test-1.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-10"] 1706479372 "asy/polar_test-10.asy" "asy/polar_test-10.pdf" "asy/polar_test-10" 1706481205 0
+  "asy/polar_test-10.asy" 1706481205 399 5701b0d54e3ff5454291ee7042ec45d8 "pdflatex"
+  (generated)
+  "asy/polar_test-10.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-11"] 1706479426 "asy/polar_test-11.asy" "asy/polar_test-11.pdf" "asy/polar_test-11" 1706481205 0
+  "asy/polar_test-11.asy" 1706481205 349 5d51aedc891e167dd989f7c98f1be7d8 "pdflatex"
+  (generated)
+  "asy/polar_test-11.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-12"] 1706479571 "asy/polar_test-12.asy" "asy/polar_test-12.pdf" "asy/polar_test-12" 1706481205 0
+  "asy/polar_test-12.asy" 1706481205 404 761d637746ef542a55e3320ef91e6d3b "pdflatex"
+  (generated)
+  "asy/polar_test-12.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-2"] 1706477979 "asy/polar_test-2.asy" "asy/polar_test-2.pdf" "asy/polar_test-2" 1706481205 0
+  "asy/polar_test-2.asy" 1706481205 354 37c33f4dc925824680e2183ff583626e "pdflatex"
+  (generated)
+  "asy/polar_test-2.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-3"] 1706477979 "asy/polar_test-3.asy" "asy/polar_test-3.pdf" "asy/polar_test-3" 1706481205 0
+  "asy/polar_test-3.asy" 1706481205 355 aaa44191d4d5822d53104853a3059ebc "pdflatex"
+  (generated)
+  "asy/polar_test-3.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-4"] 1706477978 "asy/polar_test-4.asy" "asy/polar_test-4.pdf" "asy/polar_test-4" 1706481205 0
+  "asy/polar_test-4.asy" 1706481205 355 b96548a97931a383a15181611bac8310 "pdflatex"
+  (generated)
+  "asy/polar_test-4.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-5"] 1706477978 "asy/polar_test-5.asy" "asy/polar_test-5.pdf" "asy/polar_test-5" 1706481205 0
+  "asy/polar_test-5.asy" 1706481205 355 130de6923bf161fe081571408ad399ac "pdflatex"
+  (generated)
+  "asy/polar_test-5.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-6"] 1706477977 "asy/polar_test-6.asy" "asy/polar_test-6.pdf" "asy/polar_test-6" 1706481205 0
+  "asy/polar_test-6.asy" 1706481205 355 cdb08d2dcdcd98f42d4e1dffdf593c25 "pdflatex"
+  (generated)
+  "asy/polar_test-6.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-7"] 1706477976 "asy/polar_test-7.asy" "asy/polar_test-7.pdf" "asy/polar_test-7" 1706481205 0
+  "asy/polar_test-7.asy" 1706481205 355 8431c7c96d578dbe918cf0c1d43ab6ba "pdflatex"
+  (generated)
+  "asy/polar_test-7.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-8"] 1706478727 "asy/polar_test-8.asy" "asy/polar_test-8.pdf" "asy/polar_test-8" 1706481205 0
+  "asy/polar_test-8.asy" 1706481205 362 4fffea8e6f4f1695ccaa2092b184eccd "pdflatex"
+  (generated)
+  "asy/polar_test-8.pdf"
+  (rewritten before read)
+["cusdep asy pdf asy/polar_test-9"] 1706477975 "asy/polar_test-9.asy" "asy/polar_test-9.pdf" "asy/polar_test-9" 1706481205 0
+  "asy/polar_test-9.asy" 1706481205 360 0918f69f44795afaafd1034f84896cc6 "pdflatex"
+  (generated)
+  "asy/polar_test-9.pdf"
+  (rewritten before read)
+["pdflatex"] 1706481205 "/Users/pewhite/github/projects/aos/bc/polar/test/polar_test.tex" "polar_test.pdf" "polar_test" 1706481205 0
+  "/Users/pewhite/github/projects/aos/bc/polar/test/polar_test.tex" 1706481204 4100 e18ecba0565fb5724226bcac48276527 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/catchfile/catchfile.sty" 1576016007 8622 63834878edeb14dd71d58d8f22bc3e06 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty" 1576625273 7734 b98cbb34c81f667027c1e3ebdbfce34b ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifpdf.sty" 1572645307 480 5778104efadad304ced77548ca2184b1 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty" 1572645307 488 4565444a3e75e59cb2702dc42e18f482 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty" 1576878844 5412 d5a2436094cd7be85769db90f29250a6 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty" 1600895880 17859 4409f8f50cd365c68e684407e5350b1b ""
+  "/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty" 1593379760 20089 80423eac55aa175305d35b49e04fe23b ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1654720880 2222 78b930a5a6e3dc2ac69b78c2057b94d7 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty" 1654720880 4173 c989ee3ced31418e3593916ab26c793a ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty" 1654720880 88393 1adf6fa3f245270d06e3d4f8910f7fc5 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty" 1654720880 4474 f04cd1cc7bd76eb033e6fb12eb6a0d77 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty" 1654720880 2444 70065bddd85997dc1fd0bb7ae634e5fa ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/asymptote/asymptote.sty" 1646005271 9805 9d37510eec7028350e77f1cf8a7c4ca7 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls" 1667332637 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty" 1654720880 5319 48d7f3cfa322abd2788e3c09d624b922 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo" 1667332637 8449 c314623021fbddd0180c05345324933c ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/blindtext/blindtext.sty" 1325892463 47295 de48b7f8ebf4b54709a2f6b2c7106dd5 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/exam/exam.cls" 1614638284 286382 b210b790c86d89aeccb508074bd001ae ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def" 1663965824 19448 1e988b341dda20961a6b931bcde55519 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty" 1654720880 18387 8f900a490197ebaf93c02ae9476d4b09 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty" 1654720880 8010 a8d949cbdbc5c983593827c9eec252e1 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty" 1654720880 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty" 1575499774 7133 b94bbacbee6e4fdccdc7f810b2aec370 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1655478651 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1665067230 13815 760b0c02f691ea230f5359c4e1de23a7 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1673989714 30429 213676d4c7327a21d91ddaed900e7b81 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty" 1654720880 32329 5d201ab4b4c773e7c876c2a052b07be3 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty" 1654720880 4545 4c279ac9292a1be8afa9ab2f1d3299c2 ""
+  "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
+  "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698679999 4623355 b8cad38412faebe1ce5b780a45db67bd ""
+  "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698679961 7883456 80d62bbb1f9681ea94aea15ff5c1edd7 ""
+  "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
+  "asy/polar_test-1.pdf" 1706477981 19972 0168cf65e8c7bfd8e9de418fcfcdbd79 "cusdep asy pdf asy/polar_test-1"
+  "asy/polar_test-10.pdf" 1706479372 19763 2cead9c38dd29545a5372b41a26456d0 "cusdep asy pdf asy/polar_test-10"
+  "asy/polar_test-11.pdf" 1706479427 20613 4312f32554ec28a3cd7151c6f5415dad "cusdep asy pdf asy/polar_test-11"
+  "asy/polar_test-12.pdf" 1706479572 20052 0f77bbeceaa44e7552221398a6dc6abd "cusdep asy pdf asy/polar_test-12"
+  "asy/polar_test-2.pdf" 1706477980 19969 2b47f043afaea936f61feb22f9d950b0 "cusdep asy pdf asy/polar_test-2"
+  "asy/polar_test-3.pdf" 1706477979 20500 5333696ea95f92b04d2b2b35e50a87bc "cusdep asy pdf asy/polar_test-3"
+  "asy/polar_test-4.pdf" 1706477979 20501 3ffb75ca00ef72e76cc9573b3101b971 "cusdep asy pdf asy/polar_test-4"
+  "asy/polar_test-5.pdf" 1706477978 20566 b2cbf2dcd7f5cae3af63161734601d1f "cusdep asy pdf asy/polar_test-5"
+  "asy/polar_test-6.pdf" 1706477978 20090 7516146b9055b0b531c3ee60f8baa60f "cusdep asy pdf asy/polar_test-6"
+  "asy/polar_test-7.pdf" 1706477977 20148 43f11fab0bbd6d1d7d4b235620900b8f "cusdep asy pdf asy/polar_test-7"
+  "asy/polar_test-8.pdf" 1706478727 20279 3ba046d335430ecdc71362e65a15ff8e "cusdep asy pdf asy/polar_test-8"
+  "asy/polar_test-9.pdf" 1706477976 20310 03aa41beb151fa182fcb36af2be915d1 "cusdep asy pdf asy/polar_test-9"
+  "polar_test.aux" 1706481205 2220 2e023f22c678c7a734fe4148d8b7c50b "pdflatex"
+  "polar_test.pre" 1706481205 543 2dd27a9af8b4995c2e8b153d91bd2988 "pdflatex"
+  "polar_test.tex" 1706481204 4100 e18ecba0565fb5724226bcac48276527 ""
+  (generated)
+  "asy/polar_test-1.asy"
+  "asy/polar_test-10.asy"
+  "asy/polar_test-11.asy"
+  "asy/polar_test-12.asy"
+  "asy/polar_test-2.asy"
+  "asy/polar_test-3.asy"
+  "asy/polar_test-4.asy"
+  "asy/polar_test-5.asy"
+  "asy/polar_test-6.asy"
+  "asy/polar_test-7.asy"
+  "asy/polar_test-8.asy"
+  "asy/polar_test-9.asy"
+  "polar_test.aux"
+  "polar_test.log"
+  "polar_test.pdf"
+  "polar_test.pre"
+  (rewritten before read)
