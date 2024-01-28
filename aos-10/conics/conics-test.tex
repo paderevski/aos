@@ -21,7 +21,6 @@
 \vspace{5mm}
 \makebox[0.75\textwidth]{Instructor’s name:\enspace\hrulefill}
 
-\vspace{4ex}
 
 \newcommand{\tf}[1][{}]{%
 \fillin[#1][0.25in]%
@@ -30,13 +29,16 @@
 	$\dfrac{\sage{(x-#1)^2}}{\sage{#3^2}} - \dfrac{\sage{(y-#2)^2}}{\sage{#4^2}}$
 }
 
+\newcommand{\ellipse}[4]{%
+	$\dfrac{\sage{(x-#1)^2}}{\sage{#3^2}} + \dfrac{\sage{(y-#2)^2}}{\sage{#4^2}}$
+}
 \begin{sagesilent}
 	x,y = var('x','y')
 
-	def p1(f, xmin=-5, ymin=-5, xmax = 5, ymax = 5):
+	def p1(f, xmin=-10, ymin=-10, xmax = 10, ymax = 10):
 		  c = 10
-		  xrange = list(range(xmin,xmax+1))
-		  yrange = list(range(ymin,ymax+1))
+		  xrange = list(range(xmin,xmax+1,2))
+		  yrange = list(range(ymin,ymax+1,2))
 		  p=implicit_plot(f,(xmin,xmax),(ymin,ymax),
 			linewidth=4,fill=False,axes=True,gridlines=True,frame=False,ticks=[xrange,yrange],fontsize=12)
 		  return(p)
@@ -45,67 +47,26 @@
 		  z = p1((x-h)^2/a^2-(y-k)^2/b^2 - 1)
 		  z = z+ plot(b/a*(x-h)+k,(-5,5),color="gray",linestyle="dashed")
 		  z = z+ plot(-b/a*(x-h)+k,(-5,5),color="gray",linestyle="dashed")
-		  z.set_axes_range(-5,5,-5,5)
+		  z.set_axes_range(-10,10,-10,10)
+		  return z
+
+	def ellipse(a=1,b=1,h=0,k=0):
+		  z = p1((x-h)^2/a^2+(y-k)^2/b^2 - 1)
+		  z.set_axes_range(-10,10,-10,10)
+		  return z
+
+	def parabola_v(p=1,h=0,k=0):
+		  z = p1((x-h)^2 - 4*p*(y-k))
+		  z = z + point((h,k+p),size=60, rgbcolor='blue')
+		  z.set_axes_range(-10,10,-10,10)
+		  return z
+	def parabola_h(p=1,h=0,k=0):
+		  z = p1((y-k)^2 - 4*p*(x-h))
+		  z = z + point((h+p,k),size=60, rgbcolor='blue')
+		  z.set_axes_range(-10,10,-10,10)
 		  return z
 \end{sagesilent}
 
-\section*{Multiple Choice}
-\begin{questions}
-\question Which is a hyperbola?
-
-\begin{oneparchoices}
-	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(1,2,1,1)}
-	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(2,1,1,1)}
-	\\
-	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(1,1,-2,1)}
-	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(1,1,-2,2)}
-\end{oneparchoices} \answerline
-
-\question What are the foci of the hyperbola $\dfrac{x^2}{16}-\dfrac{y^2}{12} = 1$?
-
-\begin{oneparchoices}
-	\choice $(\pm 2\sqrt7,0)$
-	\choice $(\pm 2,0)$
-	\choice $(0, \pm 2)$
-	\choice $(0, \pm 2\sqrt7)$
-\end{oneparchoices} \answerline
-
-\question  Tell me about \hyperbola{0}{2}{3}{sqrt(7)}
-
-\begin{oneparchoices}
-	\choice $(\pm 2\sqrt7,0)$
-	\choice $(\pm 2,0)$
-	\choice $(0, \pm 2)$
-	\choice $(0, \pm 2\sqrt7)$
-\end{oneparchoices} \answerline
-
-\question  Tell me about \hyperbola{0}{2}{3}{sqrt(7)}
-
-\begin{oneparchoices}
-	\choice $(\pm 2\sqrt7,0)$
-	\choice $(\pm 2,0)$
-	\choice $(0, \pm 2)$
-	\choice $(0, \pm 2\sqrt7)$
-\end{oneparchoices} \answerline
-
-\question Tell me about \hyperbola{0}{2}{3}{sqrt(7)}
-
-\begin{oneparchoices}
-	\choice $(\pm 2\sqrt7,0)$
-	\choice $(\pm 2,0)$
-	\choice $(0, \pm 2)$
-	\choice $(0, \pm 2\sqrt7)$
-\end{oneparchoices} \answerline
-
-\question  Tell me about \hyperbola{0}{2}{3}{sqrt(7)}
-
-\begin{oneparchoices}
-	\choice $(\pm 2\sqrt7,0)$
-	\choice $(\pm 2,0)$
-	\choice $(0, \pm 2)$
-	\choice $(0, \pm 2\sqrt7)$
-\end{oneparchoices} \answerline
-\end{questions}
 
 \section*{True / False}
 \begin{questions}
@@ -119,6 +80,118 @@
 \question \tf[T] The eccentricity of an ellipse can be $e=1.14$.
 \question \tf[T] A circle is just an ellipse with $a=b$.
 \question \tf[F] The graphs of $\dfrac{x^2}{2}-\dfrac{y^2}{3} = 1$ and $\dfrac{y^2}{2}-\dfrac{x^2}{3} = 1$ have the same asymptotes.
+\end{questions}
+
+\vspace{3ex}
+\section*{Multiple Choice}
+\begin{questions}
+\question Which is the graph of $\dfrac{(x-3)^2}{9}-\dfrac{(y+4)^2}{4}$?
+
+\begin{oneparchoices}
+	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(3,2,3,-4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(3,2,-3,-4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(3,2,3,4)}
+	\\
+	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(2,3,3,4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(2,3,3,4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(2,3,0,0)}
+\end{oneparchoices} \answerline
+
+\question Which is the graph of $\dfrac{(x-2)^2}{4}+\dfrac{(y+4)^2}{9}$?
+
+\begin{oneparchoices}
+	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(2,3,2,-4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(2,3,-2,-4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(2,3,2,4)}
+	\\
+	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(3,4,2,-4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(3,2,2,-4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(4,9,2,-4)}
+
+\end{oneparchoices} \answerline
+
+\begin{minipage}{\textwidth}
+\question Which is the graph of $(y-4)^2 = 12(x-2)$?
+
+\begin{oneparchoices}
+	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(3,2,4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(-6,2,4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(3,4,2)}
+	\\
+	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(6,2,4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(1,2,4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(-6,4,2)}
+
+\end{oneparchoices}
+\answerline
+\end{minipage}
+
+\question What are the foci of the hyperbola $\dfrac{x^2}{16}-\dfrac{y^2}{12} = 1$?
+
+\begin{oneparchoices}
+	\choice $(\pm 2\sqrt7,0)$
+	\choice $(\pm 2,0)$
+	\choice $(0, \pm 2)$
+	\choice $(0, \pm 2\sqrt7)$
+\end{oneparchoices} \answerline
+
+\question  What are the vertices of the ellipse \ellipse{0}{2}{3}{sqrt(7)}
+
+\begin{oneparchoices}
+	\choice $(\pm 3,0)$
+	\choice $(0,\pm3)$
+	\choice $(2 \pm \sqrt7, 0)$
+	\choice $(0, 2 \pm \sqrt7)$
+\end{oneparchoices} \answerline
+
+\question What is the equation of a hyperbola with vertices at $(3,-2)$ and $(-9,-2)$ and foci at $(7,-2)$ and $(-13,-2)$?
+
+\begin{oneparchoices}
+	\choice $x$
+	\choice $x$
+	\choice $x$
+	\choice $x$
+\end{oneparchoices} \answerline
+
+\question What is the equation of a parabola where the vertex is $(3, -2)$ that passes through the point
+ $(0, 1)$ and has a horizontal axis of symmetry?
+
+ \begin{oneparchoices}
+	\choice $x$
+	\choice $x$
+	\choice $x$
+	\choice $x$
+\end{oneparchoices} \answerline
+
+\question Write the following conic in standard form: $4x^2 - y^2 - 24x - 4y + 16 = 0$
+
+\begin{oneparchoices}
+	\choice $x$
+	\choice $x$
+	\choice $x$
+	\choice $x$
+\end{oneparchoices} \answerline
+
+\question Write the equation of the ellipse that has a major axis 28 units long and is parallel to the $y$ axis,
+ a minor axis 26 units long, and a center at $(11, 8)$.
+
+\begin{oneparchoices}
+	\choice $x$
+	\choice $x$
+	\choice $x$
+	\choice $x$
+\end{oneparchoices} \answerline
+
+\question Given the equation of a circle in standard form: $(x + 3)^2 + (y - 4)^2 = 49$. Write the equation in general form.
+
+\begin{oneparchoices}
+	\choice $x$
+	\choice $x$
+	\choice $x$
+	\choice $x$
+\end{oneparchoices} \answerline
+
+
 \end{questions}
 
 \end{document}
