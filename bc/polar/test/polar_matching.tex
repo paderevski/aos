@@ -1,0 +1,115 @@
+\documentclass[11pt]{exam}
+\usepackage[pdftex]{graphicx}
+\usepackage{asymptote}
+\usepackage[margin=0.55in]{geometry}
+\usepackage{multicol}
+\usepackage{blindtext}
+\usepackage{amsmath}
+
+\begin{document}
+\def\asydir{asy}
+\def\picsize{3inch}
+\setlength\parindent{0in}
+\section{Matching}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+A \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return -4*cos(t);}, 3);
+\end{asy}
+&
+B \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return 4*sin(2*t);}, 4);
+\end{asy}
+&
+C \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return 4*cos(t)^2;}, 5);
+\end{asy}
+\\ \hline
+D \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return 2+4*sin(t);}, 6);
+\end{asy}
+&
+E \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return 4-2*sin(t);}, 6);
+\end{asy}
+&
+F \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return 2+2*cos(t);}, 4);
+\end{asy}
+\\ \hline
+G \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return tan(t)+1/(0.01+cos(t));}, 5);
+	clip((5,5)--(-5,5)--(-5,-5)--(5,-5)--cycle);
+\end{asy}
+&
+H \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return sqrt(36-t^2);}, 6);
+\end{asy}
+&
+I \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return 4*sin(t)*sin(t);}, 4);
+\end{asy}
+\\ \hline
+J \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return 3/cos(t);}, 5);
+	clip((5,5)--(-5,5)--(-5,-5)--(5,-5)--cycle);
+\end{asy}
+&
+K \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return t;}, 5);
+\end{asy}
+&
+L \begin{asy}
+	import polargrid;
+	size(2inch);
+	drawPolar(new real(real t) {return 3/sin(t+0.01);}, 5);
+	clip((5,5)--(-5,5)--(-5,-5)--(5,-5)--cycle);
+\end{asy}
+\\ \hline
+
+\end{tabular}
+\end{center}
+
+\vspace{2ex}
+\begin{multicols}{3}
+	\begin{enumerate}
+		\item $r = \cos(\theta)$
+		\item $r = -2 \cos(\theta)$
+		\item $r = 3+2\sin(\theta)$
+		\item $r = 3-2\sin(\theta)$
+		\item $r=4+2\cos(\theta)$
+		\item $r=4\sin(3*\theta)$
+		\item $r=4\cos(3*\theta)$
+		\item $r=4\sin(\theta)+\cos(\theta)$
+		\item $r=4\sin^2(\theta)$
+		\item $r = 3\sec(\theta)$
+		\item $r = \theta/2$
+		\item $r = 3\csc(\theta)$
+	\end{enumerate}
+	\end{multicols}
+\clearpage
+
+\end{document}
