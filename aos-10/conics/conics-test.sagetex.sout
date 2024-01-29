@@ -9,27 +9,65 @@ x^{2}}{}{}{}{}}
 \newlabel{@sageinline3}{{%
 7}{}{}{}{}}
 \newlabel{@sageinline4}{{%
-x^{2}}{}{}{}{}}
+{\left(x + 3\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline5}{{%
-9}{}{}{}{}}
+100}{}{}{}{}}
 \newlabel{@sageinline6}{{%
-{\left(y - 2\right)}^{2}}{}{}{}{}}
+{\left(y + 2\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline7}{{%
-7}{}{}{}{}}
+36}{}{}{}{}}
 \newlabel{@sageinline8}{{%
-x^{2}}{}{}{}{}}
+{\left(x + 3\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline9}{{%
-9}{}{}{}{}}
+64}{}{}{}{}}
 \newlabel{@sageinline10}{{%
 {\left(y - 2\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline11}{{%
-7}{}{}{}{}}
+100}{}{}{}{}}
 \newlabel{@sageinline12}{{%
-x^{2}}{}{}{}{}}
+{\left(x - 3\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline13}{{%
-9}{}{}{}{}}
+100}{}{}{}{}}
 \newlabel{@sageinline14}{{%
-{\left(y - 2\right)}^{2}}{}{}{}{}}
+{\left(y + 2\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline15}{{%
-7}{}{}{}{}}
-%290b6c104233066519204109f39f9031% md5sum of corresponding .sage file (minus "goboom", "current_tex_line", and pause/unpause lines)
+36}{}{}{}{}}
+\newlabel{@sageinline16}{{%
+{\left(x - 3\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline17}{{%
+36}{}{}{}{}}
+\newlabel{@sageinline18}{{%
+{\left(y + 2\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline19}{{%
+64}{}{}{}{}}
+\newlabel{@sageinline20}{{%
+{\left(x - 3\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline21}{{%
+\frac{4}{3}}{}{}{}{}}
+\newlabel{@sageinline22}{{%
+y + 2}{}{}{}{}}
+\newlabel{@sageinline23}{{%
+{\left(x - 3\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline24}{{%
+\frac{4}{9}}{}{}{}{}}
+\newlabel{@sageinline25}{{%
+y + 2}{}{}{}{}}
+\newlabel{@sageinline26}{{%
+{\left(x - 3\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline27}{{%
+4}{}{}{}{}}
+\newlabel{@sageinline28}{{%
+y + 2}{}{}{}{}}
+\newlabel{@sageinline29}{{%
+{\left(x - 3\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline30}{{%
+12}{}{}{}{}}
+\newlabel{@sageinline31}{{%
+y - 2}{}{}{}{}}
+\newlabel{@sageinline32}{{%
+{\left(x + 3\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline33}{{%
+12}{}{}{}{}}
+\newlabel{@sageinline34}{{%
+y + 2}{}{}{}{}}
+%c5e68b9ec48dfc4e355a49cbffbebec1% md5sum of corresponding .sage file (minus "goboom", "current_tex_line", and pause/unpause lines)
