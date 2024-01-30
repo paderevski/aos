@@ -9,5 +9,5 @@ settings.toolbar=false;
 viewportmargin=(2,2);
 
 import polargrid;
-size(2inch);
-drawPolar(new real(real t) {return sqrt(36-t^2);}, 6);
+size(1.75inch);
+drawPolar(new real(real t) {return sqrt(64-t^2);}, 8);

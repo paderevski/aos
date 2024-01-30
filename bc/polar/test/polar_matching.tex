@@ -1,4 +1,4 @@
-\documentclass[11pt]{exam}
+\documentclass[12pt]{exam}
 \usepackage[pdftex]{graphicx}
 \usepackage{asymptote}
 \usepackage[margin=0.55in]{geometry}
@@ -7,109 +7,139 @@
 \usepackage{amsmath}
 
 \begin{document}
-\def\asydir{asy}
+\pagestyle{empty}
+\def\asydir{asy2}
 \def\picsize{3inch}
 \setlength\parindent{0in}
-\section{Matching}
+\textbf{Match the polar graphs to the equations below}
+
+Not all equations will match a graph.
 \begin{center}
 \begin{tabular}{|c|c|c|}
 \hline
 A \begin{asy}
 	import polargrid;
-	size(2inch);
-	drawPolar(new real(real t) {return -4*cos(t);}, 3);
+	size(1.75inch);
+	drawPolar(new real(real t) {return -3*cos(t);}, 3);
 \end{asy}
 &
 B \begin{asy}
 	import polargrid;
-	size(2inch);
+	size(1.75inch);
 	drawPolar(new real(real t) {return 4*sin(2*t);}, 4);
 \end{asy}
 &
 C \begin{asy}
 	import polargrid;
-	size(2inch);
+	size(1.75inch);
 	drawPolar(new real(real t) {return 4*cos(t)^2;}, 5);
 \end{asy}
 \\ \hline
 D \begin{asy}
 	import polargrid;
-	size(2inch);
+	size(1.75inch);
 	drawPolar(new real(real t) {return 2+4*sin(t);}, 6);
 \end{asy}
 &
 E \begin{asy}
 	import polargrid;
-	size(2inch);
+	size(1.75inch);
 	drawPolar(new real(real t) {return 4-2*sin(t);}, 6);
 \end{asy}
 &
 F \begin{asy}
 	import polargrid;
-	size(2inch);
+	size(1.75inch);
 	drawPolar(new real(real t) {return 2+2*cos(t);}, 4);
 \end{asy}
 \\ \hline
 G \begin{asy}
 	import polargrid;
-	size(2inch);
-	drawPolar(new real(real t) {return tan(t)+1/(0.01+cos(t));}, 5);
-	clip((5,5)--(-5,5)--(-5,-5)--(5,-5)--cycle);
+	size(1.75inch);
+	drawPolar(new real(real t) {return 1/(t+0.01);}, 5);
+	clip((6,6)--(-6,6)--(-6,-6)--(6,-6)--cycle);
 \end{asy}
 &
 H \begin{asy}
 	import polargrid;
-	size(2inch);
-	drawPolar(new real(real t) {return sqrt(36-t^2);}, 6);
+	size(1.75inch);
+	drawPolar(new real(real t) {return sqrt(64-t^2);}, 8);
 \end{asy}
 &
 I \begin{asy}
 	import polargrid;
-	size(2inch);
+	size(1.75inch);
 	drawPolar(new real(real t) {return 4*sin(t)*sin(t);}, 4);
 \end{asy}
 \\ \hline
 J \begin{asy}
 	import polargrid;
-	size(2inch);
-	drawPolar(new real(real t) {return 3/cos(t);}, 5);
-	clip((5,5)--(-5,5)--(-5,-5)--(5,-5)--cycle);
+	size(1.75inch);
+	drawPolar(new real(real t) {return 3/cos(t);},5,-7*pi/24, 7*pi/24);
+	clip((6,6)--(-6,6)--(-6,-6)--(6,-6)--cycle);
 \end{asy}
 &
 K \begin{asy}
 	import polargrid;
-	size(2inch);
-	drawPolar(new real(real t) {return t;}, 5);
+	size(1.75inch);
+	drawPolar(new real(real t) {return t/2;}, 7,0,14);
 \end{asy}
 &
 L \begin{asy}
 	import polargrid;
-	size(2inch);
-	drawPolar(new real(real t) {return 3/sin(t+0.01);}, 5);
-	clip((5,5)--(-5,5)--(-5,-5)--(5,-5)--cycle);
+	size(1.75inch);
+	drawPolar(new real(real t) {return 3/sin(t+0.01);}, 6, pi/6, 5*pi/6);
+	clip((6,6)--(-6,6)--(-6,-6)--(6,-6)--cycle);
 \end{asy}
 \\ \hline
 
 \end{tabular}
 \end{center}
 
+\newcommand\aline[1]{\textbf{ #1  } }
+%\newcommand\aline[1]{\rule{0.5in}{0.2pt} }
 \vspace{2ex}
 \begin{multicols}{3}
 	\begin{enumerate}
-		\item $r = \cos(\theta)$
-		\item $r = -2 \cos(\theta)$
-		\item $r = 3+2\sin(\theta)$
-		\item $r = 3-2\sin(\theta)$
-		\item $r=4+2\cos(\theta)$
-		\item $r=4\sin(3*\theta)$
-		\item $r=4\cos(3*\theta)$
-		\item $r=4\sin(\theta)+\cos(\theta)$
-		\item $r=4\sin^2(\theta)$
-		\item $r = 3\sec(\theta)$
-		\item $r = \theta/2$
-		\item $r = 3\csc(\theta)$
+		\item $r = 2+4\sin(\theta)$ \aline{D} %d
+		\item $r = 3\sec(\theta)$ \aline{J} %j
+		\item $r = 4 + 2 \sin(\theta)$ \aline{X}
+		\item $r=2+2\cos(\theta)$ \aline{F} %f
+		\item $r = 4\cos^2(\theta)$ \aline{C} %c
+		\item $r = -3\cos(\theta)$ \aline{A} %a
+		\item $r  = 4 + 2 \cos(\theta)$ \aline{X}
+		\item $r = 4\sin(2\theta)$ \aline{B} %b
+		\item $r=4-2\sin(\theta)$ \aline{E} %e
+		\item $r=1/\theta$ \aline{G} %g
+		\item $r = \theta/2$ \aline{K} %k
+		\item $r = \sqrt{64-\theta^2}$ \aline{H} %h
+		\item $r = 4\sin^2(\theta)$ \aline{I} %i
+		\item $r = 3\csc(\theta)$ \aline{L} %l
+		\item $r = -\tan(\theta)$ \aline{X}
 	\end{enumerate}
 	\end{multicols}
 \clearpage
 
+\textbf{For each of the following, determine the x and y intercepts, the
+ zeros, and the maximum value of $|r|$}
+ \begin{multicols}{2}
+ \begin{enumerate}
+	\setlength{\itemsep}{12ex}
+	\item $r = 2+4\sin(\theta)$  %d
+	\item $r = 3\sec(\theta)$  %j
+	\item $r = 4 + 2 \sin(\theta)$
+	\item $r=2+2\cos(\theta)$  %f
+	\item $r = 4\cos^2(\theta)$  %c
+	\item $r = -3\cos(\theta)$  %a
+	\item $r  = 4 + 2 \cos(\theta)$
+	\item $r = 4\sin(2\theta)$  %b
+	\item $r=4-2\sin(\theta)$  %e
+	\item $r=1/\theta$  %g
+	\item $r = \theta/2$  %k
+	\item $r = \sqrt{64-\theta^2}$  %h
+	\item $r = 4\sin^2(\theta)$  %i
+	\item $r = 3\csc(\theta)$  %l
+	\item $r = -\tan(\theta)$
+\end{enumerate}
+\end{multicols}
 \end{document}
