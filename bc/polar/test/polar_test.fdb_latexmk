@@ -1,55 +1,55 @@
 # Fdb version 3
-["cusdep asy pdf asy/polar_test-1"] 0 "asy/polar_test-1.asy" "asy/polar_test-1.pdf" "asy/polar_test-1" 1706576155
-  "asy/polar_test-1.asy" 1706576155 353 7738579287a16eba6b65d97414cd4b87 "pdflatex"
+["cusdep asy pdf asy/polar_test-1"] 1706729258 "asy/polar_test-1.asy" "asy/polar_test-1.pdf" "asy/polar_test-1" 1706729309
+  "asy/polar_test-1.asy" 1706729309 356 a69eb3a5c7c04d78486c96df8cf2e3ef "pdflatex"
   (generated)
   "asy/polar_test-1.pdf"
-["cusdep asy pdf asy/polar_test-10"] 1706576154 "asy/polar_test-10.asy" "asy/polar_test-10.pdf" "asy/polar_test-10" 1706576155
-  "asy/polar_test-10.asy" 1706576155 399 4b6d1c4df261e38dcafbc4ba7c44fe20 "pdflatex"
+["cusdep asy pdf asy/polar_test-10"] 1706729258 "asy/polar_test-10.asy" "asy/polar_test-10.pdf" "asy/polar_test-10" 1706729309
+  "asy/polar_test-10.asy" 1706729309 402 22d93082ecffb4a524cc6b7a94bd4107 "pdflatex"
   (generated)
   "asy/polar_test-10.pdf"
-["cusdep asy pdf asy/polar_test-11"] 0 "asy/polar_test-11.asy" "asy/polar_test-11.pdf" "asy/polar_test-11" 1706576155
-  "asy/polar_test-11.asy" 1706576155 349 5d51aedc891e167dd989f7c98f1be7d8 "pdflatex"
+["cusdep asy pdf asy/polar_test-11"] 1706729258 "asy/polar_test-11.asy" "asy/polar_test-11.pdf" "asy/polar_test-11" 1706729309
+  "asy/polar_test-11.asy" 1706729309 352 17409dc923825a503b28674369dc6444 "pdflatex"
   (generated)
   "asy/polar_test-11.pdf"
-["cusdep asy pdf asy/polar_test-12"] 1706576154 "asy/polar_test-12.asy" "asy/polar_test-12.pdf" "asy/polar_test-12" 1706576155
-  "asy/polar_test-12.asy" 1706576155 404 94aa63e4be1245b8743ee5b3937412ee "pdflatex"
+["cusdep asy pdf asy/polar_test-12"] 1706729258 "asy/polar_test-12.asy" "asy/polar_test-12.pdf" "asy/polar_test-12" 1706729309
+  "asy/polar_test-12.asy" 1706729309 407 d6f5b2982863253c6faf3ced3a818c36 "pdflatex"
   (generated)
   "asy/polar_test-12.pdf"
-["cusdep asy pdf asy/polar_test-2"] 0 "asy/polar_test-2.asy" "asy/polar_test-2.pdf" "asy/polar_test-2" 1706576155
-  "asy/polar_test-2.asy" 1706576155 354 37c33f4dc925824680e2183ff583626e "pdflatex"
+["cusdep asy pdf asy/polar_test-2"] 1706729257 "asy/polar_test-2.asy" "asy/polar_test-2.pdf" "asy/polar_test-2" 1706729309
+  "asy/polar_test-2.asy" 1706729309 357 70f371ef36661b761f2cb5d4180edb09 "pdflatex"
   (generated)
   "asy/polar_test-2.pdf"
-["cusdep asy pdf asy/polar_test-3"] 0 "asy/polar_test-3.asy" "asy/polar_test-3.pdf" "asy/polar_test-3" 1706576155
-  "asy/polar_test-3.asy" 1706576155 355 aaa44191d4d5822d53104853a3059ebc "pdflatex"
+["cusdep asy pdf asy/polar_test-3"] 1706729257 "asy/polar_test-3.asy" "asy/polar_test-3.pdf" "asy/polar_test-3" 1706729309
+  "asy/polar_test-3.asy" 1706729309 358 aafbff889993fedabb6879d37dc1fd37 "pdflatex"
   (generated)
   "asy/polar_test-3.pdf"
-["cusdep asy pdf asy/polar_test-4"] 0 "asy/polar_test-4.asy" "asy/polar_test-4.pdf" "asy/polar_test-4" 1706576155
-  "asy/polar_test-4.asy" 1706576155 355 b96548a97931a383a15181611bac8310 "pdflatex"
+["cusdep asy pdf asy/polar_test-4"] 1706729257 "asy/polar_test-4.asy" "asy/polar_test-4.pdf" "asy/polar_test-4" 1706729309
+  "asy/polar_test-4.asy" 1706729309 358 5e0dd9302c5239447451f9f5f625d0fd "pdflatex"
   (generated)
   "asy/polar_test-4.pdf"
-["cusdep asy pdf asy/polar_test-5"] 0 "asy/polar_test-5.asy" "asy/polar_test-5.pdf" "asy/polar_test-5" 1706576155
-  "asy/polar_test-5.asy" 1706576155 355 130de6923bf161fe081571408ad399ac "pdflatex"
+["cusdep asy pdf asy/polar_test-5"] 1706729257 "asy/polar_test-5.asy" "asy/polar_test-5.pdf" "asy/polar_test-5" 1706729309
+  "asy/polar_test-5.asy" 1706729309 358 9fac5ef489c661d5dea7ac2fc674bacb "pdflatex"
   (generated)
   "asy/polar_test-5.pdf"
-["cusdep asy pdf asy/polar_test-6"] 0 "asy/polar_test-6.asy" "asy/polar_test-6.pdf" "asy/polar_test-6" 1706576155
-  "asy/polar_test-6.asy" 1706576155 355 cdb08d2dcdcd98f42d4e1dffdf593c25 "pdflatex"
+["cusdep asy pdf asy/polar_test-6"] 1706729256 "asy/polar_test-6.asy" "asy/polar_test-6.pdf" "asy/polar_test-6" 1706729309
+  "asy/polar_test-6.asy" 1706729309 358 66c10139cb2e219ba8916c1c86b77963 "pdflatex"
   (generated)
   "asy/polar_test-6.pdf"
-["cusdep asy pdf asy/polar_test-7"] 0 "asy/polar_test-7.asy" "asy/polar_test-7.pdf" "asy/polar_test-7" 1706576155
-  "asy/polar_test-7.asy" 1706576155 355 8431c7c96d578dbe918cf0c1d43ab6ba "pdflatex"
+["cusdep asy pdf asy/polar_test-7"] 1706729256 "asy/polar_test-7.asy" "asy/polar_test-7.pdf" "asy/polar_test-7" 1706729309
+  "asy/polar_test-7.asy" 1706729309 358 7be8c27f8e075d23079c36ca39fda28c "pdflatex"
   (generated)
   "asy/polar_test-7.pdf"
-["cusdep asy pdf asy/polar_test-8"] 0 "asy/polar_test-8.asy" "asy/polar_test-8.pdf" "asy/polar_test-8" 1706576155
-  "asy/polar_test-8.asy" 1706576155 362 4fffea8e6f4f1695ccaa2092b184eccd "pdflatex"
+["cusdep asy pdf asy/polar_test-8"] 1706729256 "asy/polar_test-8.asy" "asy/polar_test-8.pdf" "asy/polar_test-8" 1706729309
+  "asy/polar_test-8.asy" 1706729309 365 d9e532ff943f8b5fdc15dd4a55d37f45 "pdflatex"
   (generated)
   "asy/polar_test-8.pdf"
-["cusdep asy pdf asy/polar_test-9"] 0 "asy/polar_test-9.asy" "asy/polar_test-9.pdf" "asy/polar_test-9" 1706576155
-  "asy/polar_test-9.asy" 1706576155 360 0918f69f44795afaafd1034f84896cc6 "pdflatex"
+["cusdep asy pdf asy/polar_test-9"] 1706729255 "asy/polar_test-9.asy" "asy/polar_test-9.pdf" "asy/polar_test-9" 1706729309
+  "asy/polar_test-9.asy" 1706729309 363 cdb921c68462e106c11223e3a2814667 "pdflatex"
   (generated)
   "asy/polar_test-9.pdf"
-["pdflatex"] 1706576155 "/home/pewhite/github/aos/bc/polar/test/polar_test.tex" "polar_test.pdf" "polar_test" 1706576155
+["pdflatex"] 1706729309 "/home/pewhite/github/aos/bc/polar/test/polar_test.tex" "polar_test.pdf" "polar_test" 1706729309
   "/etc/texmf/web2c/texmf.cnf" 1691608243 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pewhite/github/aos/bc/polar/test/polar_test.tex" 1706576154 4100 193a035abe0e6205fda6e74554dcd588 ""
+  "/home/pewhite/github/aos/bc/polar/test/polar_test.tex" 1706729309 6973 b7eadd1f35b81b043fe434ae70e3abfa ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -71,6 +71,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
@@ -116,21 +117,21 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1692132745 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1698347574 1405656 2c7e5addc8a49aa5012a28241c305640 ""
-  "asy/polar_test-1.pdf" 1706575986 20299 775557f39d9cf92def24bfb5a373b87a "cusdep asy pdf asy/polar_test-1"
-  "asy/polar_test-10.pdf" 1706576155 20355 c185a5269bb963a4f3133b09ade59ece "cusdep asy pdf asy/polar_test-10"
-  "asy/polar_test-11.pdf" 1706575985 20957 1ac52c1133db2f25e1e27b461ee696b3 "cusdep asy pdf asy/polar_test-11"
-  "asy/polar_test-12.pdf" 1706576154 20482 fa2e860d7714928f8341fea31a25526e "cusdep asy pdf asy/polar_test-12"
-  "asy/polar_test-2.pdf" 1706575986 20294 2a83e8fad32a8fc6971679b0443cd308 "cusdep asy pdf asy/polar_test-2"
-  "asy/polar_test-3.pdf" 1706575986 20843 d0bc702c1a32d69429938461130f66d4 "cusdep asy pdf asy/polar_test-3"
-  "asy/polar_test-4.pdf" 1706575987 20842 a9bfbc6321fc16988ecc0252835f4dbf "cusdep asy pdf asy/polar_test-4"
-  "asy/polar_test-5.pdf" 1706575987 20882 6d6ef54ec6fa18e9e5261c097388052f "cusdep asy pdf asy/polar_test-5"
-  "asy/polar_test-6.pdf" 1706575987 20400 c51988cee177e8f0b49ac741fe2efbf6 "cusdep asy pdf asy/polar_test-6"
-  "asy/polar_test-7.pdf" 1706575987 20505 196b82d77ed023349ea298061deb80b7 "cusdep asy pdf asy/polar_test-7"
-  "asy/polar_test-8.pdf" 1706575988 20607 0586c5688da0dca6f8dfeb43e828415b "cusdep asy pdf asy/polar_test-8"
-  "asy/polar_test-9.pdf" 1706575988 20651 78407a94f65e2470c0fb5eeb886d720c "cusdep asy pdf asy/polar_test-9"
-  "polar_test.aux" 1706576155 2220 2e023f22c678c7a734fe4148d8b7c50b "pdflatex"
-  "polar_test.pre" 1706576155 543 2dd27a9af8b4995c2e8b153d91bd2988 "pdflatex"
-  "polar_test.tex" 1706576154 4100 193a035abe0e6205fda6e74554dcd588 ""
+  "asy/polar_test-1.pdf" 1706729259 20319 e756c6875cd632dc6a26d8949c710476 "cusdep asy pdf asy/polar_test-1"
+  "asy/polar_test-10.pdf" 1706729258 20061 ea51f474acaafcf2003ae775aa84f158 "cusdep asy pdf asy/polar_test-10"
+  "asy/polar_test-11.pdf" 1706729258 20945 8babaef440cbd46febb7f84a619bbeb6 "cusdep asy pdf asy/polar_test-11"
+  "asy/polar_test-12.pdf" 1706729258 20537 16aae5390562f3905c88afbe6a5d1c08 "cusdep asy pdf asy/polar_test-12"
+  "asy/polar_test-2.pdf" 1706729258 20326 a19cf07c46cfa11e5e765af56a4438c9 "cusdep asy pdf asy/polar_test-2"
+  "asy/polar_test-3.pdf" 1706729257 20850 2617f47195380ec52de76562f5c02f42 "cusdep asy pdf asy/polar_test-3"
+  "asy/polar_test-4.pdf" 1706729257 20842 dc912bf9419f56f0e20e9b667679da86 "cusdep asy pdf asy/polar_test-4"
+  "asy/polar_test-5.pdf" 1706729257 20911 8e499da8aea824a5c852024f5a2a6ed9 "cusdep asy pdf asy/polar_test-5"
+  "asy/polar_test-6.pdf" 1706729257 20420 1ef716d32576690d4cc92b549d3c8ee4 "cusdep asy pdf asy/polar_test-6"
+  "asy/polar_test-7.pdf" 1706729256 20503 7117b8ce118346c88c7db9b0f595b881 "cusdep asy pdf asy/polar_test-7"
+  "asy/polar_test-8.pdf" 1706729256 20624 a1ac5f30c0181b528fff946a41c9a642 "cusdep asy pdf asy/polar_test-8"
+  "asy/polar_test-9.pdf" 1706729256 20662 2c1934017563a1f5e314198c33c8eceb "cusdep asy pdf asy/polar_test-9"
+  "polar_test.aux" 1706729309 3161 694025119cff96ea93ec27f983639d27 "pdflatex"
+  "polar_test.pre" 1706729309 543 2dd27a9af8b4995c2e8b153d91bd2988 "pdflatex"
+  "polar_test.tex" 1706729309 6973 b7eadd1f35b81b043fe434ae70e3abfa ""
   (generated)
   "asy/polar_test-1.asy"
   "asy/polar_test-10.asy"

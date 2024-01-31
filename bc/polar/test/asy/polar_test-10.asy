@@ -9,6 +9,6 @@ settings.toolbar=false;
 viewportmargin=(2,2);
 
 import polargrid;
-size(2inch);
+size(1.75inch);
 drawPolar(new real(real t) {return 3/cos(t);}, 5);
 clip((6,6)--(-6,6)--(-6,-6)--(6,-6)--cycle);
