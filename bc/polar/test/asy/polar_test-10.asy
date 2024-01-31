@@ -10,5 +10,5 @@ viewportmargin=(2,2);
 
 import polargrid;
 size(1.75inch);
-drawPolar(new real(real t) {return 3/cos(t);}, 5);
+drawPolar(new real(real t) {return 3/cos(t);}, 5,-3.5*pi/12,3.5*pi/12);
 clip((6,6)--(-6,6)--(-6,-6)--(6,-6)--cycle);

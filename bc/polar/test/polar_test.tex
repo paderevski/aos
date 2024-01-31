@@ -1,4 +1,4 @@
-\documentclass[11pt]{exam}
+\documentclass[11pt,answers]{exam}
 \usepackage[pdftex]{graphicx}
 \usepackage{asymptote}
 \usepackage[left=0.55in,right=0.55in, top=1in,bottom=1in]{geometry}
@@ -10,7 +10,7 @@
 \def\asydir{asy}
 \def\picsize{3inch}
 \setlength\parindent{0in}
-\section{Matching}
+\section*{Matching -- 1 pt each}
 \begin{center}
 \begin{tabular}{|c|c|c|}
 \hline
@@ -71,7 +71,7 @@ I \begin{asy}
 J \begin{asy}
 	import polargrid;
 	size(1.75inch);
-	drawPolar(new real(real t) {return 3/cos(t);}, 5);
+	drawPolar(new real(real t) {return 3/cos(t);}, 5,-3.5*pi/12,3.5*pi/12);
 	clip((6,6)--(-6,6)--(-6,-6)--(6,-6)--cycle);
 \end{asy}
 &
@@ -79,12 +79,13 @@ K \begin{asy}
 	import polargrid;
 	size(1.75inch);
 	drawPolar(new real(real t) {return t/2;}, 5);
+	clip((6,6)--(-6,6)--(-6,-6)--(6,-6)--cycle);
 \end{asy}
 &
 L \begin{asy}
 	import polargrid;
 	size(1.75inch);
-	drawPolar(new real(real t) {return 3/sin(t+0.01);}, 5);
+	drawPolar(new real(real t) {return 3/sin(t+0.01);}, 5, 5*pi/24,19*pi/24);
 	clip((6,6)--(-6,6)--(-6,-6)--(6,-6)--cycle);
 \end{asy}
 \\ \hline
@@ -97,7 +98,7 @@ L \begin{asy}
 \vspace{2ex}
 \begin{multicols}{3}
 	\begin{enumerate}
-		\item $r = \cos(\theta)$ \aline{A}
+		\item $r = 3\sin(\theta)$ \aline{A}
 		\item $r = -2 \cos(\theta)$ \aline{B}
 		\item $r = 3+2\sin(\theta)$ \aline{C}
 		\item $r = 3-2\sin(\theta)$ \aline{D}
@@ -112,7 +113,9 @@ L \begin{asy}
 	\end{enumerate}
 	\end{multicols}
 \clearpage
-\section{Multiple Choice}
+\section*{Multiple Choice -- 2 pts each}
+{\large Work must be shown for credit.}
+\vspace{2ex}
 \begin{questions}
 	\begin{minipage}{\linewidth}
 		\question Convert the polar coordinate to rectangular coordinates: $(-2, 2\pi/3)$
@@ -253,9 +256,9 @@ L \begin{asy}
 \end{questions}
 
 \clearpage
-\section{FRQ}
+\section*{Free Response Section}
 \noindent
-\textbf{Calculator Active - 2008.1 BC Exam (Form B)}
+\textbf{Calculator Active}
 \vspace{2ex}
 
 A particle moving along a curve in the $x y$-plane has position $(x(t), y(t))$ at time $t \geq 0$ with
@@ -267,8 +270,11 @@ $$
 The particle is at position $(1,5)$ at time $t=4$.
 \begin{enumerate}
 \item Find the acceleration vector at time $t=4$.
+\vspace{1in}
 \item Find the $y$-coordinate of the position of the particle at time $t=0$.
+\vspace{1in}
 \item On the interval $0 \leq t \leq 4$, at what time does the speed of the particle first reach 3.5 ?
+\vspace{2in}
 \item Find the total distance traveled by the particle over the time interval $0 \leq t \leq 4$.
 \end{enumerate}
 
