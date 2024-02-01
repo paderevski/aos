@@ -1,0 +1,544 @@
+PWD /home/pewhite/github/aos/bc/polar/test
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/pewhite/github/aos/bc/polar/test/polar_test_C KEY.tex
+OUTPUT polar_test_C KEY.log
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT /usr/share/texmf/tex/latex/asymptote/asymptote.sty
+INPUT ./polar_test_C KEY.pre
+INPUT polar_test_C KEY.pre
+INPUT ./polar_test_C KEY.pre
+INPUT polar_test_C KEY.pre
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+OUTPUT polar_test_C KEY.pre
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./polar_test_C KEY.aux
+INPUT polar_test_C KEY.aux
+INPUT polar_test_C KEY.aux
+OUTPUT polar_test_C KEY.aux
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+OUTPUT asy/polar_test_C KEY-1.asy
+INPUT ./asy/polar_test_C KEY-1.pdf
+INPUT asy/polar_test_C KEY-1.pdf
+INPUT ./asy/polar_test_C KEY-1.pdf
+INPUT ./asy/polar_test_C KEY-1.pdf
+INPUT asy/polar_test_C KEY-1.pdf
+INPUT ./asy/polar_test_C KEY-1.pdf
+OUTPUT polar_test_C KEY.pdf
+INPUT ./asy/polar_test_C KEY-1.pdf
+OUTPUT asy/polar_test_C KEY-2.asy
+INPUT ./asy/polar_test_C KEY-2.pdf
+INPUT asy/polar_test_C KEY-2.pdf
+INPUT ./asy/polar_test_C KEY-2.pdf
+INPUT ./asy/polar_test_C KEY-2.pdf
+INPUT asy/polar_test_C KEY-2.pdf
+INPUT ./asy/polar_test_C KEY-2.pdf
+INPUT ./asy/polar_test_C KEY-2.pdf
+OUTPUT asy/polar_test_C KEY-3.asy
+INPUT ./asy/polar_test_C KEY-3.pdf
+INPUT asy/polar_test_C KEY-3.pdf
+INPUT ./asy/polar_test_C KEY-3.pdf
+INPUT ./asy/polar_test_C KEY-3.pdf
+INPUT asy/polar_test_C KEY-3.pdf
+INPUT ./asy/polar_test_C KEY-3.pdf
+INPUT ./asy/polar_test_C KEY-3.pdf
+OUTPUT asy/polar_test_C KEY-4.asy
+INPUT ./asy/polar_test_C KEY-4.pdf
+INPUT asy/polar_test_C KEY-4.pdf
+INPUT ./asy/polar_test_C KEY-4.pdf
+INPUT ./asy/polar_test_C KEY-4.pdf
+INPUT asy/polar_test_C KEY-4.pdf
+INPUT ./asy/polar_test_C KEY-4.pdf
+INPUT ./asy/polar_test_C KEY-4.pdf
+OUTPUT asy/polar_test_C KEY-5.asy
+INPUT ./asy/polar_test_C KEY-5.pdf
+INPUT asy/polar_test_C KEY-5.pdf
+INPUT ./asy/polar_test_C KEY-5.pdf
+INPUT ./asy/polar_test_C KEY-5.pdf
+INPUT asy/polar_test_C KEY-5.pdf
+INPUT ./asy/polar_test_C KEY-5.pdf
+INPUT ./asy/polar_test_C KEY-5.pdf
+OUTPUT asy/polar_test_C KEY-6.asy
+INPUT ./asy/polar_test_C KEY-6.pdf
+INPUT asy/polar_test_C KEY-6.pdf
+INPUT ./asy/polar_test_C KEY-6.pdf
+INPUT ./asy/polar_test_C KEY-6.pdf
+INPUT asy/polar_test_C KEY-6.pdf
+INPUT ./asy/polar_test_C KEY-6.pdf
+INPUT ./asy/polar_test_C KEY-6.pdf
+OUTPUT asy/polar_test_C KEY-7.asy
+INPUT ./asy/polar_test_C KEY-7.pdf
+INPUT asy/polar_test_C KEY-7.pdf
+INPUT ./asy/polar_test_C KEY-7.pdf
+INPUT ./asy/polar_test_C KEY-7.pdf
+INPUT asy/polar_test_C KEY-7.pdf
+INPUT ./asy/polar_test_C KEY-7.pdf
+INPUT ./asy/polar_test_C KEY-7.pdf
+OUTPUT asy/polar_test_C KEY-8.asy
+INPUT ./asy/polar_test_C KEY-8.pdf
+INPUT asy/polar_test_C KEY-8.pdf
+INPUT ./asy/polar_test_C KEY-8.pdf
+INPUT ./asy/polar_test_C KEY-8.pdf
+INPUT asy/polar_test_C KEY-8.pdf
+INPUT ./asy/polar_test_C KEY-8.pdf
+INPUT ./asy/polar_test_C KEY-8.pdf
+OUTPUT asy/polar_test_C KEY-9.asy
+INPUT ./asy/polar_test_C KEY-9.pdf
+INPUT asy/polar_test_C KEY-9.pdf
+INPUT ./asy/polar_test_C KEY-9.pdf
+INPUT ./asy/polar_test_C KEY-9.pdf
+INPUT asy/polar_test_C KEY-9.pdf
+INPUT ./asy/polar_test_C KEY-9.pdf
+INPUT ./asy/polar_test_C KEY-9.pdf
+OUTPUT asy/polar_test_C KEY-10.asy
+INPUT ./asy/polar_test_C KEY-10.pdf
+INPUT asy/polar_test_C KEY-10.pdf
+INPUT ./asy/polar_test_C KEY-10.pdf
+INPUT ./asy/polar_test_C KEY-10.pdf
+INPUT asy/polar_test_C KEY-10.pdf
+INPUT ./asy/polar_test_C KEY-10.pdf
+INPUT ./asy/polar_test_C KEY-10.pdf
+OUTPUT asy/polar_test_C KEY-11.asy
+INPUT ./asy/polar_test_C KEY-11.pdf
+INPUT asy/polar_test_C KEY-11.pdf
+INPUT ./asy/polar_test_C KEY-11.pdf
+INPUT ./asy/polar_test_C KEY-11.pdf
+INPUT asy/polar_test_C KEY-11.pdf
+INPUT ./asy/polar_test_C KEY-11.pdf
+INPUT ./asy/polar_test_C KEY-11.pdf
+OUTPUT asy/polar_test_C KEY-12.asy
+INPUT ./asy/polar_test_C KEY-12.pdf
+INPUT asy/polar_test_C KEY-12.pdf
+INPUT ./asy/polar_test_C KEY-12.pdf
+INPUT ./asy/polar_test_C KEY-12.pdf
+INPUT asy/polar_test_C KEY-12.pdf
+INPUT ./asy/polar_test_C KEY-12.pdf
+INPUT ./asy/polar_test_C KEY-12.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT polar_test_C KEY.aux
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
