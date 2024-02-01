@@ -11,63 +11,63 @@ x^{2}}{}{}{}{}}
 \newlabel{@sageinline4}{{%
 {\left(x + 3\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline5}{{%
-100}{}{}{}{}}
+12}{}{}{}{}}
 \newlabel{@sageinline6}{{%
-{\left(y + 2\right)}^{2}}{}{}{}{}}
+y + 2}{}{}{}{}}
 \newlabel{@sageinline7}{{%
-36}{}{}{}{}}
-\newlabel{@sageinline8}{{%
-{\left(x + 3\right)}^{2}}{}{}{}{}}
-\newlabel{@sageinline9}{{%
-64}{}{}{}{}}
-\newlabel{@sageinline10}{{%
-{\left(y - 2\right)}^{2}}{}{}{}{}}
-\newlabel{@sageinline11}{{%
-100}{}{}{}{}}
-\newlabel{@sageinline12}{{%
 {\left(x - 3\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline8}{{%
+12}{}{}{}{}}
+\newlabel{@sageinline9}{{%
+y - 2}{}{}{}{}}
+\newlabel{@sageinline10}{{%
+{\left(x - 3\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline11}{{%
+3}{}{}{}{}}
+\newlabel{@sageinline12}{{%
+y + 2}{}{}{}{}}
 \newlabel{@sageinline13}{{%
-100}{}{}{}{}}
+{\left(x - 3\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline14}{{%
-{\left(y + 2\right)}^{2}}{}{}{}{}}
+\frac{4}{9}}{}{}{}{}}
 \newlabel{@sageinline15}{{%
-36}{}{}{}{}}
+y + 2}{}{}{}{}}
 \newlabel{@sageinline16}{{%
 {\left(x - 3\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline17}{{%
-36}{}{}{}{}}
-\newlabel{@sageinline18}{{%
-{\left(y + 2\right)}^{2}}{}{}{}{}}
-\newlabel{@sageinline19}{{%
-64}{}{}{}{}}
-\newlabel{@sageinline20}{{%
-{\left(x - 3\right)}^{2}}{}{}{}{}}
-\newlabel{@sageinline21}{{%
-\frac{4}{3}}{}{}{}{}}
-\newlabel{@sageinline22}{{%
-y + 2}{}{}{}{}}
-\newlabel{@sageinline23}{{%
-{\left(x - 3\right)}^{2}}{}{}{}{}}
-\newlabel{@sageinline24}{{%
-\frac{4}{9}}{}{}{}{}}
-\newlabel{@sageinline25}{{%
-y + 2}{}{}{}{}}
-\newlabel{@sageinline26}{{%
-{\left(x - 3\right)}^{2}}{}{}{}{}}
-\newlabel{@sageinline27}{{%
 4}{}{}{}{}}
+\newlabel{@sageinline18}{{%
+y + 2}{}{}{}{}}
+\newlabel{@sageinline19}{{%
+{\left(x + 11\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline20}{{%
+196}{}{}{}{}}
+\newlabel{@sageinline21}{{%
+{\left(y + 8\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline22}{{%
+169}{}{}{}{}}
+\newlabel{@sageinline23}{{%
+{\left(x - 11\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline24}{{%
+196}{}{}{}{}}
+\newlabel{@sageinline25}{{%
+{\left(y - 8\right)}^{2}}{}{}{}{}}
+\newlabel{@sageinline26}{{%
+169}{}{}{}{}}
+\newlabel{@sageinline27}{{%
+{\left(x + 11\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline28}{{%
-y + 2}{}{}{}{}}
+169}{}{}{}{}}
 \newlabel{@sageinline29}{{%
-{\left(x - 3\right)}^{2}}{}{}{}{}}
+{\left(y + 8\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline30}{{%
-12}{}{}{}{}}
+196}{}{}{}{}}
 \newlabel{@sageinline31}{{%
-y - 2}{}{}{}{}}
+{\left(x - 11\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline32}{{%
-{\left(x + 3\right)}^{2}}{}{}{}{}}
+169}{}{}{}{}}
 \newlabel{@sageinline33}{{%
-12}{}{}{}{}}
+{\left(y - 8\right)}^{2}}{}{}{}{}}
 \newlabel{@sageinline34}{{%
-y + 2}{}{}{}{}}
-%c5e68b9ec48dfc4e355a49cbffbebec1% md5sum of corresponding .sage file (minus "goboom", "current_tex_line", and pause/unpause lines)
+196}{}{}{}{}}
+%a1e54432830f53ce6147ebd7046d560b% md5sum of corresponding .sage file (minus "goboom", "current_tex_line", and pause/unpause lines)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.26)  28 JAN 2024 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.26)  1 FEB 2024 15:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -12,8 +12,8 @@ Document Class: exam 2021/02/26 Version 2.7 by Philip Hirschhorn
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -289,12 +289,6 @@ LaTeX Warning: Label `question@7' multiply defined.
 
 LaTeX Warning: Label `question@8' multiply defined.
 
-
-LaTeX Warning: Label `question@9' multiply defined.
-
-
-LaTeX Warning: Label `question@10' multiply defined.
-
 )
 \openout1 = `conics-test.aux'.
 
@@ -376,12 +370,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \topmargin=-30.0pt
 * \headheight=15.0pt
 * \headsep=15.0pt
-* \topskip=10.0pt
+* \topskip=11.0pt
 * \footskip=29.0pt
 * \marginparwidth=36.135pt
 * \marginparsep=5.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -391,101 +385,103 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<sage-plots-for-conics-test.tex/plot-0.pdf, id=1, 346.23442pt x 339.16258pt>
-File: sage-plots-for-conics-test.tex/plot-0.pdf Graphic file (type pdf)
-<use sage-plots-for-conics-test.tex/plot-0.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-0.pdf  used on input line 97.
-(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-1.pdf, id=2, 346.23442pt x 339.16258pt>
-File: sage-plots-for-conics-test.tex/plot-1.pdf Graphic file (type pdf)
-<use sage-plots-for-conics-test.tex/plot-1.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-1.pdf  used on input line 98.
-(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-2.pdf, id=3, 346.23442pt x 339.16258pt>
-File: sage-plots-for-conics-test.tex/plot-2.pdf Graphic file (type pdf)
-<use sage-plots-for-conics-test.tex/plot-2.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-2.pdf  used on input line 99.
-(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-3.pdf, id=4, 346.23442pt x 339.16258pt>
-File: sage-plots-for-conics-test.tex/plot-3.pdf Graphic file (type pdf)
-<use sage-plots-for-conics-test.tex/plot-3.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-3.pdf  used on input line 101.
-(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-4.pdf, id=5, 346.23442pt x 339.16258pt>
-File: sage-plots-for-conics-test.tex/plot-4.pdf Graphic file (type pdf)
-<use sage-plots-for-conics-test.tex/plot-4.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-4.pdf  used on input line 102.
-(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-5.pdf, id=6, 346.23442pt x 339.16258pt>
-File: sage-plots-for-conics-test.tex/plot-5.pdf Graphic file (type pdf)
-<use sage-plots-for-conics-test.tex/plot-5.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-5.pdf  used on input line 103.
-(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./sage-plots-for-conics-test.tex/plot-0.pdf> <./sage-plots-for-conics-test.tex/plot-1.pdf> <./sage-plots-for-conics-test.tex/plot-2.pdf> <./sage-plots-for-conics-test.tex/plot-3.pdf> <./sage-plots-for-conics-test.tex/plot-4.pdf> <./sage-plots-for-conics-test.tex/plot-5.pdf>]
-<sage-plots-for-conics-test.tex/plot-6.pdf, id=90, 346.23442pt x 339.16258pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<sage-plots-for-conics-test.tex/plot-0.pdf, id=12, 346.23442pt x 339.16258pt>
+File: sage-plots-for-conics-test.tex/plot-0.pdf Graphic file (type pdf)
+<use sage-plots-for-conics-test.tex/plot-0.pdf>
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-0.pdf  used on input line 106.
+(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
+<sage-plots-for-conics-test.tex/plot-1.pdf, id=13, 346.23442pt x 339.16258pt>
+File: sage-plots-for-conics-test.tex/plot-1.pdf Graphic file (type pdf)
+<use sage-plots-for-conics-test.tex/plot-1.pdf>
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-1.pdf  used on input line 107.
+(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
+<sage-plots-for-conics-test.tex/plot-2.pdf, id=14, 346.23442pt x 339.16258pt>
+File: sage-plots-for-conics-test.tex/plot-2.pdf Graphic file (type pdf)
+<use sage-plots-for-conics-test.tex/plot-2.pdf>
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-2.pdf  used on input line 108.
+(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
+<sage-plots-for-conics-test.tex/plot-3.pdf, id=15, 346.23442pt x 339.16258pt>
+File: sage-plots-for-conics-test.tex/plot-3.pdf Graphic file (type pdf)
+<use sage-plots-for-conics-test.tex/plot-3.pdf>
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-3.pdf  used on input line 110.
+(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
+<sage-plots-for-conics-test.tex/plot-4.pdf, id=16, 346.23442pt x 339.16258pt>
+File: sage-plots-for-conics-test.tex/plot-4.pdf Graphic file (type pdf)
+<use sage-plots-for-conics-test.tex/plot-4.pdf>
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-4.pdf  used on input line 111.
+(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
+<sage-plots-for-conics-test.tex/plot-5.pdf, id=17, 346.23442pt x 339.16258pt>
+File: sage-plots-for-conics-test.tex/plot-5.pdf Graphic file (type pdf)
+<use sage-plots-for-conics-test.tex/plot-5.pdf>
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-5.pdf  used on input line 112.
+(pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
+<sage-plots-for-conics-test.tex/plot-6.pdf, id=18, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-6.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-6.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-6.pdf  used on input line 109.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-6.pdf  used on input line 118.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-7.pdf, id=91, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-7.pdf, id=19, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-7.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-7.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-7.pdf  used on input line 110.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-7.pdf  used on input line 119.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-8.pdf, id=92, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-8.pdf, id=20, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-8.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-8.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-8.pdf  used on input line 111.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-8.pdf  used on input line 120.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-9.pdf, id=93, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-9.pdf, id=21, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-9.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-9.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-9.pdf  used on input line 113.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-9.pdf  used on input line 122.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-10.pdf, id=94, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-10.pdf, id=22, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-10.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-10.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-10.pdf  used on input line 114.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-10.pdf  used on input line 123.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-11.pdf, id=95, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-11.pdf, id=23, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-11.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-11.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-11.pdf  used on input line 115.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-11.pdf  used on input line 124.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-12.pdf, id=96, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-12.pdf, id=24, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-12.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-12.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-12.pdf  used on input line 123.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-12.pdf  used on input line 132.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-13.pdf, id=97, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-13.pdf, id=25, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-13.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-13.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-13.pdf  used on input line 124.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-13.pdf  used on input line 133.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-14.pdf, id=98, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-14.pdf, id=26, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-14.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-14.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-14.pdf  used on input line 125.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-14.pdf  used on input line 134.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-15.pdf, id=99, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-15.pdf, id=27, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-15.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-15.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-15.pdf  used on input line 127.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-15.pdf  used on input line 136.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-16.pdf, id=100, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-16.pdf, id=28, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-16.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-16.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-16.pdf  used on input line 128.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-16.pdf  used on input line 137.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
-<sage-plots-for-conics-test.tex/plot-17.pdf, id=101, 346.23442pt x 339.16258pt>
+<sage-plots-for-conics-test.tex/plot-17.pdf, id=29, 346.23442pt x 339.16258pt>
 File: sage-plots-for-conics-test.tex/plot-17.pdf Graphic file (type pdf)
 <use sage-plots-for-conics-test.tex/plot-17.pdf>
-Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-17.pdf  used on input line 129.
+Package pdftex.def Info: sage-plots-for-conics-test.tex/plot-17.pdf  used on input line 138.
 (pdftex.def)             Requested size: 108.40402pt x 108.40486pt.
- [2 <./sage-plots-for-conics-test.tex/plot-6.pdf> <./sage-plots-for-conics-test.tex/plot-7.pdf> <./sage-plots-for-conics-test.tex/plot-8.pdf> <./sage-plots-for-conics-test.tex/plot-9.pdf> <./sage-plots-for-conics-test.tex/plot-10.pdf> <./sage-plots-for-conics-test.tex/plot-11.pdf> <./sage-plots-for-conics-test.tex/plot-12.pdf> <./sage-plots-for-conics-test.tex/plot-13.pdf> <./sage-plots-for-conics-test.tex/plot-14.pdf> <./sage-plots-for-conics-test.tex/plot-15.pdf> <./sage-plots-for-conics-test.tex/plot-16.pdf> <./sage-plots-for-conics-test.tex/plot-17.pdf>] [3]
-This exam contains 20 questions with 0 parts, 0 subparts, and 0 subsubparts.
+ [2
+
+ <./sage-plots-for-conics-test.tex/plot-0.pdf> <./sage-plots-for-conics-test.tex/plot-1.pdf> <./sage-plots-for-conics-test.tex/plot-2.pdf> <./sage-plots-for-conics-test.tex/plot-3.pdf> <./sage-plots-for-conics-test.tex/plot-4.pdf> <./sage-plots-for-conics-test.tex/plot-5.pdf> <./sage-plots-for-conics-test.tex/plot-6.pdf> <./sage-plots-for-conics-test.tex/plot-7.pdf> <./sage-plots-for-conics-test.tex/plot-8.pdf> <./sage-plots-for-conics-test.tex/plot-9.pdf> <./sage-plots-for-conics-test.tex/plot-10.pdf> <./sage-plots-for-conics-test.tex/plot-11.pdf>] [3 <./sage-plots-for-conics-test.tex/plot-12.pdf> <./sage-plots-for-conics-test.tex/plot-13.pdf> <./sage-plots-for-conics-test.tex/plot-14.pdf> <./sage-plots-for-conics-test.tex/plot-15.pdf> <./sage-plots-for-conics-test.tex/plot-16.pdf> <./sage-plots-for-conics-test.tex/plot-17.pdf>] [4] [5]
+This exam contains 18 questions with 0 parts, 0 subparts, and 0 subsubparts.
 *********************************************************************
 (./conics-test.aux)
 
@@ -493,18 +489,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6845 strings out of 480247
- 109815 string characters out of 5896150
- 429151 words of memory out of 5000000
- 24710 multiletter control sequences out of 15000+600000
- 470318 words of font info for 32 fonts, out of 8000000 for 9000
+ 6863 strings out of 480247
+ 109950 string characters out of 5896150
+ 433154 words of memory out of 5000000
+ 24719 multiletter control sequences out of 15000+600000
+ 474224 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,11n,76p,317b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on conics-test.pdf (3 pages, 164372 bytes).
+ 70i,10n,76p,317b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/pewhite/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on conics-test.pdf (5 pages, 181282 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+ 295 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
