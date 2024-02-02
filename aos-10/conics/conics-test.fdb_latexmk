@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1706849950 "/home/pewhite/github/aos/aos-10/conics/conics-test.tex" "conics-test.pdf" "conics-test" 1706849951
+["pdflatex"] 1706904690 "/home/pewhite/github/aos/aos-10/conics/conics-test.tex" "conics-test.pdf" "conics-test" 1706904690
   "/etc/texmf/web2c/texmf.cnf" 1691608243 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/pewhite/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1706816502 12644 c6e9c917bcdd72f5832d9b060f7295a1 ""
-  "/home/pewhite/github/aos/aos-10/conics/conics-test.tex" 1706849950 7354 46218505f5e73ab8720b8c90a57cc330 ""
+  "/home/pewhite/github/aos/aos-10/conics/conics-test.tex" 1706904689 7351 81807145819988735f0cd71282993236 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -71,9 +71,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1692132745 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1698347574 1405656 2c7e5addc8a49aa5012a28241c305640 ""
-  "conics-test.aux" 1706849951 3916 6dfb6b01a599fe6c0b32cbd0b72bd145 "pdflatex"
+  "conics-test.aux" 1706904690 3916 6dfb6b01a599fe6c0b32cbd0b72bd145 "pdflatex"
   "conics-test.sagetex.sout" 1706818161 2005 6e439e8c18b2cbe703f574ca5c453542 ""
-  "conics-test.tex" 1706849950 7354 46218505f5e73ab8720b8c90a57cc330 ""
+  "conics-test.tex" 1706904689 7351 81807145819988735f0cd71282993236 ""
   "sage-plots-for-conics-test.tex/plot-0.pdf" 1706818158 7083 a96e60a8625ce7146573f9d7ca787679 ""
   "sage-plots-for-conics-test.tex/plot-1.pdf" 1706818158 8015 29dc23668ca55709c11cdc6e3502beb7 ""
   "sage-plots-for-conics-test.tex/plot-10.pdf" 1706818160 7720 5ceaf0bee4d08cdecfa2f7613e81586f ""

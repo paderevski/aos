@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1706849925 "/home/pewhite/github/aos/aos-10/conics/conics-test-b.tex" "conics-test-b.pdf" "conics-test-b" 1706849925
+["pdflatex"] 1706904698 "/home/pewhite/github/aos/aos-10/conics/conics-test-b.tex" "conics-test-b.pdf" "conics-test-b" 1706904699
   "/etc/texmf/web2c/texmf.cnf" 1691608243 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/pewhite/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1706816502 12644 c6e9c917bcdd72f5832d9b060f7295a1 ""
-  "/home/pewhite/github/aos/aos-10/conics/conics-test-b.tex" 1706849924 7354 9d1dc4395b1f01f34e383276be8cec2e ""
+  "/home/pewhite/github/aos/aos-10/conics/conics-test-b.tex" 1706904698 7351 56aa659c735dedbf6b727d4c12b586ba ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -71,9 +71,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1692132745 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1698347574 1405656 2c7e5addc8a49aa5012a28241c305640 ""
-  "conics-test-b.aux" 1706849925 3916 6dfb6b01a599fe6c0b32cbd0b72bd145 "pdflatex"
+  "conics-test-b.aux" 1706904699 3916 6dfb6b01a599fe6c0b32cbd0b72bd145 "pdflatex"
   "conics-test-b.sagetex.sout" 1706849463 2007 743683a774481813d081635ad0b26fca ""
-  "conics-test-b.tex" 1706849924 7354 9d1dc4395b1f01f34e383276be8cec2e ""
+  "conics-test-b.tex" 1706904698 7351 56aa659c735dedbf6b727d4c12b586ba ""
   "sage-plots-for-conics-test-b.tex/plot-0.pdf" 1706849460 7083 ceee19df3b25ce91d04a873f686deb38 ""
   "sage-plots-for-conics-test-b.tex/plot-1.pdf" 1706849460 8015 29e78d870adfa10c3d9e2d8d6f4626e6 ""
   "sage-plots-for-conics-test-b.tex/plot-10.pdf" 1706849462 7720 bb67d71dd768df6cb2b59401ce852326 ""
