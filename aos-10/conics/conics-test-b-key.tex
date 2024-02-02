@@ -1,4 +1,4 @@
-\documentclass[11pt]{exam}
+\documentclass[11pt,answers]{exam}
 \usepackage{sagetex}
 \usepackage[top=1in,left=0.5in,right=0.5in,bottom=1in]{geometry}
 \usepackage{amsmath}
@@ -8,7 +8,7 @@
 \runningheader{AOS Math 10}{Conic Sections \thepage\ of \numpages}{Feb 2, 2024}
 
 \noindent
-{\Large AOS Math 10 Conic Sections Test A}
+{\Large KEY KEY AOS Math 10 Conic Sections Test B}
 
 \vspace{4ex}
 \noindent
@@ -81,16 +81,16 @@
 
 \section*{True / False}
 \begin{questions}
-\question[1] \tf[T] The major axis of a (non-circular) ellipse is always longer than the minor axis.
-\question[1] \tf[F] The transverse axis of a hyperbola is always longer than the conjugate axis.
-\question[1] \tf[F] The foci of an ellipse are on the minor axis.
-\question[1] \tf[F] The focus of the parabola $x^2=8y$ is the lowest point on the parabola.
-\question[1] \tf[T] The graph of $\dfrac{x^2}{16}+\dfrac{y^2}{25}=1$ fits entirely inside the graph of $x^2+y^2=30$
-\question[1] \tf[T] The directrix of a parabola is perpendicular to the axis of symmetry.
 \question[1] \tf[T] The distance between two foci of an ellipse is $2c$.
-\question[1] \tf[T] The eccentricity of an ellipse can be $e=1.14$.
-\question[1] \tf[T] A circle is an ellipse with $a=b$.
+\question[1] \tf[T] The directrix of a parabola is perpendicular to the axis of symmetry.
+\question[1] \tf[T] The graph of $\dfrac{x^2}{16}+\dfrac{y^2}{25}=1$ fits entirely inside the graph of $x^2+y^2=30$
+\question[1] \tf[F] The focus of the parabola $x^2=8y$ is the lowest point on the parabola.
 \question[1] \tf[F] The graphs of $\dfrac{x^2}{2}-\dfrac{y^2}{3} = 1$ and $\dfrac{y^2}{2}-\dfrac{x^2}{3} = 1$ have the same asymptotes.
+\question[1] \tf[T] The major axis of a (non-circular) ellipse is always longer than the minor axis.
+\question[1] \tf[F] The foci of an ellipse are on the minor axis.
+\question[1] \tf[T] A circle is an ellipse with $a=b$.
+\question[1] \tf[F] The eccentricity of an ellipse can be $e=1.14$.
+\question[1] \tf[F] The transverse axis of a hyperbola is always longer than the conjugate axis.
 \end{questions}
 
 \vspace{3ex}
@@ -103,13 +103,13 @@
 \question[3] \textbf{ Note the scale is 2 below. }Which is the graph of $\dfrac{(x-3)^2}{9}-\dfrac{(y+4)^2}{4}$?
 
 \begin{oneparchoices}
-	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(2,3,3,4)}
 	\CorrectChoice \sageplot[width=1.5in,height=1.5in]{hyperbola(3,2,3,-4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(2,3,3,4)}
 	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(2,3,3,-4,true)}
 	\\
-	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(3,2,3,4)}
 	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(2,3,3,-4)}
 	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(3,2,-3,-4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{hyperbola(3,2,3,4)}
 \end{oneparchoices} \answerline
 \end{minipage}
 \question[3] \textbf{ Note the scale is 2 below. }Which is the graph of $\dfrac{(x-2)^2}{4}+\dfrac{(y+4)^2}{9}$?
@@ -119,8 +119,8 @@
 	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(4,9,2,-4)}
 	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(3,2,2,-4)}
 	\\
-	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(2,3,-2,-4)}
 	\CorrectChoice \sageplot[width=1.5in,height=1.5in]{ellipse(2,3,2,-4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(2,3,-2,-4)}
 	\choice \sageplot[width=1.5in,height=1.5in]{ellipse(3,4,2,-4)}
 
 \end{oneparchoices} \answerline
@@ -129,23 +129,23 @@
 \question[3] \textbf{ Note the scale is 2 below. }Which is the graph of $(y-4)^2 = 12(x-2)$?
 
 \begin{oneparchoices}
-	\CorrectChoice \sageplot[width=1.5in,height=1.5in]{parabola_h(3,2,4)}
-	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(-6,2,4)}
-	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(-6,4,2)}
-	\\
 	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(1,2,4)}
+	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(-6,4,2)}
 	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(6,2,4)}
+	\\
+	\CorrectChoice \sageplot[width=1.5in,height=1.5in]{parabola_h(3,2,4)}
 	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(3,4,2)}
+	\choice \sageplot[width=1.5in,height=1.5in]{parabola_h(-6,2,4)}
 \end{oneparchoices} \vspace{1ex} \answerline
 \end{minipage}
 \begin{minipage}{\linewidth}
 \question[3] What are the foci of the hyperbola $\dfrac{x^2}{16}-\dfrac{y^2}{12} = 1$?
 
 \begin{choices}
-	\choice $(0, \pm 2)$
-	\choice $(0, \pm 2\sqrt7)$
 	\CorrectChoice $(\pm 2\sqrt7,0)$
 	\choice $(\pm 2,0)$
+	\choice $(0, \pm 2\sqrt7)$
+	\choice $(0, \pm 2)$
 \end{choices} \answerline
 \vspace{0.5in}
 \end{minipage}
@@ -154,9 +154,9 @@
 
 \begin{choices}
 	\choice $(0,2-\sqrt{7})$
-	\CorrectChoice $(3,\sqrt{7})$
-	\choice $(-3,2)$
 	\choice $(3,2)$
+	\choice $(-3,2)$
+	\CorrectChoice $(3,\sqrt{7})$
 \end{choices} \answerline
 \vspace{0.5in}
 
@@ -179,11 +179,11 @@
 \end{itemize}
 
  \begin{choices}
-\choice \parabola{-3}{-2}{3}
-\choice \parabola{3}{2}{3}
 \CorrectChoice \parabola{3}{-2}{3/4}
-\choice \parabola{3}{-2}{1/9}
+\choice \parabola{-3}{-2}{3}
 \choice \parabola{3}{-2}{1}
+\choice \parabola{3}{2}{3}
+\choice \parabola{3}{-2}{1/9}
 \end{choices} \answerline
 \vspace{0.5in}
 
@@ -202,10 +202,10 @@
  \vspace{1ex}
 
 \begin{choices}
-	\choice \ellipse{-11}{-8}{14}{13}
-	\choice \ellipse{11}{8}{14}{13}
-	\choice \ellipse{-11}{-8}{13}{14}
 	\CorrectChoice \ellipse{11}{8}{13}{14}
+	\choice \ellipse{11}{8}{14}{13}
+	\choice \ellipse{-11}{-8}{14}{13}
+	\choice \ellipse{-11}{-8}{13}{14}
 \end{choices} \answerline
 \vspace{0.5in}
 
@@ -214,11 +214,11 @@
 \question[3] Given the equation of a circle in standard form: $(x + 3)^2 + (y - 4)^2 = 49$. Write the equation in general form.
 \vspace{1ex}
 \begin{choices}
-	\choice $x^2+y^2-24=0$
-	\CorrectChoice $x^2+y^2+6x-8y-24=0$
-	\choice $x^2+y^2-+3x-4y-24=0$
-	\choice $x^2+y^2+74 = 0$
 	\choice $x^2+y^2+6x-8y+74=0$
+	\choice $x^2+y^2-24=0$
+	\choice $x^2+y^2+74 = 0$
+	\choice $x^2+y^2-+3x-4y-24=0$
+	\CorrectChoice $x^2+y^2+6x-8y-24=0$
 \end{choices} \answerline
 \vspace{0.5in}
 
