@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.26)  4 FEB 2024 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.26)  4 FEB 2024 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,22 +487,22 @@ Package pdftex.def Info: asy/polar_test_makeup-12.pdf  used on input line 93.
  <./asy/polar_test_makeup-1.pdf> <./asy/polar_test_makeup-2.pdf> <./asy/polar_test_makeup-3.pdf> <./asy/polar_test_makeup-4.pdf> <./asy/polar_test_makeup-5.pdf> <./asy/polar_test_makeup-6.pdf> <./asy/polar_test_makeup-7.pdf> <./asy/polar_test_makeup-8.pdf> <./asy/polar_test_makeup-9.pdf> <./asy/polar_test_makeup-10.pdf> <./asy/polar_test_makeup-11.pdf> <./asy/polar_test_makeup-12.pdf>] [2
 
 ] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 

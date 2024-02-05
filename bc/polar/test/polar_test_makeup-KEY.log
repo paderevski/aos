@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.26)  4 FEB 2024 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.26)  4 FEB 2024 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,22 +487,22 @@ Package pdftex.def Info: asy/polar_test_makeup-KEY-12.pdf  used on input line 93
  <./asy/polar_test_makeup-KEY-1.pdf> <./asy/polar_test_makeup-KEY-2.pdf> <./asy/polar_test_makeup-KEY-3.pdf> <./asy/polar_test_makeup-KEY-4.pdf> <./asy/polar_test_makeup-KEY-5.pdf> <./asy/polar_test_makeup-KEY-6.pdf> <./asy/polar_test_makeup-KEY-7.pdf> <./asy/polar_test_makeup-KEY-8.pdf> <./asy/polar_test_makeup-KEY-9.pdf> <./asy/polar_test_makeup-KEY-10.pdf> <./asy/polar_test_makeup-KEY-11.pdf> <./asy/polar_test_makeup-KEY-12.pdf>] [2
 
 ] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 
@@ -520,7 +520,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  60i,11n,67p,294b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on polar_test_makeup-KEY.pdf (5 pages, 175253 bytes).
+Output written on polar_test_makeup-KEY.pdf (5 pages, 175272 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  163 compressed objects within 2 object streams
