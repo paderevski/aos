@@ -9,16 +9,24 @@ void drawPolarGrid(real r) {
 
 	for (real r0 = 1; r0 <= r; r0 = r0 + 1) {
 		path c = circle((0,0),r0);
-		draw(c, linewidth(0.1)+gray(0.4));
+		draw(c, linewidth(0.5));
 	}
 
 	for (real t = 0; t < 2*pi; t += pi/12) {
 		pair pt = (cos(t),sin(t));
-		path l = (-r*pt -- r*pt);
-		draw(l, linewidth(0.1)+gray(0.4));
+		path l = (pt -- r*pt);
+		draw(l, linewidth(0.5));
+		path l = (-r*pt -- -pt);
+		draw(l, linewidth(0.5));
 	}
 
-
+	for (real t = 0; t < 2*pi; t += pi/6) {
+		pair pt = (cos(t),sin(t));
+		path l = ((0,0)-- 1*pt);
+		draw(l, linewidth(0.5));
+		path l = (-1*pt -- (0,0));
+		draw(l, linewidth(0.5));
+	}
 	label("$0$",r2*(cos(0*pi/12),sin(0*pi/12)), fontsize(labelsize), align=(2,0));
 	label("$\pi/6$",r2*(cos(2*pi/12),sin(2*pi/12)), fontsize(labelsize), align=(cos(2*pi/12),sin(2*pi/12)));
 	label("$\pi/4$",r2*(cos(3*pi/12),sin(3*pi/12)), fontsize(labelsize), align=(cos(3*pi/12),sin(3*pi/12)));
@@ -42,13 +50,19 @@ void drawPolarGrid() {
 }
 
 void drawPolar(real f(real), real rMax) {
-	path g=polargraph(f,0,2pi)--cycle;
-	draw(g, linewidth(1.0)+red+opacity(0.7));
+	path g=polargraph(f,0,2pi);
+	draw(g, linewidth(2.0)+red+opacity(0.7));
 	drawPolarGrid(rMax);
 }
 
 void drawPolar(real f(real)) {
-	path g=polargraph(f,0,2pi)--cycle;
-	draw(g, linewidth(1.0)+red+opacity(0.7));
+	path g=polargraph(f,0,2pi);
+	draw(g, linewidth(2.0)+red+opacity(0.7));
 	drawPolarGrid(1);
+}
+
+void drawPolar(real f(real), real rMax, real t0, real t1) {
+	path g=polargraph(f,t0,t1);
+	draw(g, linewidth(2.0)+red+opacity(0.7));
+	drawPolarGrid(rMax);
 }
