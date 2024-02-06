@@ -1,0 +1,201 @@
+\documentclass[12pt]{exam}
+\usepackage[pdftex]{graphicx}
+\usepackage{asymptote}
+\usepackage[margin=0.55in]{geometry}
+\usepackage{multicol}
+\usepackage{blindtext}
+\usepackage{amsmath}
+
+\begin{document}
+\pagestyle{empty}
+\def\asydir{polar-exploration-asy}
+\def\picsize{3inch}
+\setlength\parindent{0in}
+{\textbf{Desmos Polar Graph Challenge}
+Plot the graphs below in Desmos. The left-hand graph's equation is given.
+Determine the right-hand graph's equation using logic and a bit of trial-and-error.
+\newcounter{ex}
+\setcounter{ex}{1}
+\newcommand{\mycount}[0]{\arabic{ex}) \stepcounter{ex}}
+\begin{center}
+\begin{tabular}{|cc|cc|}
+\hline
+%--------------------------------------------------------
+\mycount $r = 2$ &
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return 2;}, 3);
+\end{asy}
+&
+$r = \hspace*{2in}$
+&
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return 3;}, 3);
+\end{asy}
+\\ \hline
+%--------------------------------------------------------
+\mycount $r = -2$ &
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return -2;}, 3);
+\end{asy}
+&
+(different) $r = \hspace*{1in}$
+&
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return 3;}, 3);
+\end{asy}
+\\ \hline
+
+%--------------------------------------------------------
+\mycount $r = \cos(\theta)$ &
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return cos(t);}, 3);
+\end{asy}
+&
+$r = \hspace*{2in}$
+&
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return 3*cos(t);}, 3);
+\end{asy}
+\\ \hline
+%-----------------------------------------------------------
+\mycount $r = 3\sin(\theta)$ &
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return 3*sin(t);}, 3);
+\end{asy}
+&
+$r = \hspace*{2in}$
+&
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return -3*sin(t);}, 3);
+\end{asy}
+\\ \hline
+
+%-----------------------------------------------------------
+\mycount $r = 2\sec(\theta)$ &
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return 2/(0.01+cos(t));}, 3,-0.8,0.8);
+\end{asy}
+&
+$r = \hspace*{2in}$
+&
+\begin{asy}
+	import polargrid;
+	size(1.75inch);
+	drawPolar(new real(real t) {return 1/(0.01+cos(t));}, 3,-1.25,1.25);
+\end{asy}
+\\ \hline
+\end{tabular}
+\end{center}
+
+\clearpage
+
+In problems 6 and 7, one example is given followed by three challenges.
+Finally, 8 and 9 are challenges with no examples.
+\begin{center}
+	\begin{tabular}{|cc|cc|}
+	\hline
+	%--------------------------------------------------------
+	\mycount $r = 2 \sin 2 \theta$ &
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return 2*sin(2*t);}, 2);
+	\end{asy}
+	&
+	$r = \hspace*{1in}$
+	&
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return 2*sin(4*t);}, 2);
+	\end{asy}
+	\\ \hline
+	%--------------------------------------------------------
+	 $r = $ \hspace{0.75in} &
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return 2*sin(3*t);}, 2);
+	\end{asy}
+	&
+	$r = \hspace*{1in}$
+	&
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return 2*cos(3*t);}, 2);
+	\end{asy}
+	\\ \hline
+	%--------------------------------------------------------
+	\mycount $r = 1+3 \cos \theta$ &
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return 1+3*cos(t);}, 4);
+	\end{asy}
+	&
+	$r = \hspace*{1in}$
+	&
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return 1+2*cos(t);}, 4);
+	\end{asy}
+	\\ \hline
+	%--------------------------------------------------------
+	$r = $\hspace{1.25in} &
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return 1+3*sin(t);}, 4);
+	\end{asy}
+	&
+	$r = \hspace*{1in}$
+	&
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return 1-3*sin(t);}, 4);
+	\end{asy}
+	\\ \hline
+	%--------------------------------------------------------
+	\mycount $r = $\hspace{1.25in} &
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return 3*abs(sin(t));}, 4);
+	\end{asy}
+	&
+	\mycount $r = \hspace*{1in}$
+	&
+	\begin{asy}
+		import polargrid;
+		size(1.75inch);
+		drawPolar(new real(real t) {return t/2;}, 4,0,8);
+	\end{asy}
+	\\ \hline
+\end{tabular}
+\end{center}
+
+\textbf{Closing task:} Make your own equation with an interesting graph. Copy it
+onto the whiteboard and be prepared to explain it to the class. Don't just
+pick a random silly equation you can't explain! Write your equation below.
+\end{document}
