@@ -1,31 +1,33 @@
 # Parametrics and Polar Test
+DRAFT / QUESTION BANK
 
 ## Parametric Equations
 1. Eliminate the parameter and find a rectangular equation
 for the following parametric equations. Show all work.
 
-	1. [3pts] $x=t^3$ and $y=1-t$
-	2. [3pts] $y = 4\sin t$ and $y = 3\cos t$
+	A)  [3pts] $x=t^3$ and $y=1-t$
+	B)  [3pts] $y = 4\sin t$ and $y = 3\cos t$
 
 1. Graph the curve whose parametric equations are given, indicating
 the orientation of the curve with arrows.
 
-	1. [3pts] $x = t+5$ and $y=(t-1)^2$ where $-2 \leq t \leq 2$
-	2. [3pts] $x(t) = 4\cos t$ and $y(t) = 4\sin t$
+	A)  [3pts] $x = t+5$ and $y=(t-1)^2$ where $-2 \leq t \leq 2$
+	B)  [3pts] $x(t) = 4\cos t$ and $y(t) = 4\sin t$
 
 
 ## Polar Coordinates
+(some of these are designed as MC questions)
+
 1. [2pts] Which of the following is not a possible coordinate for the indicated point.
 2. [2pts]  Convert $(5,-5)$ to polar coordinates with $0 \leq \theta < 2\pi$
 3. [2pts]  Convert $(6,2\pi/3)$ to rectangular coordinates
 4. [2pts]  Which of the following points is furthest from the origin?
 5. [2pts]  Which points are between $\theta = \displaystyle\frac{\pi}{4}$ and $\theta = 3\pi/4$?
 6. [2pts]  Convert to polar: $x^2-y^2 = 16$
-7. [2pts]  Convert to rectangular: $r = 4+4\cos(\theta)$
-8. [2pts]  Which of the following is the graph of $r = 3-4\cos(\theta)$?
-9. [2pts]  Which of the following is the graph of $r = -4\cos(\theta)$?
+7. [2pts]  Convert to rectangular: $r = 4+4r\cos(\theta)$
+8. [2pts]  Which of the following is the graph of $r = \cos(2\theta)$?
+9. [2pts]  Which of the following is the graph of $r = 4\sin(\theta)$?
 10. [2pts]  What are the $x$-intercepts of $r = \sin(\theta) - \cos(\theta)$
-11. [2pts]  What conic section is represented by $r = \displaystyle\frac{1}{2-3\cos(\theta)}$?
 
 ## True/False
 
