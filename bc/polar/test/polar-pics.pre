@@ -1,0 +1,4 @@
+\InputIfFileExists {test2/\jobname -1.pre}{}{}
+\InputIfFileExists {test2/\jobname -2.pre}{}{}
+\InputIfFileExists {test2/\jobname -3.pre}{}{}
+\InputIfFileExists {test2/\jobname -4.pre}{}{}
