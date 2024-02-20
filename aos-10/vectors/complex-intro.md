@@ -4,17 +4,13 @@
 
 A complex number is a number that can be expressed in the form $a + bi$, where $a$ and $b$ are real numbers, and $i$ is the imaginary unit with the property that $i^2 = -1$. The real part of the complex number is $a$, and the imaginary part is $b$. Complex numbers extend the concept of one-dimensional number lines to a two-dimensional complex plane, allowing for the representation of more sophisticated mathematical concepts.
 
-### Example:
-The complex number $3 + 4i$ has a real part of 3 and an imaginary part of 4.
+**Example** The complex number $3 + 4i$ has a real part of 3 and an imaginary part of 4.
 
-![A complex number](complex-number.png){ width=50% }
-
-## Representing Complex Numbers
+![A complex number](complex-number.png){ width=25% }
 
 In the complex plane, also known as the Argand plane, complex numbers are represented as points or vectors. The horizontal axis represents the real part, and the vertical axis represents the imaginary part.
 
-### Example:
-The complex number $3 + 4i$ is represented as a point (3, 4) in the complex plane, or as a vector from the origin (0, 0) to the point (3, 4).
+**Example** The complex number $3 + 4i$ is represented as a point (3, 4) in the complex plane, or as a vector from the origin (0, 0) to the point (3, 4).
 
 ## Basic Operations
 
@@ -22,63 +18,41 @@ The complex number $3 + 4i$ is represented as a point (3, 4) in the complex plan
 
 Adding or subtracting complex numbers involves combining their real parts and their imaginary parts separately.
 
-#### Example - Addition:
-Given $z_1 = 3 + 4i$ and $z_2 = 1 + 2i$,
-$z_1 + z_2 = (3 + 1) + (4i + 2i) = 4 + 6i$.
+**Example - Addition** Given $z_1 = 3 + 4i$ and $z_2 = 1 + 2i$, $z_1 + z_2 = (3 + 1) + (4i + 2i) = 4 + 6i$.
 
-#### Example - Subtraction:
-Given $z_1 = 3 + 4i$ and $z_2 = 1 + 2i$,
-$z_1 - z_2 = (3 - 1) + (4i - 2i) = 2 + 2i$.
+**Example - Subtraction** Given $z_1 = 3 + 4i$ and $z_2 = 1 + 2i$, $z_1 - z_2 = (3 - 1) + (4i - 2i) = 2 + 2i$.
 
 ### Magnitude (Modulus)
 
 The magnitude (or modulus) of a complex number is the distance from the origin to the point in the complex plane, calculated as $\sqrt{a^2 + b^2}$.
 
-#### Example:
-For $z = 3 + 4i$,
+**Example** For $z = 3 + 4i$,
 Magnitude $|z| = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$.
 
 ### Direction (Argument)
 
-The direction (or argument) of a complex number is the angle formed with the positive real axis. It can be found using the arctan function.
+The direction (or argument) of a complex number is the angle formed with the positive real axis. It can be found using the arctan function. Be aware that this is the same process as converting rectangular coordinates to polar coordinates. You will need to be aware of the correct quadrant for your angle.
 
-#### Updated Example:
-Consider the complex number represented by the vector $(12, 4\sqrt{3})$, or in complex form $12 + 4\sqrt{3}i$.
-Argument $\theta = \tan^{-1}\left(\frac{4\sqrt{3}}{12}\right) = \tan^{-1}\left(\frac{\sqrt{3}}{3}\right) = 30^\circ$.
+**Example** Find the argument of the complex number $12 + 4\sqrt{3}i$.
+**Solution** Argument $\theta = \tan^{-1}\left(\frac{4\sqrt{3}}{12}\right) = \tan^{-1}\left(\frac{\sqrt{3}}{3}\right) = \dfrac{\pi}{6}$.
 
-### Multiplication and Division
+**Example** Find the argument of the complex number $-\sqrt{2}+\sqrt{6}i$.
+**Solution** Argument $\theta = \tan^{-1}\left(\frac{\sqrt6}{-\sqrt2}\right) = \tan^{-1}\left(-\sqrt3\right) = -\tan^{-1}\left(\sqrt3\right) = \dfrac{-\pi}{3}$. But the original point is in Quadrant II and this angle is Quadrant IV. To fix, we add $\pi$ radians: $\theta = \pi + \dfrac{-\pi}{3} = \dfrac{2\pi}{3}$. 
 
-Multiplication and division of complex numbers can be interpreted geometrically in terms of magnitude and direction changes.
 
-#### Example - Multiplication:
-Multiplying two complex numbers results in a new complex number whose magnitude is the product of their magnitudes and whose direction is the sum of their directions.
+### Multiplication
 
-## Complex Numbers as Vectors
-
-In the complex plane, complex numbers are akin to vectors, with their real and imaginary parts corresponding to the vector's components. This interpretation allows for the application of vector concepts such as magnitude and direction to complex numbers.
-
-### Example in Physics:
-In physics, complex numbers (interpreted as vectors) are used to represent quantities such as electromagnetic fields and wave functions, where both magnitude and phase (direction) are essential.
-
-## Conclusion
-
-Complex numbers, with their representation as vectors in the complex plane, provide a powerful framework for extending our understanding of numbers and their operations. By embracing both their algebraic properties and geometric interpretation, we gain a deeper insight into various mathematical and physical phenomena. Through examples, we've explored the basics of complex numbers, including their addition, subtraction, magnitude, and direction, enriching our toolkit for tackling complex problems.
-
-Let's work through an example of complex number multiplication using the $a+bi$ notation and then find the argument of each vector involved, including the product. We'll observe how the argument of the product is the sum of the arguments of the original complex numbers.
-
-### Example of Complex Number Multiplication
-
-Consider two complex numbers:
+Multiplication can be performed by treating complex number as binomials and using the fact that $i^2 = -1$. Here's a detailed example. Consider two complex numbers:
 - $z_1 = 1 + 2i$
 - $z_2 = 3 + 4i$
 
-To multiply these complex numbers, we use the distributive property:
+To multiply these complex numbers, we multiply the binomials using the distributive property:
 
 $$
 z_1 \cdot z_2 = (1 + 2i)(3 + 4i) = 1\cdot3 + 1\cdot4i + 2i\cdot3 + 2i\cdot4i = 3 + 4i + 6i + 8i^2
 $$
 
-Since $i^2 = -1$, we simplify:
+We can combine like terms and use $i^2 = -1$ to simplify:
 
 $$
 3 + 4i + 6i - 8 = -5 + 10i
@@ -86,11 +60,88 @@ $$
 
 So, the product $z_1 \cdot z_2 = -5 + 10i$.
 
-### Finding the Argument of Each Vector
+### Division
+
+To divide one complex number by another, you essentially perform multiplication by the reciprocal of the divisor, just as with real numbers. The key to simplifying such division is to eliminate the imaginary part from the denominator, which is achieved by multiplying both the numerator and the denominator by the conjugate of the denominator.
+
+The **conjugate** of a complex number $a + bi$ is $a - bi$. Multiplying a complex number by its conjugate results in a real number, specifically $a^2 + b^2$, since $(a + bi)(a - bi) = a^2 - (bi)^2 = a^2 + b^2$. This is the same term you have seen applied to radicals: the conjugate of $1+3\sqrt2$ is $1-3\sqrt2$ because the product of these two numbers is rational $(1+3\sqrt2)(1-3\sqrt2) = 1-18 = -17$
+
+
+Given two complex numbers, $z_1 = a + bi$ and $z_2 = c + di$, to find $z_1 / z_2$, follow these steps:
+
+1. **Find the conjugate** of the denominator $z_2$, which is $c - di$.
+2. **Multiply** both the numerator $z_1$ and the denominator $z_2$ by this conjugate.
+3. **Simplify** the resulting expression to get the quotient in standard $a + bi$ form.
+
+**Example** Divide $z_1 = 1 + i$ by $z_2 = 3 + 2i$.
+**Solution:** 
+
+1. **Conjugate of $z_2$**: The conjugate of $3 + 2i$ is $3 - 2i$.
+2. **Multiply**: Multiply both $z_1$ and $z_2$ by $3 - 2i$:
+
+   $$
+   \frac{1 + i}{3 + 2i} \times \frac{3 - 2i}{3 - 2i} = \frac{(1 + i)(3 - 2i)}{(3 + 2i)(3 - 2i)}
+   $$
+
+3. **Simplify**:
+
+   $$
+   \frac{3 - 2i + 3i - 2i^2}{9 - 6i + 6i - 4i^2} = \frac{3 + i - 2(-1)}{9 + 4} = \frac{5 + i}{13}
+   $$
+
+   Finally, divide each part by 13:
+
+   $$
+   \frac{5}{13} + \frac{1}{13}i
+   $$
+
+**Example** Divide $z_1 = 4 - i$ by $z_2 = 1 - 2i$.
+**Solution:** 
+
+1. **Conjugate of $z_2$**: The conjugate is $1 + 2i$.
+2. **Multiply**:
+
+   $$
+   \frac{4 - i}{1 - 2i} \times \frac{1 + 2i}{1 + 2i} = \frac{(4 - i)(1 + 2i)}{(1 - 2i)(1 + 2i)}
+   $$
+
+3. **Simplify**:
+
+   $$
+   \frac{4 + 8i - i - 2i^2}{1 + 2i - 2i - 4i^2} = \frac{4 + 7i + 2}{1 + 4} = \frac{6 + 7i}{5}
+   $$
+
+   Simplifying further:
+
+   $$
+   \frac{6}{5} + \frac{7}{5}i
+   $$
+
+## Polar Form of Complex Numbers
+
+First a quick review.
+
+**Problem:** Convert the vectors $\vec{a} = \langle -1,1 \rangle$ and $\vec{b} = \langle 6,-2\sqrt3 \rangle$ to polar form.
+
+**Solution:** $a =  \langle \sqrt2, \frac{3\pi}{4} \rangle$ and $b =  \langle 4\sqrt3, \frac{5\pi}{6} \rangle$
+
+In the complex plane, complex numbers can be represented as vectors, in either rectangular or polar form. A complex number like $z=-1 + i$ is equivalent to the vector $\langle -1, 1 \rangle$ in rectangular coordinates. Since this vector has a magnitude of $\sqrt{2}$ and an argument of $\dfrac{3\pi}{4}$, it can be represented in polar form with $r = \sqrt2$ and $\theta=\dfrac{3\pi}{4}$. The **notation** for this polar complex number is $z=\sqrt2 e^{i \cdot 3\pi/4}$. In the same way, the complex number $6-2\sqrt3 i = 4\sqrt3 e^{i \cdot 5\pi/6}$. 
+
+#### About polar form
+
+If a complex number $z=a+bi$ has a magnitude of $r$ and an argument of $\theta$, it can be written in polar form as $z = r e^{i \theta}$ where $r^2 = a^2 + b^2$ and $\tan \theta = \frac{b}{a}$.  Why such a strange formula? It is a consequence of the *Euler Identity* which defines complex exponentials (raising $e$ to an imaginary power) as
+
+$$e^{i\theta} = \cos \theta + i \sin \theta$$
+
+For example, $e^{i \pi/4} = \frac{\sqrt2}{2} + \frac{\sqrt2}{2}i$ and $4e^{2i \pi/3} = 4\left( \frac{-\sqrt3}{2} + \frac12 i \right ) = -2\sqrt{3} + 2 i$
+
+#### An example of multiplication
+
+#### Finding the Argument of Each Vector
 
 The argument of a complex number $z = a + bi$ is given by $\theta = \tan^{-1}\left(\frac{b}{a}\right)$.
 
-#### Argument of $z_1$
+**Argument of $z_1$
 
 For $z_1 = 1 + 2i$:
 
@@ -130,7 +181,7 @@ $$63.43^\circ + 53.13^\circ \approx 116.57^\circ$$
 
 This example demonstrates that when multiplying two complex numbers, the argument of the product is equal to the sum of the arguments of the multiplicands, illustrating a fundamental property of complex number multiplication in terms of vector interpretation in the complex plane.
 
-![Vector Multiplication](vector-mult-1.png){ width=50% }
+![Vector Multiplication](vector-mult-1.png){ width=25% }
 
 ## Cube Roots of 1
 
@@ -175,77 +226,9 @@ The three roots of $x^3 = 1$ in the complex plane, represented in rectangular fo
 
 These solutions demonstrate the symmetry and beauty inherent in the complex plane, revealing how complex numbers provide a complete set of solutions to polynomial equations, including those with all real coefficients.
 
-![Cube roots of 1](cube-roots-of-one.png){ width=50% }
+![Cube roots of 1](cube-roots-of-one.png){ width=25% }
 
-# Dividing Complex Numbers
 
-Dividing complex numbers might initially seem daunting, but it's a process that becomes straightforward with practice. This section will guide you through the concept of dividing complex numbers, illustrated with examples.
-
-## Conceptual Overview
-
-To divide one complex number by another, you essentially perform multiplication by the reciprocal of the divisor. The key to simplifying such division is to eliminate the imaginary part from the denominator, which is achieved by multiplying both the numerator and the denominator by the conjugate of the denominator.
-
-The **conjugate** of a complex number $a + bi$ is $a - bi$. Multiplying a complex number by its conjugate results in a real number, specifically $a^2 + b^2$, since $(a + bi)(a - bi) = a^2 - (bi)^2 = a^2 + b^2$.
-
-## Steps for Division
-
-Given two complex numbers, $z_1 = a + bi$ and $z_2 = c + di$, to find $z_1 / z_2$, follow these steps:
-
-1. **Find the conjugate** of the denominator $z_2$, which is $c - di$.
-2. **Multiply** both the numerator $z_1$ and the denominator $z_2$ by this conjugate.
-3. **Simplify** the resulting expression to get the quotient in standard $a + bi$ form.
-
-## Example 1: Basic Division
-
-Consider dividing $z_1 = 1 + i$ by $z_2 = 3 + 2i$.
-
-1. **Conjugate of $z_2$**: The conjugate of $3 + 2i$ is $3 - 2i$.
-2. **Multiply**: Multiply both $z_1$ and $z_2$ by $3 - 2i$:
-
-   $$
-   \frac{1 + i}{3 + 2i} \times \frac{3 - 2i}{3 - 2i} = \frac{(1 + i)(3 - 2i)}{(3 + 2i)(3 - 2i)}
-   $$
-
-3. **Simplify**:
-
-   $$
-   \frac{3 - 2i + 3i - 2i^2}{9 - 6i + 6i - 4i^2} = \frac{3 + i - 2(-1)}{9 + 4} = \frac{5 + i}{13}
-   $$
-
-   Finally, divide each part by 13:
-
-   $$
-   \frac{5}{13} + \frac{1}{13}i
-   $$
-
-## Example 2: Another Division
-
-Let's divide $z_1 = 4 - i$ by $z_2 = 1 - 2i$.
-
-1. **Conjugate of $z_2$**: The conjugate is $1 + 2i$.
-2. **Multiply**:
-
-   $$
-   \frac{4 - i}{1 - 2i} \times \frac{1 + 2i}{1 + 2i} = \frac{(4 - i)(1 + 2i)}{(1 - 2i)(1 + 2i)}
-   $$
-
-3. **Simplify**:
-
-   $$
-   \frac{4 + 8i - i - 2i^2}{1 + 2i - 2i - 4i^2} = \frac{4 + 7i + 2}{1 + 4} = \frac{6 + 7i}{5}
-   $$
-
-   Simplifying further:
-
-   $$
-   \frac{6}{5} + \frac{7}{5}i
-   $$
-
-## Conclusion
-
-Dividing complex numbers involves using the conjugate of the denominator to simplify the division into a form that can be easily managed. This method ensures the division results in another complex number, preserving the properties and relationships inherent to complex numbers. Practice with different examples will help reinforce understanding and fluency in dividing complex numbers.
-
-Certainly! Let's explore another example using De Moivre's Theorem to find the fifth roots of $8$. This will demonstrate how to apply the theorem for finding roots of a complex number that is not on the unit circle and has a magnitude other than 1.
 
 ### Example: Finding the Fifth Roots of 8
 
@@ -291,7 +274,7 @@ for $k = 0, 1, 2, 3, 4$. This gives us five distinct roots:
 
 This example further illustrates the power of De Moivre's Theorem in finding the roots of complex numbers. By expressing the complex number in polar form, we can easily calculate its roots, showcasing the theorem's utility in simplifying complex arithmetic. Each root represents a distinct point in the complex plane, spaced evenly around a circle of radius 2, centered at the origin, demonstrating the symmetry and beauty of complex numbers.
 
-![Fifth roots of 8](eight.png){ width=50%}
+![Fifth roots of 8](eight.png){ width=25%}
 
 Here's the plot illustrating the fifth roots of 8 in the complex plane. Each root is represented as a point (marked with a black dot) and as a vector originating from the origin, pointing to their respective locations on the complex plane. These roots are evenly spaced around a circle with a radius of 2, centered at the origin, demonstrating the symmetry and periodicity inherent in the complex roots of numbers. This visualization beautifully showcases the geometric interpretation of complex roots as per De Moivre's Theorem.
 
@@ -347,7 +330,7 @@ These problems span a range of difficulties and concepts, offering a comprehensi
 
 Let's go through a simple example of quaternion arithmetic by adding, multiplying, and finding the inverse of two quaternions. This example will help illustrate how quaternion operations are performed.
 
-# Extension: Quaternions
+## Extension: Quaternions
 
 Consider two quaternions $Q_1$ and $Q_2$:
 
@@ -399,9 +382,9 @@ This example demonstrates the basics of quaternion arithmetic, including additio
 
 Let's tackle examples of solving a cubic and a quartic equation, each having two complex roots. We'll use algebraic methods for the cubic and the quartic equations, identifying the complex roots through factorization and the use of the quadratic formula where applicable.
 
-# Polynomial Zeros
+### Application: Polynomial Zeros
 
-### Example 1: Solving a Cubic Equation
+#### Example 1: Solving a Cubic Equation
 
 Consider the cubic equation:
 
@@ -458,15 +441,15 @@ In this scenario, it turns out all roots are real, which contradicts the initial
 
 The Mandelbrot Set, a complex and infinitely intricate figure in the complex plane, exhibits a variety of fascinating shapes along its boundary. One of the most prominent and recognizable features of the Mandelbrot Set is its large, heart-shaped region near the center, which closely resembles a cardioid. Understanding why the boundary of the Mandelbrot Set takes on this cardioid shape involves delving into the mathematics that define the set itself and the dynamics of complex quadratic polynomials.
 
-# Introduction to the Mandelbrot Set
+## Extension: The Mandelbrot Set
 
 The Mandelbrot Set is a fascinating and complex structure that has captured the imagination of mathematicians, physicists, and artists alike. Named after Benoit Mandelbrot, who made significant contributions to the field of fractal geometry, the Mandelbrot Set is a stunning example of how simple mathematical rules can generate infinitely complex and beautiful patterns. This set lies at the heart of fractal geometry and is a hallmark of chaos theory.
 
-## Definition
+### Definition
 
 The Mandelbrot Set is defined in the complex plane. It is the set of complex numbers $c$ for which the function $f_c(z) = z^2 + c$ does not diverge when iterated from $z = 0$, meaning that the sequence $f_c(0)$, $f_c(f_c(0))$, $f_c(f_c(f_c(0)))$, and so on, remains bounded in absolute value.
 
-## Mathematical Formulation
+### Mathematical Formulation
 
 To determine whether a complex number $c$ is part of the Mandelbrot Set, we iterate the equation:
 
@@ -474,29 +457,25 @@ $$ z_{n+1} = z_n^2 + c $$
 
 starting with $z_0 = 0$. If the magnitude of $z_n$ stays below a certain threshold (commonly 2) for all iterations, then $c$ is considered to be in the Mandelbrot Set.
 
-## Characteristics
+### Characteristics
 
 - **Self-Similarity**: The Mandelbrot Set is fractal, meaning it contains smaller copies of itself. Zooming into the boundary of the set reveals increasingly complex and similar patterns.
 - **Boundary Complexity**: The boundary of the Mandelbrot Set is infinitely complex. It contains an uncountable number of spiral and filament structures.
 - **Area**: The area of the Mandelbrot Set is finite, but its perimeter is infinitely long due to its fractal nature.
 - **Coloring**: While the set itself is usually plotted in black, the area outside the set is often colored based on the number of iterations required for $z_n$ to exceed the threshold. This coloring method reveals intricate patterns and is a source of the set's aesthetic appeal.
 -
-![The Mandelbrot Set](mandelbrot.png){ width = 50% }
+![The Mandelbrot Set](mandelbrot.png){ width = 25% }
 
 
-## Applications and Significance
+### Applications and Significance
 
 The study of the Mandelbrot Set has implications in various scientific fields, including physics, computer science, and art. Its patterns are not only visually captivating but also demonstrate the underlying principles of chaos, complexity, and the nature of mathematical infinity. The Mandelbrot Set serves as a bridge between theoretical mathematics and natural phenomena, offering insights into the self-repeating patterns found in nature, such as coastlines, mountains, and clouds.
 
-## Conclusion
-
-The Mandelbrot Set stands as a testament to the beauty and complexity of mathematical structures. It challenges our understanding of infinity, complexity, and the fundamental nature of mathematical order. The set is not only a subject of mathematical study but also a source of artistic inspiration, symbolizing the interconnectedness of science, art, and the natural world.
-
-## The Cardioid Shape of the Mandelbrot Set
+### The Cardioid Shape of the Mandelbrot Set
 
 The cardioid feature of the Mandelbrot Set arises from the behavior of the iterative process $z_{n+1} = z_n^2 + c$, starting with $z_0 = 0$, and examining for which complex numbers $c$ this process remains bounded. The main cardioid of the Mandelbrot Set can be described mathematically by the set of points $c$ for which the sequence does not escape to infinity and for which the iteration has a stable, repeating cycle of period 1. In other words, these are points $c$ for which the iteration settles into a stable loop.
 
-### Mathematical Description
+#### Mathematical Description
 
 The cardioid part of the Mandelbrot Set can be parameterized by the equation:
 
@@ -504,7 +483,7 @@ $$ c = \frac{1}{2} - \frac{1}{2}\cos(\theta) + i\left(\frac{1}{2}\sin(\theta)\ri
 
 where $\theta$ varies from 0 to $2\pi$. This equation describes a cardioid in the complex plane, which is the set of complex numbers $c$ that result in a stable cycle of length 1 for the iteration.
 
-## Significance of the Cardioid
+#### Significance of the Cardioid
 
 The cardioid shape is not arbitrary but is deeply connected to the dynamics of the quadratic map $z \mapsto z^2 + c$. It represents the boundary between different types of dynamical behavior for these maps:
 
@@ -512,13 +491,9 @@ The cardioid shape is not arbitrary but is deeply connected to the dynamics of t
 - **On the Boundary**: Points are still part of the Mandelbrot Set but represent the threshold of stability. The dynamics of points on the boundary can be incredibly complex, with the transition to chaos being evident through bifurcation diagrams.
 - **Outside the Cardioid**: The values of $c$ lead to sequences that escape to infinity, and thus do not belong to the Mandelbrot Set. This region represents chaotic behavior and unbounded orbits.
 
-## Visualization and Interpretation
+#### Visualization and Interpretation
 
 When visualized, the cardioid and the surrounding bulbs (which correspond to other periods of stable cycles) create a fascinating pattern that highlights the transition from order to chaos in dynamical systems. The cardioid, as the largest area of stability, serves as a core from which the exploration of the Mandelbrot Set's boundary can begin.
-
-## Conclusion
-
-The cardioid shape at the boundary of the Mandelbrot Set is a beautiful manifestation of the underlying mathematics of complex dynamical systems. It marks the complex boundary between stable, periodic orbits and the chaotic behavior that characterizes much of the Mandelbrot Set's intricate structure. Understanding the cardioid and the behaviors it encapsulates offers insight into the broader themes of stability, chaos, and complexity in mathematical systems.
 
 ---
 geometry: margin=1in
