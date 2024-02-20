@@ -52,3 +52,12 @@ function of time. (Assume the ground has a $y$-coordinate of 0).
 3. [1pt] What is the maximum height of the ball?
 
 4. [1pt] Determine the distance the ball travels.
+
+---
+geometry: margin=1in
+header-includes:
+- |
+  \let\oldsection\section
+  \renewcommand{\section}[1]{\clearpage\oldsection{#1}}
+	\def\tightlist{}
+---
