@@ -1,12 +1,15 @@
-# Complex Numbers
+# Intro Complex Numbers
 
-## What is a Complex Number?
+## Dangerously brief, curiously suspect, history of numbers
 
-A complex number is a number that can be expressed in the form $a + bi$, where $a$ and $b$ are real numbers, and $i$ is the imaginary unit with the property that $i^2 = -1$. The real part of the complex number is $a$, and the imaginary part is $b$. Complex numbers extend the concept of one-dimensional number lines to a two-dimensional complex plane, allowing for the representation of more sophisticated mathematical concepts.
+Leopold Kronecker, 19th century German mathematician, is credited with saying (in German)^["Die ganzen Zahlen hat der liebe Gott gemacht, alles andere ist Menschenwerk"] "Whole numbers were made by God, all else is the work of man." If you think about it, whole numbers are great for counting but, one day, somebody had to solve an equation like $2x=1$ and this required the invention of (discovery of?) rational numbers. These were great for a while until someone had to solve $x^2 = 2$.^[We believe they were finding the diagonal of a unit square]. So a new number, ◈, was born (they didn't really use the symbol ◈ but we have to call it something.) So $◈^2=2$. The first algebraic number, $\sqrt2$ was soon found to be like $\sqrt3$ and $\sqrt[3]5$ and it was discovered how to add and multiply these things together. And everyone was happy. Until some wise guy tried to solve $x^2 = -1$. And then there was trouble.
+
+## Complex Numbers
+Just like a symbol (in our questionable history above) was created to indicate $\sqrt2$, a symbol was introduced to mean $\sqrt{-1}$. That symbol is, of course $i$. $i$ is the imaginary unit. Multiples of $i$ are imaginary numbers. And when imaginary and real numbers are added togther, a complex number is born. A complex number is a number that can be expressed in the form $a + bi$, where $a$ and $b$ are real numbers, and $i$ is the imaginary unit with the property that $i^2 = -1$. The real part of the complex number is $a$, and the imaginary part is $b$. Complex numbers extend the concept of one-dimensional number lines to a two-dimensional complex plane, and a whole new world of mathematical possibilities arises.
 
 **Example** The complex number $3 + 4i$ has a real part of 3 and an imaginary part of 4.
 
-![A complex number](complex-number.png){ width=25% }
+![A complex number](complex-number.png){ width=33% }
 
 In the complex plane, also known as the Argand plane, complex numbers are represented as points or vectors. The horizontal axis represents the real part, and the vertical axis represents the imaginary part.
 
@@ -37,7 +40,7 @@ The direction (or argument) of a complex number is the angle formed with the pos
 **Solution** Argument $\theta = \tan^{-1}\left(\frac{4\sqrt{3}}{12}\right) = \tan^{-1}\left(\frac{\sqrt{3}}{3}\right) = \dfrac{\pi}{6}$.
 
 **Example** Find the argument of the complex number $-\sqrt{2}+\sqrt{6}i$.
-**Solution** Argument $\theta = \tan^{-1}\left(\frac{\sqrt6}{-\sqrt2}\right) = \tan^{-1}\left(-\sqrt3\right) = -\tan^{-1}\left(\sqrt3\right) = \dfrac{-\pi}{3}$. But the original point is in Quadrant II and this angle is Quadrant IV. To fix, we add $\pi$ radians: $\theta = \pi + \dfrac{-\pi}{3} = \dfrac{2\pi}{3}$. 
+**Solution** Argument $\theta = \tan^{-1}\left(\frac{\sqrt6}{-\sqrt2}\right) = \tan^{-1}\left(-\sqrt3\right) = -\tan^{-1}\left(\sqrt3\right) = \dfrac{-\pi}{3}$. But the original point is in Quadrant II and this angle is Quadrant IV. To fix, we add $\pi$ radians: $\theta = \pi + \dfrac{-\pi}{3} = \dfrac{2\pi}{3}$.
 
 
 ### Multiplication
@@ -74,7 +77,7 @@ Given two complex numbers, $z_1 = a + bi$ and $z_2 = c + di$, to find $z_1 / z_2
 3. **Simplify** the resulting expression to get the quotient in standard $a + bi$ form.
 
 **Example** Divide $z_1 = 1 + i$ by $z_2 = 3 + 2i$.
-**Solution:** 
+**Solution:**
 
 1. **Conjugate of $z_2$**: The conjugate of $3 + 2i$ is $3 - 2i$.
 2. **Multiply**: Multiply both $z_1$ and $z_2$ by $3 - 2i$:
@@ -96,7 +99,7 @@ Given two complex numbers, $z_1 = a + bi$ and $z_2 = c + di$, to find $z_1 / z_2
    $$
 
 **Example** Divide $z_1 = 4 - i$ by $z_2 = 1 - 2i$.
-**Solution:** 
+**Solution:**
 
 1. **Conjugate of $z_2$**: The conjugate is $1 + 2i$.
 2. **Multiply**:
@@ -117,7 +120,19 @@ Given two complex numbers, $z_1 = a + bi$ and $z_2 = c + di$, to find $z_1 / z_2
    \frac{6}{5} + \frac{7}{5}i
    $$
 
-## Polar Form of Complex Numbers
+## Checkpoint
+
+1. **Addition**: Find $(3 + 4i) + (-1 + 2i)$.
+2. **Subtraction**: Calculate $(5 - 3i) - (2 + i)$.
+3. **Multiplication**: Multiply $(1 + i)$ by $(2 - 2i)$.
+4. **Division**: Divide $(6 + 8i)$ by $(3 - 4i)$.
+5. **Conjugate**: Find the conjugate of $7 - 5i$.
+6. **Magnitude**: Calculate the magnitude of $1 - i$.
+7. **Argument**: Find the argument of $-\sqrt{3} + i$ in radians.
+8. **Convert**: Find a complex number $(a+bi)$ with magnitue 10 and argument $-\pi/3$
+
+
+# Polar Form of Complex Numbers
 
 First a quick review.
 
@@ -125,7 +140,7 @@ First a quick review.
 
 **Solution:** $a =  \langle \sqrt2, \frac{3\pi}{4} \rangle$ and $b =  \langle 4\sqrt3, \frac{5\pi}{6} \rangle$
 
-In the complex plane, complex numbers can be represented as vectors, in either rectangular or polar form. A complex number like $z=-1 + i$ is equivalent to the vector $\langle -1, 1 \rangle$ in rectangular coordinates. Since this vector has a magnitude of $\sqrt{2}$ and an argument of $\dfrac{3\pi}{4}$, it can be represented in polar form with $r = \sqrt2$ and $\theta=\dfrac{3\pi}{4}$. The **notation** for this polar complex number is $z=\sqrt2 e^{i \cdot 3\pi/4}$. In the same way, the complex number $6-2\sqrt3 i = 4\sqrt3 e^{i \cdot 5\pi/6}$. 
+In the complex plane, complex numbers can be represented as vectors, in either rectangular or polar form. A complex number like $z=-1 + i$ is equivalent to the vector $\langle -1, 1 \rangle$ in rectangular coordinates. Since this vector has a magnitude of $\sqrt{2}$ and an argument of $\dfrac{3\pi}{4}$, it can be represented in polar form with $r = \sqrt2$ and $\theta=\dfrac{3\pi}{4}$. The **notation** for this polar complex number is $z=\sqrt2 e^{i \cdot 3\pi/4}$. In the same way, the complex number $6-2\sqrt3 i = 4\sqrt3 e^{i \cdot 5\pi/6}$.
 
 #### About polar form
 
