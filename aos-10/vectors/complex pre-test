@@ -1,0 +1,43 @@
+# Complex Numbers Pre-Test
+
+## Rectangular Form $z = a+bi$
+
+Evaluate the following
+
+1. $(3 + 4i) + (5 - 2i)$
+2. $(-1 + i) + (2 + 3i)$
+3. $(6 - 3i) - (2 + 5i)$
+4. $(-4 + i) - (-1 - 2i)$
+5. $3 \cdot (2 + 4i)$
+6. $-2 \cdot (1 - 3i)$
+7. $3i \cdot 2i$
+8. $5i \cdot 4i$
+9. $(1 + 2i) \cdot (3 + 4i)$
+10. $(-2 + 3i) \cdot (1 - 5i)$
+11. $(4 + 3i) \cdot (4 - 3i)$
+12. $(2 + 5i) \cdot (2 - 5i)$
+13. $\frac{4 + 2i}{2 - 3i}$
+14. $\frac{-1 + 4i}{3 + i}$
+15. Find the magnitude $|3 + 4i|$
+16. Find the magnitude  $|-2 - \sqrt2i|$
+17. Find the argument of $(1 + \sqrt{3}i)$
+18. Find the argument of $(-1 - i)$
+19. Find all roots of $x^2 + x + 1 = 0$
+20. Find all roots of $x^3 + 1 = 0$
+
+## Polar Form $z=re^{i \theta}$
+
+Evaluate the following
+
+19. $(2e^{i\pi/4}) \cdot (3e^{i\pi/3})$
+20. $(4e^{i\pi/6}) \cdot (2e^{i\pi/2})$
+21. $(2e^{i\pi/4})^3$
+22. $(3e^{i\pi/3})^4$
+23.  Find the 3rd roots of$8e^{i\pi}$
+24.  Find the 4th roots of$(2+i)$
+25. $\log(-4)$
+26. $\log(-16)$
+27. $i^{23}$
+28. $i^{45}$
+29. $-1^i$
+30. $i^i$
