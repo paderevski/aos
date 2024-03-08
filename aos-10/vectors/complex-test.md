@@ -94,4 +94,4 @@ Certainly! Here's the answer key for the Complex Numbers Test. Keep in mind, for
 
 **Question 20**: Yes, by definition of complex conjugates and properties of exponents.
 
-Remember, the answers, especially for polar forms, might be presented differently based on the convention used (radians vs. degrees, for instance). Make sure to adapt the answers according to the instructional context and the level of precision expected from your students.
+Remember, the answers, especially for polar forms, might be presented differently based on the convention used (radians vs. degrees, for instance). Make sure to adapt the answers according to the instructional context and the level of precision expected from your students
