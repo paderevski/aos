@@ -295,9 +295,7 @@ Here's the plot illustrating the fifth roots of 8 in the complex plane. Each roo
 
 # Practice Problems on Complex Numbers
 
-Below are 20 practice problems covering a range of topics related to complex numbers, including basic operations, representation in the Argand plane, De Moivre's Theorem, and finding roots. These problems are designed to reinforce your understanding and application of complex numbers in various contexts.
 
-### Basic Operations with Complex Numbers
 
 1. **Addition**: Find $(3 + 4i) + (-1 + 2i)$.
 2. **Subtraction**: Calculate $(5 - 3i) - (2 + i)$.
@@ -305,45 +303,17 @@ Below are 20 practice problems covering a range of topics related to complex num
 4. **Division**: Divide $(6 + 8i)$ by $(3 - 4i)$.
 5. **Conjugate**: Find the conjugate of $7 - 5i$.
 
-### Complex Numbers in Polar Form
-
 6. **Convert to Polar Form**: Express $-3 + 3\sqrt{3}i$ in polar form.
 7. **Magnitude**: Calculate the magnitude of $1 - i$.
 8. **Argument**: Find the argument of $-\sqrt{3} + i$ in radians.
 
-### Applying De Moivre's Theorem
-
-9. **Power**: Use De Moivre's Theorem to find $(1 + i)^4$.
-10. **Root**: Find the square roots of $-4$ using De Moivre's Theorem.
-
-### Roots of Unity
-
-11. **Cube Roots of 1**: List all cube roots of 1.
-12. **Fourth Roots of Unity**: Find all fourth roots of 1.
-
-### Complex Number Equations
-
-13. **Solve**: $z^2 + 2z + 2 = 0$.
-14. **Solve for $z$**: $z^3 - 8 = 0$.
-
-### Visual Representation in Argand Plane
-
-15. **Plot**: Represent $4 + 3i$ in the Argand plane.
-16. **Vector Addition**: If $z_1 = 3 + i$ and $z_2 = -2 + 2i$, plot $z_1 + z_2$ in the Argand plane.
-
-### Advanced Operations
-
-17. **Division and Argument**: Divide $1 + \sqrt{3}i$ by $\sqrt{3} - i$ and find the argument of the quotient.
-18. **Multiplication in Polar Form**: Multiply $2e^{i\pi/6}$ by $3e^{i\pi/3}$ and express the result in rectangular form.
-
-### Challenging Problems
-
-19. **Complex Equation**: Find all values of $z$ such that $z^4 = 16i$.
-20. **De Moivre's Theorem Application**: Use De Moivre's Theorem to find $(\cos \pi/4 + i\sin \pi/4)^6$.
-
-These problems span a range of difficulties and concepts, offering a comprehensive review of complex numbers. They are intended to challenge you and deepen your understanding of the material.
-
-Let's go through a simple example of quaternion arithmetic by adding, multiplying, and finding the inverse of two quaternions. This example will help illustrate how quaternion operations are performed.
+9. **Power**: Find $(1 + i)^4$ (convert to polar first, then back)
+10. **Root**: Find the fourth roots of $-4$ in polar and rectangular form.
+11. **Solve**: $z^2 + 2z + 2 = 0$.
+12. **Solve for $z$**: $z^3 - 8 = 0$.
+13. **Vector Multiplication**: If $z_1 = 3 + i$ and $z_2 = -2 + 2i$, plot $z_1z_2$ in the complex plane. Calculate in rectangular and polar and verify the answers match.
+14. **Multiplication in Polar Form**: Multiply $2e^{i\pi/6}$ by $3e^{i\pi/3}$ and express the result in rectangular form.
+15. **Complex Equation**: Find all values of $z$ such that $z^4 = 1+4i$.
 
 ## Extension: Quaternions
 
