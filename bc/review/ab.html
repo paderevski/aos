@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>05 - AB Integrals and Their Applications</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 72em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+      font-size: normal;
+    }
+    @media (max-width: 800px) {
+      body {
+        font-size: 2em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 5;
+    }
+    li {
+      padding-top: 1em;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="ab-integrals-and-their-applications">AB Integrals and Their
+Applications</h1>
+<h2 id="multiple-choice">Multiple Choice</h2>
+<ol type="1">
+<li><img
+src="https://cdn.mathpix.com/cropped/2024_03_10_278af5ee52ec021199c7g-04.jpg?height=417&amp;width=490&amp;top_left_y=434&amp;top_left_x=384" />
+The graph of a piecewise linear function <span
+class="math inline">f(x)</span>, for <span class="math inline">-3 \leq x
+\leq 2</span>, is shown above. What is the value of <span
+class="math inline">\displaystyle \int_{-2}^{2}(f(x)+2) d x</span> ?
+<ol type="a">
+<li>5</li>
+<li>6.5</li>
+<li>11</li>
+<li>12.5</li>
+</ol></li>
+<li>Let <span class="math inline">f(x)</span> be a continuous function.
+Using the substitution <span class="math inline">u=3 x+1</span>, the
+integral <span class="math inline">\displaystyle \int_{1}^{4} f(3 x+1) d
+x</span> is equal to which of the following?
+<ol type="a">
+<li><span class="math inline">\displaystyle \int_{1}^{4} f(u) d
+u</span></li>
+<li><span class="math inline">\dfrac{1}{3} \displaystyle \int_{1}^{4}
+f(u) d u</span></li>
+<li><span class="math inline">3 \displaystyle \int_{4}^{13} f(u) d
+u</span></li>
+<li><span class="math inline">\dfrac{1}{3} \displaystyle \int_{4}^{13}
+f(u) d u</span></li>
+</ol></li>
+<li><span class="math display">\displaystyle \int \dfrac{1}{x^{2}} d
+x=</span>
+<ol type="a">
+<li><span class="math inline">\ln x^{2}+C</span></li>
+<li><span class="math inline">-\ln x^{2}+C</span></li>
+<li><span class="math inline">x^{-1}+C</span></li>
+<li><span class="math inline">-x^{-1}+C</span></li>
+<li><span class="math inline">-2 x^{-3}+C</span></li>
+</ol></li>
+<li>Which of the following integral expressions is equal to <span
+class="math inline">\lim _{n \rightarrow \infty} \displaystyle
+\sum_{k=1}^{n}\left(\left(1+\dfrac{2 k}{n}\right)^{2} \cdot
+\dfrac{1}{n}\right)</span> ?
+<ol type="a">
+<li><span class="math inline">\displaystyle \int_{0}^{1}(1+2 x)^{2} d
+x</span></li>
+<li><span class="math inline">\displaystyle \int_{0}^{2}(1+x)^{2} d
+x</span></li>
+<li><span class="math inline">\displaystyle \int_{1}^{3} x^{2} d
+x</span></li>
+<li><span class="math inline">\dfrac{1}{2} \displaystyle \int_{0}^{2}
+x^{2} d x</span></li>
+</ol></li>
+<li><span class="math inline">f(x)=\left\{\begin{array}{l}x \text { for
+} x&lt;2 \\ 3 \text { for } x \geq 2\end{array}\right.</span> If <span
+class="math inline">f</span> is the function defined above, then <span
+class="math inline">\displaystyle \int_{-1}^{4} f(x) d x</span> is
+<ol type="a">
+<li><span class="math inline">\dfrac{9}{2}</span></li>
+<li><span class="math inline">\dfrac{15}{2}</span></li>
+<li><span class="math inline">\dfrac{17}{2}</span></li>
+<li>undefined</li>
+</ol></li>
+<li><span class="math display">\displaystyle \int_{0}^{3} \dfrac{x^{2}+4
+x+5}{x+3} d x=</span>
+<ol type="a">
+<li><span class="math inline">\dfrac{84}{63}</span></li>
+<li><span class="math inline">3+2 \ln 2</span></li>
+<li><span class="math inline">\dfrac{15}{2}+2 \ln 2</span></li>
+<li><span class="math inline">\dfrac{15}{2}+2 \ln 3</span></li>
+</ol></li>
+<li><span class="math display">\displaystyle \int \dfrac{1}{x^{2}+6
+x+13} d x=</span>
+<ol type="a">
+<li><span class="math inline">\dfrac{1}{2} \arctan
+\dfrac{(x+3)}{2}+C</span></li>
+<li><span class="math inline">\dfrac{1}{\dfrac{x^{3}}{3}+3 x^{2}+13
+x}+C</span></li>
+<li><span class="math inline">\ln \left|x^{2}+6
+x+13\right|+C</span></li>
+<li><span class="math inline">2 \arctan \dfrac{(x+3)}{2}+C</span></li>
+</ol></li>
+<li>At time <span class="math inline">t</span>, a population of bacteria
+grows at a rate of <span class="math inline">5 e^{0.2 t}+4 t</span>
+grams per day, where <span class="math inline">t</span> is measured in
+days. By how many grams has the population grown from time <span
+class="math inline">t=0</span> to <span class="math inline">t=10</span>
+days?
+<ol type="a">
+<li><span class="math inline">5 e^{2}+40</span></li>
+<li><span class="math inline">5 e^{2}+195</span></li>
+<li><span class="math inline">25 e^{2}+175</span></li>
+<li><span class="math inline">25 e^{2}+375</span></li>
+</ol></li>
+<li>Which of the following limits is equal to <span
+class="math inline">\displaystyle \int_{3}^{7} x^{3} d x</span> ?
+<ol type="a">
+<li><span class="math inline">\lim _{n \rightarrow \infty} \displaystyle
+\sum_{k=1}^{n}\left(\left(3+\dfrac{k}{n}\right)^{3} \cdot
+\dfrac{1}{n}\right)</span></li>
+<li><span class="math inline">\lim _{n \rightarrow \infty} \displaystyle
+\sum_{k=1}^{n}\left(\left(3+\dfrac{k}{n}\right)^{3} \cdot
+\dfrac{4}{n}\right)</span></li>
+<li><span class="math inline">\lim _{n \rightarrow \infty} \displaystyle
+\sum_{k=1}^{n}\left(\left(3+\dfrac{4 k}{n}\right)^{3} \cdot
+\dfrac{1}{n}\right)</span></li>
+<li><span class="math inline">\lim _{n \rightarrow \infty} \displaystyle
+\sum_{k=1}^{n}\left(\left(3+\dfrac{4 k}{n}\right)^{3} \cdot
+\dfrac{4}{n}\right)</span></li>
+</ol></li>
+<li><span class="math inline">\displaystyle \int e^{x} \cos
+\left(e^{x}+1\right) d x=</span> (a) <span class="math inline">\sin
+\left(e^{x}+1\right)+C</span> (a) <span class="math inline">e^{x} \sin
+\left(e^{x}+1\right)+C</span> (a) <span class="math inline">e^{x} \sin
+\left(e^{x}+x\right)+C</span> (a) <span class="math inline">\dfrac{1}{2}
+\cos ^{2}\left(e^{x}+1\right)+C</span></li>
+<li>Using the substitution <span class="math inline">u=\sqrt{x}</span>,
+the integral <span class="math inline">\displaystyle \int_{1}^{9}
+\dfrac{\sin \sqrt{x}}{\sqrt{x}} d x</span> is equal to which of the
+following? (a) <span class="math inline">\dfrac{1}{2} \displaystyle
+\int_{1}^{3} \sin u d u</span> (a) <span class="math inline">2
+\displaystyle \int_{1}^{3} \dfrac{\sin u}{u} d u</span> (a) <span
+class="math inline">2 \displaystyle \int_{1}^{3} \sin u d u</span> (a)
+<span class="math inline">2 \displaystyle \int_{1}^{9} \sin u d
+u</span></li>
+<li><img
+src="https://cdn.mathpix.com/cropped/2024_03_10_278af5ee52ec021199c7g-08.jpg?height=569&amp;width=458&amp;top_left_y=428&amp;top_left_x=367" />
+The right triangle shown in the figure represents the boundary of a town
+that is bordered by a highway. The population density of the town at a
+distance of <span class="math inline">x</span> miles from the highway is
+modeled by <span class="math inline">D(x)=\sqrt{x+1}</span>, where <span
+class="math inline">D(x)</span> is measured in thousands of people per
+square mile. According to the model, which of the following expressions
+gives the total population, in thousands, of the town? <span
+class="math display">f(x)= \begin{cases}\dfrac{|x-1|}{x-1} &amp; , x
+\neq 1 \\ 1 &amp; , x=1\end{cases}</span> (a) <span
+class="math inline">\displaystyle \int_{0}^{4} \sqrt{x+1} d x</span> (a)
+<span class="math inline">\displaystyle \int_{0}^{4} 8 \sqrt{x+1} d
+x</span> (a) <span class="math inline">\displaystyle \int_{0}^{4} x
+\sqrt{x+1} d x</span> (a) <span class="math inline">\displaystyle
+\int_{0}^{4}(4-x) \sqrt{x+1} d x</span></li>
+<li>If <span class="math inline">f</span> is the function defined above,
+then <span class="math inline">\displaystyle \int_{-1}^{4} f(x) d
+x</span> is (a) 1 (a) 2 (a) 5 (a) nonexistent</li>
+<li><span class="math inline">\displaystyle \int_{1}^{2} \dfrac{x^{2}+6
+x+6}{x+1} d x=</span> (a) <span class="math inline">1+\ln
+\dfrac{3}{2}</span> (a) 6.5 (a) <span class="math inline">6.5+\ln
+\dfrac{3}{2}</span> (a) <span class="math inline">6.5+\ln 6</span></li>
+<li><span class="math inline">\displaystyle \int \dfrac{x}{x^{2}-4} d
+x=</span> (a) <span
+class="math inline">\dfrac{-1}{4\left(x^{2}-4\right)^{2}}+C</span> (a)
+<span class="math inline">\dfrac{1}{2\left(x^{2}-4\right)}+C</span> (a)
+<span class="math inline">\dfrac{1}{2} \ln \left|x^{2}-4\right|+C</span>
+(a) <span class="math inline">2 \ln \left|x^{2}-4\right|+C</span> (a)
+<span class="math inline">\dfrac{1}{2} \arctan
+\left(\dfrac{x}{2}\right)+C</span></li>
+<li><span class="math inline">\displaystyle \int_{1}^{e}
+\dfrac{x^{2}-1}{x} d x=</span> (a) <span
+class="math inline">e-\dfrac{1}{e}</span> (a) <span
+class="math inline">e^{2}-e</span> (a) <span
+class="math inline">\dfrac{e^{2}}{2}-e+\dfrac{1}{2}</span> (a) <span
+class="math inline">e^{2}-2</span> (a) <span
+class="math inline">\dfrac{e^{2}}{2}-\dfrac{3}{2}</span></li>
+<li><span class="math inline">\displaystyle \int_{0}^{1} \dfrac{\arctan
+x}{1+x^{2}} d x==</span> (a) <span
+class="math inline">\dfrac{\pi}{4}</span> (a) <span
+class="math inline">\dfrac{\pi^{2}}{32}</span> (a) <span
+class="math inline">\dfrac{\pi^{2}}{16}</span> (a) 1</li>
+<li>(calculator allowed) A rain barrel collects water off the roof of a
+house during three hours of heavy rainfall. The height of the water in
+the barrel increases at the rate of <span class="math inline">r(t)=4
+t^{3} e^{-1.5 t}</span> feet per hour where <span
+class="math inline">t</span> is the time in hours since the rain began.
+At time <span class="math inline">t=1</span> hour, the height of water
+is 0.75 foot. What is the height of water in the barrel at time <span
+class="math inline">t=2</span> hours?
+<ol type="a">
+<li><span class="math inline">1.361 \mathrm{ft}</span></li>
+<li><span class="math inline">1.500 \mathrm{ft}</span></li>
+<li><span class="math inline">1.672 \mathrm{ft}</span></li>
+<li><span class="math inline">2.111 \mathrm{ft}</span></li>
+</ol></li>
+<li>(calculator allowed) The function <span class="math inline">g</span>
+is continuous on the closed interval <span
+class="math inline">[2,10]</span>. If <span
+class="math inline">\displaystyle \int_{2}^{10} g(x) d x=63</span> and
+<span class="math inline">\displaystyle \int_{10}^{5} \dfrac{1}{2} g(x)
+d x=-16</span>, then <span class="math inline">\displaystyle
+\int_{2}^{5} 2 g(x) d x=</span>
+<ol type="a">
+<li>31</li>
+<li>62</li>
+<li>95</li>
+<li>190</li>
+</ol></li>
+<li>A pizza, heated to a temperature of 350 degrees Fahrenheit ( <span
+class="math inline">{ }^{\circ} \mathrm{F}</span> ), is taken out of an
+oven and placed in a <span class="math inline">75^{\circ}
+\mathrm{F}</span> room at time <span class="math inline">t=0</span>
+minutes. The temperature of the pizza is changing at a rate of <span
+class="math inline">-110 e^{-0.4 t}</span> degrees Fahrenheit per
+minute. Which of the following is the best interpretation of <span
+class="math inline">\displaystyle \int_{0}^{30}-110 e^{-0.4 t} d
+t</span> ? (a) The average temperature of the pizza, in degrees
+Fahrenheit, over the 30 minutes time interval after it was taken out of
+the oven. (a) Temperature of the pizza, in degrees Fahrenheit, 30
+minutes after it was taken out of the oven. (a) The rate at which the
+temperature of the pizza is changing, in degrees Fahrenheit per minute,
+30 minutes after it was taken out of the oven. (a) The change in the
+temperature of the pizza, in degrees Fahrenheit, over the 30 minutes
+time interval after it was taken out of the oven.</li>
+<li>(calculator allowed) What is the average value of <span
+class="math inline">y=\dfrac{\cos x}{x^{2}+x+2}</span> on the closed
+interval <span class="math inline">[-1,3]</span> ?
+<ol type="a">
+<li>-0.085</li>
+<li>0.090</li>
+<li>0.183</li>
+<li>0.244</li>
+<li>0.732</li>
+</ol></li>
+<li>(calculator allowed) On the closed interval <span
+class="math inline">[2,4]</span>, which of the following could be the
+graph of a function <span class="math inline">f</span> with the property
+that <span class="math inline">\dfrac{1}{4-2} \displaystyle \int_{2}^{4}
+f(t) d t=1</span> ?
+<ol type="a">
+<li><img
+src="https://cdn.mathpix.com/cropped/2024_03_10_278af5ee52ec021199c7g-12.jpg?height=355&amp;width=334&amp;top_left_y=500&amp;top_left_x=424" /></li>
+<li><img
+src="https://cdn.mathpix.com/cropped/2024_03_10_278af5ee52ec021199c7g-12.jpg?height=377&amp;width=350&amp;top_left_y=893&amp;top_left_x=427" /></li>
+<li><img
+src="https://cdn.mathpix.com/cropped/2024_03_10_278af5ee52ec021199c7g-12.jpg?height=358&amp;width=333&amp;top_left_y=1309&amp;top_left_x=408" /></li>
+<li><img
+src="https://cdn.mathpix.com/cropped/2024_03_10_278af5ee52ec021199c7g-12.jpg?height=363&amp;width=331&amp;top_left_y=499&amp;top_left_x=1038" /></li>
+<li><img
+src="https://cdn.mathpix.com/cropped/2024_03_10_278af5ee52ec021199c7g-12.jpg?height=420&amp;width=393&amp;top_left_y=863&amp;top_left_x=1039" /></li>
+</ol></li>
+<li>If <span class="math inline">f</span> is a continuous function and
+if <span class="math inline">F^{\prime}(x)=f(x)</span> for all real
+numbers <span class="math inline">X</span>, then <span
+class="math inline">\displaystyle \int_{1}^{3} f(2 x) d x=</span> (a)
+<span class="math inline">2 F(3)-2 F(1)</span> (a) <span
+class="math inline">\dfrac{1}{2} F(3)-\dfrac{1}{2} F(1)</span> (a) <span
+class="math inline">2 F(6)-2 F(2)</span> (a) <span
+class="math inline">F(6)-F(2)</span> (a) <span
+class="math inline">\dfrac{1}{2} F(6)-\dfrac{1}{2} F(2)</span></li>
+</ol>
+</body>
+</html>
