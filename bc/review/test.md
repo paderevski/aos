@@ -1,11 +1,11 @@
 # Review Test 1
 
 1.  Evaluate $$\lim_{h \rightarrow 0}\dfrac{\sec(3(x + h)) - \sec(3x)}{h}$$
-    b.  $3\sec(3x)\tan(3x)$
-    a.  0
-    c.  $\sec^{2}(3x)$
-    d.  $3\cot(3x)$
-    e.  nonexistent
+    a.  $3\sec(3x)\tan(3x)$
+    a.  $3\sec^2(3x)$
+    c.  $3\sec(x)\tan(x)$
+    d.  $3\tan^2(3x)$
+    e.  $9\tan^2(3x)$
 2.  $$f(x) = \left\{ \begin{matrix}
     2x + 3b\text{ if }x \leq 2 \\
     3ax^{2}\text{ if }x > 2
@@ -13,79 +13,87 @@
     Let $f$ be the function given above. What are all values of $a$ and
     $b$ for which $f$ is differentiable at $x = 2$ ?
     a.  $a = \dfrac{1}{6} \quad b = \dfrac{-2}{3}$
-    b.  $\quad a = \dfrac{1}{4}$ and $b = \dfrac{1}{2}$
-    c.  $\quad a = \dfrac{1}{4}$ and $b$ is any real number
-    d.  $a = b + 2$, where $b$ is any real number
-    e.  There are no such values of $a$ and $b$
+    b.  $a = \dfrac{-1}{6} \quad b = \dfrac{-2}{3}$
+    c.  $a = \dfrac{1}{3} \quad b = \dfrac{-2}{3}$
+    d.  $a = \dfrac{-1}{6} \quad b = \dfrac{1}{3}$
+    e.  $a = \dfrac{1}{6} \quad b = \dfrac{-1}{3}$
 3.  If the function $f$ is continuous for all
     real numbers and if $f(x) = \dfrac{x^{2} - 25}{x - 5}$ when
-    $x \neq 5$, then $f( 5 ) =$
+    $x \neq 5$, then $f 5) =$
     a.  10
     b.  5
     c.  25
     d.  -5
-    e.  -1
+    e.  -10
 4.  Evaluate $$\lim_{x \rightarrow e}\dfrac{\ln 2x - \ln 2}{x - e}$$ 
     a.  $\dfrac{1}{e}$
     b.  1
     c.  $e$
-    d.  Nonexistent
+    d.  $2e$
+    e.  $\dfrac{2}{e}$
 5.  $$\lim_{x \rightarrow 0}\dfrac{1 - \cos x}{x^{2} + \sin(4x)} =$$
-    a. 0
-    b.  2
+    a.  0
+    b.  $\pi$
     c.  1
-    d.  3
+    d.  -1
+    e.  $\dfrac{\pi}{2}$
 6.  $$f(x) = \left\{ \begin{matrix}
     x^2\text{ for }x < 3 \\
     \dfrac{1}{3}\text{ for }x \geq 3
     \end{matrix} \right.\ $$ If $f$ is the function defined above, then
     $\displaystyle \int_{- 2}^{4}f(x)dx$ is
     a.  12
-    b.  $\dfrac{15}{2}$
-    c.  $\dfrac{17}{2}$
-    d.  undefined
+    b.  $\dfrac{20}{3}$
+    c.  $\dfrac{28}{3}$
+    d.  $13$
+    3.  $\dfrac{-28}{3}$
 7.  $$\displaystyle \int_{0}^{3}\dfrac{x^{2} + 5x + 6}{x + 2}dx =$$
     a.  $\dfrac{27}{2}$
-    b.  $3 + 2\ln 2$
-    c.  $\dfrac{15}{2} + 2\ln 2$
-    d.  $\dfrac{15}{2} + 2\ln 3$
+    b.  $4 + 2\ln 2$
+    c.  $\dfrac{15}{2}$
+    d.  $\dfrac{15}{2} + 2\ln 2$
+    e.  $\dfrac{17}{2} - 2\ln2$
 8.  $$\displaystyle \int \dfrac{\cos{\left(\sqrt{x} + 1\right)}}{\sqrt x}\; dx =$$
     a.  $2\sin \left(\sqrt{x} + 1\right) + C$
-    b.  $e^{x}\sin\left( e^{x} + 1 \right) + C$
-    c.  $e^{x}\sin\left( e^{x} + x \right) + C$
-    d.  $\dfrac{1}{2}\cos^{2}\left( e^{x} + 1 \right) + C$
+    b.  $\dfrac{1}{2}\sin \left(\sqrt{x} + 1\right) + C$
+    c.  $\ln |cos \left(\sqrt{x} + 1 \right) + C$
+    d.  $\ln |sin \left(\sqrt{x} + 1 \right) + C$
+    e.  $\cos \left(\sqrt{x} + 1\right) + C$
 9.  $$\displaystyle \int\dfrac{2x}{x^{2} + 9}dx =$$
-    a.  $\ln (x^2+9)$
-    b.  $\dfrac{1}{2\left( x^{2} - 4 \right)} + C$
-    c.  $\dfrac{1}{2}\ln\left| x^{2} - 4 \right| + C$
-    d.  $2\ln\left| x^{2} - 4 \right| + C$
-    e.  $\dfrac{1}{2}\arctan\left( \dfrac{x}{2} \right) + C$
+    a.  $\ln (x^2+9) + C$
+    b.  $\dfrac{1}{2} \ln (x^2+9) + C$
+    c.  $\dfrac{1}{x^2 + 9} + C$
+    d.  $\dfrac{2}{\left(x^2 + 9\right)} + C$
+    e.  $\dfrac{x}{3}\arctan\left( \dfrac{x}{3} \right) + C$
 10. The function $g$ is continuous on the closed
     interval $\lbrack 2,10\rbrack$. If $\displaystyle \int_{9}^{1} g(x)dx = 25$ and
-    $\displaystyle \int_{1}^{5}\dfrac{1}{2}g(x)dx = - 12$, then
+    $\displaystyle \int_{1}^{5}\frac{1}{2}g(x)dx = - 12$, then
     $\displaystyle \int_{5}^{9} g(x)dx =$
     a.  -1
-    b.  62
-    c.  95
-    d.  190
+    b.  49
+    c.  1
+    d.  13
+    e.  -13
 11. Using the substitution
     $u = 2x^{2} + 1$, the integral $\displaystyle \int_{2}^{4}2x\left( 2x^2+1 \right)^{3}dx$ is
     equal to which of the following?
     a.  $\displaystyle \frac{1}{2} \int_9^{33} u^3 \; du$
-    b.  $\displaystyle \int_{- 2}^{13}u^{5}du$
-    c.  $\dfrac{1}{2}\displaystyle \int_{- 2}^{13}u^{5}du$
-    d.  $2\displaystyle \int_{- 2}^{13}u^{5}du$
-    e.  $\displaystyle \int_{- 1}^{4}u^{5}du$
+    b.  $\displaystyle 2 \int_9^{33}u^{5}du$
+    c.  $\dfrac{1}{2}\displaystyle 4 \int_9^{33}u^{5}du$
+    d.  $2\displaystyle \frac12 \int_9^{33}u^{5}du$
+    e.  $\displaystyle \frac14 \int_9^{33}u^{5}du$
 12. $$\displaystyle \int\dfrac{9x+1}{(2x + 1)(x - 3)}dx$$
     a.  $\ln | 2x+1 | + 4 \ln |x-3| + C$
-    b.  $3\ln|2x - 3| + 2\ln|x + 2| + C$
-    c.  $3\ln|2x - 3| - 2\ln|x + 2| + C$
-    d.  $- \dfrac{6}{(2x - 3)^{2}} - \dfrac{2}{(x + 2)^{2}} + C$
+    b.  $4 \ln | 2x+1 | + \ln |x-3| + C$
+    c.  $2 \ln | 2x+1 | + 4 \ln |x-3| + C$
+    d.  $4 \ln | 2x+1 | - 2 \ln |x-3| + C$
+    e.  $2 \ln | 2x+1 | - 4 \ln |x-3| + C$
 13. $$\displaystyle \int\dfrac{1}{x^{2} - 16x + 80}dx =$$
-    a.  $\dfrac{1}{4} \arctan \left( \dfrac {x-8}{4} \right)$
-    b.  $\arctan\left( \dfrac{x - 5}{9} \right) + C$
-    c.  $\dfrac{1}{3}\arctan\left( \dfrac{x - 5}{3} \right) + C$
-    d.  $3\arctan\left( \dfrac{x - 5}{3} \right) + C$
+    a.  $\dfrac{1}{4} \arctan \left( \dfrac {x-8}{4} \right) + C$
+    b.  $\dfrac{1}{6} \arctan \left( \dfrac {x-8}{6} \right) + C$
+    c.  $\dfrac{x}{6} \arctan \left| \dfrac {x-8}{6} \right| + C$
+    d.  $\dfrac{1}{\ln |x^2 - 16x + 80|} + c$
+    e.  $2 \ln |x - 20| - 4 \ln | + 4| + C$
 14. The graph of a piecewise
     linear function $f$ is given. 
     
