@@ -1,0 +1,188 @@
+@font-face {
+	font-display: swap;
+	font-family: Signifier;
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://cdn.oaistatic.com/_next/static/media/signifier-light.c131ea48.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: Signifier;
+	font-style: italic;
+	font-weight: 400;
+	src: url(https://cdn.oaistatic.com/_next/static/media/signifier-light-italic.ae129369.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: Signifier;
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://cdn.oaistatic.com/_next/static/media/signifier-bold.3a11015f.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: Signifier;
+	font-style: italic;
+	font-weight: 700;
+	src: url(https://cdn.oaistatic.com/_next/static/media/signifier-bold-italic.52d511e3.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne;
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-buch.13189857.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne;
+	font-style: italic;
+	font-weight: 400;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-buch-kursiv.1052965d.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne;
+	font-style: normal;
+	font-weight: 500;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-kraftig.204b461c.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne;
+	font-style: italic;
+	font-weight: 500;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-kraftig-kursiv.a0040f3f.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne;
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-halbfett.977f1845.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne;
+	font-style: italic;
+	font-weight: 600;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-halbfett-kursiv.cb37a814.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne Mono;
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-mono-buch.de677af1.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne Mono;
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-mono-halbfett.b082e8e2.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne Mono;
+	font-style: italic;
+	font-weight: 400;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-mono-buch-kursiv.8eeb89d0.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne Circle;
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-circle-buch.d446e5e9.woff2) format("woff2")
+}
+
+@font-face {
+	font-display: swap;
+	font-family: SÃ¶hne Circle;
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://cdn.oaistatic.com/_next/static/media/soehne-circle-halbfett.9eb377ad.woff2) format("woff2")
+}
+
+/*! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com*/
+*,:after,:before {
+	border: 0 solid #e3e3e3;
+	box-sizing: border-box
+}
+
+:after,:before {
+	--tw-content: ""
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-feature-settings: normal;
+	font-feature-settings: normal;
+	font-family: SÃ¶hne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+	font-variation-settings: normal;
+	line-height: 1.5;
+	tab-size: 4;
+	font-size: 1rem;
+}
+
+body {
+	line-height: inherit;
+	margin: 3rem;
+	max-width: 80%;
+	width: 50%;
+	hyphens: auto;
+	overflow-wrap: break-word;
+	text-rendering: optimizeLegibility;
+	font-kerning: normal;
+	justify-self: center;
+}
+
+hr {
+	border-top-width: 1px;
+	color: inherit;
+	height: 0
+}
+
+li {
+	margin-top: 1em;
+}
+
+@media print {
+	html {
+		background-color: white;
+	}
+	body {
+		background-color: transparent;
+		color: black;
+		font-size: 12pt;
+		max-width: 7.5in;
+		margin: 1in;
+	}
+	p, h2, h3 {
+		orphans: 3;
+		widows: 3;
+	}
+	h2, h3, h4 {
+		page-break-after: avoid;
+	}
+
+	.question {
+		page-break-inside: avoid;
+		background-color: #e3e3e3;
+	}
+
+}

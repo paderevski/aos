@@ -1,0 +1,172 @@
+<Q>
+<t>1.  Evaluate $$\lim_{h \rightarrow 0}\dfrac{\sec(3(x + h)) - \sec(3x)}{h}$$</t>
+<CC> $3\sec(3x)\tan(3x)$ </CC>
+<c> $3\sec^2(3x)$ </c>
+<c> $3\sec(x)\tan(x)$ </c>
+<c> $3\tan^2(3x)$ </c>
+<c> $9\tan^2(3x)$ </c>
+</Q>
+
+<Q>
+<t>$$f(x) = \left\{ \begin{matrix}
+    2x + 3b\text{ if }x \leq 2 \\
+    3ax^{2}\text{ if }x > 2
+    \end{matrix} \right.\ $$
+    Let $f$ be the function given above. What are all values of $a$ and
+    $b$ for which $f$ is differentiable at $x = 2$ ?</t>
+<CC> $a = \dfrac{1}{6} \quad b = \dfrac{-2}{3}$ </CC>
+<c> $a = \dfrac{-1}{6} \quad b = \dfrac{-2}{3}$ </c>
+<c> $a = \dfrac{1}{3} \quad b = \dfrac{-2}{3}$ </c>
+<c> $a = \dfrac{-1}{6} \quad b = \dfrac{1}{3}$ </c>
+<c> $a = \dfrac{1}{6} \quad b = \dfrac{-1}{3}$ </c>
+</Q>
+
+<Q>
+<t>If the function $f$ is continuous for all
+    real numbers and if $f(x) = \dfrac{x^{2} - 25}{x - 5}$ when
+    $x \neq 5$, then $f 5) =$</t>
+<CC> 10 </CC>
+<c> 5 </c>
+<c> 25 </c>
+<c> -5 </c>
+<c> -10 </c>
+</Q>
+
+<Q>
+<t>Evaluate $$\lim_{x \rightarrow e}\dfrac{\ln 2x - \ln 2}{x - e}$$</t>
+<CC> $\dfrac{1}{e}$ </CC>
+<c> 1 </c>
+<c> $e$ </c>
+<c> $2e$ </c>
+<c> $\dfrac{2}{e}$ </c>
+</Q>
+
+<Q>
+<t>$$\lim_{x \rightarrow 0}\dfrac{1 - \cos x}{x^{2} + \sin(4x)} =$$</t>
+<CC> 0 </CC>
+<c> $\pi$ </c>
+<c> 1 </c>
+<c> -1 </c>
+<c> $\dfrac{\pi}{2}$ </c>
+</Q>
+
+<Q>
+<t>$$f(x) = \left\{ \begin{matrix}
+    x^2\text{ for }x &lt; 3 \\ 
+    \dfrac{1}{3}\text{ for }x \geq 3
+    \end{matrix} \right.$$ If $f$ is the function defined above, then
+    $\displaystyle \int_{- 2}^{4}f(x)dx$ is</t>
+<CC> 12 </CC>
+<c> $\dfrac{20}{3}$ </c>
+<c> $\dfrac{28}{3}$ </c>
+<c> $13$
+    1.  $\dfrac{-28}{3}$ </c>
+</Q>
+
+<Q>
+<t>$$\displaystyle \int_{0}^{3}\dfrac{x^{2} + 5x + 6}{x + 2}dx =$$</t>
+<CC> $\dfrac{27}{2}$ </CC>
+<c> $4 + 2\ln 2$ </c>
+<c> $\dfrac{15}{2}$ </c>
+<c> $\dfrac{15}{2} + 2\ln 2$ </c>
+<c> $\dfrac{17}{2} - 2\ln2$ </c>
+</Q>
+
+<Q>
+<t>$$\displaystyle \int \dfrac{\cos{\left(\sqrt{x} + 1\right)}}{\sqrt x}\; dx =$$</t>
+<CC> $2\sin \left(\sqrt{x} + 1\right) + C$ </CC>
+<c> $\dfrac{1}{2}\sin \left(\sqrt{x} + 1\right) + C$ </c>
+<c> $\ln |\cos \left(\sqrt{x} + 1 \right) |+ C$ </c>
+<c> $\ln |\sin \left(\sqrt{x} + 1 \right)| + C$ </c>
+<c> $\cos \left(\sqrt{x} + 1\right) + C$ </c>
+</Q>
+
+<Q>
+<t>$$\displaystyle \int\dfrac{2x}{x^{2} + 9}dx =$$</t>
+<CC> $\ln (x^2+9) + C$ </CC>
+<c> $\dfrac{1}{2} \ln (x^2+9) + C$ </c>
+<c> $\dfrac{1}{x^2 + 9} + C$ </c>
+<c> $\dfrac{2}{\left(x^2 + 9\right)} + C$ </c>
+<c> $\dfrac{x}{3}\arctan\left( \dfrac{x}{3} \right) + C$ </c>
+</Q>
+
+<Q>
+<t>The function $g$ is continuous on the closed
+    interval $\lbrack 2,10\rbrack$. If $\displaystyle \int_{9}^{1} g(x)dx = 25$ and
+    $\displaystyle \int_{1}^{5}\frac{1}{2}g(x)dx = - 12$, then
+    $\displaystyle \int_{5}^{9} g(x)dx =$</t>
+<CC> -1 </CC>
+<c> 49 </c>
+<c> 1 </c>
+<c> 13 </c>
+<c> -13 </c>
+</Q>
+
+<Q>
+<t>Using the substitution
+    $u = 2x^{2} + 1$, the integral $\displaystyle \int_{2}^{4}2x\left( 2x^2+1 \right)^{3}dx$ is
+    equal to which of the following?</t>
+<CC> $\displaystyle \frac{1}{2} \int_9^{33} u^3 \; du$ </CC>
+<c> $\displaystyle 2 \int_9^{33}u^{5}du$ </c>
+<c> $\dfrac{1}{2}\displaystyle 4 \int_9^{33}u^{5}du$ </c>
+<c> $2\displaystyle \frac12 \int_9^{33}u^{5}du$ </c>
+<c> $\displaystyle \frac14 \int_9^{33}u^{5}du$ </c>
+</Q>
+
+<Q>
+<t>$$\displaystyle \int\dfrac{9x+1}{(2x + 1)(x - 3)}dx$$</t>
+<CC> $\ln | 2x+1 | + 4 \ln |x-3| + C$ </CC>
+<c> $4 \ln | 2x+1 | + \ln |x-3| + C$ </c>
+<c> $2 \ln | 2x+1 | + 4 \ln |x-3| + C$ </c>
+<c> $4 \ln | 2x+1 | - 2 \ln |x-3| + C$ </c>
+<c> $2 \ln | 2x+1 | - 4 \ln |x-3| + C$ </c>
+</Q>
+
+<Q>
+<t>$$\displaystyle \int\dfrac{1}{x^{2} - 16x + 80}dx =$$</t>
+<CC> $\dfrac{1}{4} \arctan \left( \dfrac {x-8}{4} \right) + C$ </CC>
+<c> $\dfrac{1}{6} \arctan \left( \dfrac {x-8}{6} \right) + C$ </c>
+<c> $\dfrac{x}{6} \arctan \left| \dfrac {x-8}{6} \right| + C$ </c>
+<c> $\dfrac{1}{\ln |x^2 - 16x + 80|} + c$ </c>
+<c> $2 \ln |x - 20| - 4 \ln | + 4| + C$ </c>
+</Q>
+
+<Q>
+<t>The graph of a piecewise
+    linear function $f$ is given.
+
+    ![](media/image1.png){width="2.25in" height="1.84375in"}
+
+    What is the value of
+    $\displaystyle \int_{1}^{7}\left( 4f(x) - 1 \right)dx$ ?</t>
+<CC> 8 </CC>
+<c> 9.5 </c>
+<c> 7.5 </c>
+<c> 9 </c>
+<c> 10 </c>
+</Q>
+
+<Q>
+<t>Evaluate $$\displaystyle \int_{1}^{\infty}xe^{-(x^{2}-1)} \; dx$$</t>
+<CC> $\dfrac{e}{2}$ </CC>
+<c> $\dfrac{1}{2e}$ </c>
+<c> $\dfrac{1}{e}$ </c>
+<c> $\dfrac{2}{e}$ </c>
+<c> divergent </c>
+</Q>
+
+<Q>
+<t>Integrate $$\int x^3 e^{2x} \; dx$$</t>
+<CC> $\dfrac{1}{8} e^{2 x} \left(4 x^3-6 x^2+6 x-3\right) + C$
+
+
+
+---
+geometry: margin=1in
+header-includes:
+- |
+  \let\oldsection\section
+  \renewcommand{\section}[1]{\clearpage\oldsection{#1}}
+	\def\tightlist{}
+--- </CC>
+</Q>
