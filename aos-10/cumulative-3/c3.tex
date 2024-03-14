@@ -1,0 +1,179 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{Q3 Cumulative}\label{q3-cumulative}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Eliminate the parameter \(t\): \(x=t^3-2\) and \(2y=1-t^2\)
+
+  \begin{enumerate}
+  \def\labelenumii{\Alph{enumii}.}
+  \tightlist
+  \item
+    \(y = 1 - \sqrt[3]{(x+2)^{2}}\)
+  \end{enumerate}
+\item
+  Eliminate the parameter \(t\): \(x = 4 \sin t + 1\) and
+  \(y = 3 \cos t - 2\)
+
+  \begin{enumerate}
+  \def\labelenumii{\Alph{enumii}.}
+  \tightlist
+  \item
+    \(\dfrac{(x-1)^2}{16} + \dfrac{(x+1)^2}{9} = 1\)
+  \end{enumerate}
+\item
+  Convert the polar coordinate \((6,-2\pi/3)\) to rectangular
+  coordinates
+
+  \begin{enumerate}
+  \def\labelenumii{\Alph{enumii}.}
+  \tightlist
+  \item
+    \((3, -3\sqrt3)\)
+  \end{enumerate}
+\item
+  Convert this equation to polar coordinates: \(x^2-y^2 = 16\)
+
+  \begin{enumerate}
+  \def\labelenumii{\Alph{enumii}.}
+  \tightlist
+  \item
+    \(r = \dfrac{4}{\cos^2 \theta - \sin^2 \theta}\)
+  \end{enumerate}
+\item
+  Convert this equation to rectangular coordinates:
+  \(r = 3 \sec \theta\)
+
+  \begin{enumerate}
+  \def\labelenumii{\Alph{enumii}.}
+  \tightlist
+  \item
+    \(x = 3\)
+  \end{enumerate}
+\item
+  Which of the following is the graph of \(r = \cos(2\theta)\)
+
+  \begin{enumerate}
+  \def\labelenumii{\Alph{enumii}.}
+  \tightlist
+  \item
+    A 4 leaf rose with \(x\)-intercept \((2,0)\)
+  \end{enumerate}
+\setlength\itemsep{6em}
+\item
+  A baseball pitcher throws a baseball with an initial speed of 138 feet
+  per second at an angle of 20° to the horizontal. The ball leaves the
+  pitcher's hand at a height of 4 feet above the ground. Write the
+  equations of motion.
+
+  \begin{enumerate}
+  \def\labelenumii{\Alph{enumii}.}
+  \tightlist
+  \item
+    \(v_x(t) = 138\cos(t)\), \(v_y(t) = 138\sin(t) - 32t\),
+    \(s_x(t) = 138t \cos(t)\), \(s_y(t) = 138t \sin(t) - 16t^2 + 4\)
+  \end{enumerate}
+\item
+  Let \(u = \langle -3,5 \rangle\) and
+  \(\vec{v} = \langle 1, 4 \rangle\) and
+  \(\vec{w} = \langle 6, -3 \rangle\) find
+  \(\vec{u} + 2\vec{v} - \vec{w}\)
+\item
+  Given \(\vec{u} = \langle 3\sqrt3, -5 \rangle\), find
+  \(\| \vec{u} \|\)
+\item
+  Given \(\vec{u} = \langle -10 , 9 \rangle\), find a unit vector in the
+  direction of \(\vec{u}\)
+\item
+  Which vector is perpendicular to
+  \(\langle \frac23, -\frac{17}{2} \rangle\)
+\item
+  Which vector is parallel to \(\langle \frac23, -\frac{17}{2} \rangle\)
+\item
+  What is the angle between \(\langle 5, 1 \rangle\) and
+  \(\langle 2, -3 \rangle\)
+\item
+  If vector \(\vec{x}\) has magnitude 9 and makes an angle of \(3\pi/4\)
+  with the positive \(x\) axis, find the components of \(x\) and write
+  as \(a\hat{i} + b\hat{j}\).
+\item
+  Write the complex number \(-3 + 9i\) in polar form.
+\item
+  Divide \(10 - 9i\) by \(2 - 4i\), and express your answer in the form
+  \(a + bi\).
+\item
+  Simplify the product \(\sqrt7 e^{-i\pi/3} \cdot 3e^{i\pi/5}\).
+\item
+  Solve the equation \(z^2 - 2z + 5 = 0\) for \(z\) and express your
+  answers in rectangular form.
+\item
+  If \(z = 2+i\) is one root of a quadratic equation \(x^2 + bx + c\)
+  with real coefficients, what is \(bc\)?
+\item
+  If \(z^4 = 16e^{2\pi i / 5}\), find all values of \(z\) in polar form.
+\item
+  Factor \(z^2 + 9\) into a product of two binomials.
+\item
+  (Bonus): By multiplying two complex numbers, prove the addition
+  identities for \(\sin\) and \(\cos\).
+\end{enumerate}
+
+\end{document}
