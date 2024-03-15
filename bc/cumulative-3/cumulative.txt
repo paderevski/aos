@@ -1,0 +1,80 @@
+# BC Cumulative 3
+
+1.  $x(t) = \cos t$ and $y(t) = \sin t$ are the parametric equations for
+    a.  A circle
+    b.  A square
+    c.  A parabola
+    d.  A hyperbola
+2.  If $x(t)$ and $y(t)$ are the parametric equations of a curve, the curve will have a horizontal tangent line at $t=c$ if 
+    a.  $y'(c) = 0$ and $x'(c) \neq 0$
+    b.  $x'(c) = 0$ and $y'(c) \neq 0$
+    c.  $x(c) = 0$ and $y(c) = 0$
+    d.  $x(c) = 0$ and $x'(c) = 0$
+3.  To find the slope of the tangent line to a parametric curve at the point where $t=c$ you should
+    a.  Evaluate $y'(c)/x'(c)$
+    b.  Evaluate $x'(c)/y'(c)$
+    c.  Evaluate $y'(c)$
+    d.  Evaluate $x'(c)$
+4.  To determine concavity of a parametric curve at the point where $t=c$
+    a.  Evaluate $y''(c)/x''(c)$
+    b.  Evaluate $x''(c)/y''(c)$
+    c.  Evaluate $\dfrac{\frac{d}{dt}\left(\frac{dy}{dx}\right)}{\frac{dx}{dt}}$
+    d.  Evaluate $\dfrac{d}{dt} \left( \dfrac{dy}{dt} \right)$
+5.  If a parametric curve has a point where $x'(a) = 0$ and $y'(a) = 0$ then
+    a.  There is a horizontal tangent line at $t=a$
+    b.  There is a vertical tangent line at $t=a$
+    c.  There is no tangent lint at $t=a$
+    d.  The curve must cross itself
+6.  The distance traveled from $t=a$ to $t=b$ of a particle with position vector $\langle x(t), y(t) \rangle$ is given by
+    a.  $\displaystyle \int_a^b \sqrt{\frac{dx}{dt}^2(t) + \frac{dy}{dt}^2(t)} \; dt$
+    b.  $\displaystyle \int_a^b \sqrt{x^2(t) + y^2(t)} \; dt$
+    c.  $\displaystyle \int_a^b |x'2(t) + y'(t)| \; dt$
+    d.  $\displaystyle \sqrt{(x(t)-x(0))^2 + (y(t)-y(0))^2}$
+7.  The displacement of a particle moving in the plane over an interval of time
+    a.  Can be positive or negative
+    b.  Is the same as the distance traveled
+    c.  Is never less than the distance traveled
+    d.  Depends on the shape of the path taken 
+8.  If a particle in the first quadrant is accelerating towards the $x$ axis then
+    a.  $\dfrac{dy}{dt} < 0$
+    b.  $\dfrac{dx}{dt} < 0$
+    c.  $\dfrac{d^2x}{dt^2} > 0$
+    d.  $\dfrac{d^2y}{dt^2} > 0$
+9.  Which of the following is not a polar-rectangular transformation equation?
+    a.  $\tan \theta = \dfrac{x}{y}$
+    b.  $x^2 + y^2 = r^2$
+    c.  $x = r \cos \theta$
+    d.  $y = r \sin \theta$
+10.  If $n$ is a positive integer, the graph of $r = \sin(n \theta)$ always
+     a.  Has one intercept at $(0,0)$
+     b.  Is a rose with $n$ petals
+     c.  Is a rose with $2n$ petals
+     d.  Completes exactly one period of the graph over $0 \leq \theta < 2\pi$
+11.  The graph of $r = a + b \sin(\theta)$
+     a.  Has an inner loop whenever $a<b$
+     b.  Has an inner loop whenever $a>b$
+     c.  Never intersects the $x$-axis
+     d.  Never intersects the $y$-axis
+12.  The area enclosed by a polar curve between $\theta = \alpha$ and $\theta = \beta$ is always 
+     a.  Dependent on if the curve intersects itself in the interval $\alpha < \theta < \beta$
+     b.  $\int_a^b \frac12 r^2(\theta) \; d\theta$
+     c.  $\int_a^b  r^2(\theta) \; d\theta$
+     d.  $\int_a^b  r(\theta) \; d\theta$
+13.  If $\dfrac{dr}{d\theta} > 0$ at a point where $\theta = \alpha$ then
+     a.  The graph's radius is increasing at $\theta = \alpha$
+     a.  The graph's radius is decrasing at $\theta = \alpha$
+     a.  The tangent line to the graph $\theta = \alpha$ has a positive slope
+     a.  The tangent line to the graph at $\theta = \alpha$ has a negative slope
+14.  A logistic population graph $y=f(t)$ with a max population of $L$
+     a.  Has an asymptote at $y=L$
+     b.  Has a decreasing growth rate when $t>0$
+     c.  Has an increasing growth rate when $t>0$
+     d.  Can oscillate for certain initial conditions
+15.  The maximum growth rate for a logistic population with carrying capacity $L$ 
+     a.  Occurs when the population is $L/2$
+     b.  Depends on the initial conditions
+     c.  Always occurs at $t=0$
+     d.  Can happen more than once during a given solution
+
+
+
