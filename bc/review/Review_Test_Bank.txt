@@ -1,7 +1,6 @@
 # Review Test 1
 
-; This test has review questions
-; and practice problems
+; This test has review questions for Limits, AB Integrals, BC Integrals
 ; the first answer is the correct one
 
 1.  Evaluate $$\lim_{h \rightarrow 0}\dfrac{\sec(3(x + h)) - \sec(3x)}{h}$$

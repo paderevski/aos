@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 import re
 import sys
@@ -10,207 +6,265 @@ import os
 
 import argparse
 import random
-
-# Create the parser
-parser = argparse.ArgumentParser(description='Process an integer argument.')
-
-# Add an argument
-parser.add_argument('--randseed', '-s', type=int, help='An integer number')
-parser.add_argument('--output', '-o', type=str, help='filename for PDF file')
-parser.add_argument('--shuffle_questions', '-sq', action='store_true', help='Shuffle questions globally')
-parser.add_argument('--shuffle_choices', '-sc', action='store_true', help='Shuffle multiple choice options')
-parser.add_argument('--mark_correct', '-m', action='store_true', help='Mark correct answers')
-parser.add_argument('--make_key', '-k', action='store_true', help='include latex key')
-# Parse the arguments
-args = parser.parse_args()
-
-if args.randseed:
-	seed = args.randseed
-else:
-	seed = 2048
-
-if args.output is None:
-	output_name = "Test"
-else:
-	output_name = args.output
-
-random.seed(seed)
-
-# The markdown text to be converted
-markdown_text = open("test.md","r").readlines()
-markdown_text = [m for m in markdown_text if m[0] not in ('#',';')]
-markdown_text = ''.join(markdown_text)
-markdown_text = markdown_text.replace("<", "&lt;")
-markdown_text = markdown_text.replace(">", "&gt;")
-markdown_text = markdown_text.replace("&", "&amp;")
-body = re.split(r'\n+\-\-\-', markdown_text)
-
-# In[ ]:
-
-
-# Split the text into individual questions
-questions = re.split(r'\n+\d+\.\s+', body[0])
-questions = [q for q in questions if (len(q)>3)]
-
-# Function to convert a question block into the markup format
-def convert_to_markup(question):
-		parts = re.split(r'\n\s*[a-e]\.\s+', question)
-		question_text = parts[0].strip()
-		choices = parts[1:]
-
-		markup = "<Q>\n<t>{}</t>\n".format(question_text)
-		for index, choice in enumerate(choices):
-				if index == 0:  # Mark the first choice as the correct one
-						markup += "<CC> {} </CC>\n".format(choice)
-				else:
-						markup += "<c> {} </c>\n".format(choice)
-		markup += "</Q>\n"
-		return markup
-
-# Convert each question to markup and combine
-markup_text = "\n".join([convert_to_markup(q) for q in questions if q])
-
-f = open("question_bank.txt","w")
-f.write(markup_text)
-f.close()
-
-
-# In[ ]:
-
+import html
 
 import xml.etree.ElementTree as ET
+import pypandoc
 
 # Define the class structures
 class Choice:
-		def __init__(self, text, correct=False):
-				self.text = text
-				self.correct = correct
+    """Represents a choice for a multiple-choice question."""
+    def __init__(self, text, correct=False):
+        """
+        Initialize a Choice object.
+
+        Args:
+            text (str): The text of the choice.
+            correct (bool, optional): Whether the choice is correct. Defaults to False.
+        """
+        self.text = text
+        self.correct = correct
 
 class Question:
-		def __init__(self, text, choices=[]):
-				self.text = text
-				self.choices = choices
+    """Represents a multiple-choice question."""
+    def __init__(self, text, choices=[]):
+        """
+        Initialize a Question object.
 
-		def add_choice(self, choice):
-				self.choices.append(choice)
+        Args:
+            text (str): The text of the question.
+            choices (list, optional): A list of Choice objects representing the choices. Defaults to an empty list.
+        """
+        self.text = text
+        self.choices = choices
+
+    def add_choice(self, choice):
+        """
+        Add a choice to the question.
+
+        Args:
+            choice (Choice): The Choice object to add to the question.
+        """
+        self.choices.append(choice)
 
 
-# In[ ]:
+def convert_question_to_markup(question, args):
+    """
+    Convert a question block into markup format.
 
+    Args:
+        question (str): The question block to convert.
 
-import random
+    Returns:
+        str: The question block converted into markup format.
+    """
+    if args.type == 1:
+        parts = re.split(r'\n\s*[a-z]\.\s+', question)
+    elif args.type == 2:
+        parts = re.split(r'\n\s*\([A-Z]\)\s+', question)
+    question_text = parts[0].strip()
+    choices = parts[1:]
 
-# Sample markup text
-markup_text = open("question_bank.txt", "r").read()
+    markup_tex = html.escape(pypandoc.convert_text(question_text, 'latex', format='md'))
+
+    markup = f"<Q>\n<t>{markup_tex}</t>\n"
+    for index, choice in enumerate(choices):
+        if index == 0:  # Mark the first choice as the correct one
+            markup += "<CC> {} </CC>\n".format(choice)
+        else:
+            markup += "<c> {} </c>\n".format(choice)
+    markup += "</Q>\n"
+    return markup
 
 def parse_markup(markup_text):
-		# Parse the markup text into an ElementTree
-		root = ET.fromstring("<root>" + markup_text + "</root>")
+    """
+    Parse markup text into Question objects.
 
-		questions = []
+    Args:
+        markup_text (str): The markup text to parse.
 
-		# Iterate over each question in the markup
-		for q_elem in root.findall('Q'):
-				question_text = q_elem.find('t').text
-				choices = []
+    Returns:
+        list: A list of Question objects parsed from the markup text.
+    """
+    root = ET.fromstring("<root>" + markup_text + "</root>")
 
-				# Iterate over each choice in the question
-				for c_elem in q_elem.findall('c'):
-						choices.append(Choice(text=c_elem.text, correct=False))
-				for cc_elem in q_elem.findall('CC'):
-						choices.append(Choice(text=cc_elem.text, correct=True))
+    questions = []
 
-				question = Question(text=question_text, choices=choices)
-				questions.append(question)
+    for q_elem in root.findall('Q'):
+        question_text = q_elem.find('t').text
+        choices = []
 
-		return questions
+        for c_elem in q_elem.findall('c'):
+            choices.append(Choice(text=c_elem.text, correct=False))
+        for cc_elem in q_elem.findall('CC'):
+            choices.append(Choice(text=cc_elem.text, correct=True))
 
-# Parse the markup text
-questions = parse_markup(markup_text)
-if args.shuffle_questions:
-	random.shuffle(questions)
-if args.shuffle_choices:
-	for q in questions:
-		random.shuffle(q.choices)
+        question = Question(text=question_text, choices=choices)
+        questions.append(question)
 
-def xml2text(s):
-		s = s.replace("&lt;", "<")
-		s = s.replace("&gt;", ">")
-		s = s.replace("&amp;", "&")
-		return s
+    return questions
 
-def xml2markdown():
-	outfile = open("test-new.md","w")
-	# Display the parsed questions and choices
-	for question in questions:
-			question.text = xml2text(question.text)
-			outfile.write("1.  "+question.text+"\n")
-			for choice in question.choices:
-					choice.text = xml2text(choice.text)
-					if choice.correct:
-							decoration = "\u2713"
-					else:
-							decoration = ""
-					outfile.write(f"    a.  {choice.text} {decoration}"+"\n")
-	outfile.close()
-
-def make_key():
-	output = ""
-	if args.make_key:
-		output = "\\clearpage\n"
-		output += "\\textbf{KEY}\n"
-		output += "\\begin{enumerate}\n"
-
-		letters = ['A','B','C','D','E']
-		for n, q in enumerate(questions):
-			for i, c in enumerate(q.choices):
-				if c.correct:
-					output += "\t\\item " + letters[i] + "\n"
-	output += "\\end{enumerate}\n"
-	return output
-
-def convert_xml_to_latex():
-		outfile = open("test-temp.tex","w")
-		latex_output = "\\documentclass{article}\n\\usepackage{amsmath}\n"
-		latex_output += "\\usepackage[top=2cm,left=2cm,right=1cm,bottom=2cm]{geometry}\n"
-		latex_output += "\\usepackage{fancyhdr}\n"
-		latex_output += "\\usepackage{graphicx}\n"
-		latex_output += "\\begin{document}\n"
-		latex_output += "\\pagestyle{fancy}\n\\fancyhf{}\n"
-		latex_output += f"\\lfoot{{Test ID: {seed} }} \\rfoot{{Page: \\thepage}}\n\n"
-		latex_output += "\\renewcommand{\\footrulewidth}{0.4pt}\n"
-		latex_output += "\\begin{enumerate}\n\t\\itemsep2em\n"
-
-		for question in questions:
-			question.text = xml2text(question.text)
-			latex_output += "\t\\item\n\t\\begin{minipage}[t]{\\linewidth}\n"
-			latex_output += "\t\t" + question.text + "\n\n"
-			latex_output += "\t\t\\begin{enumerate}\n"
-
-			for choice in question.choices:
-					choice.text = xml2text(choice.text)
-					if not choice.correct:
-							latex_output += "\t\t\t\\item " + choice.text + "\n"
-					elif choice.correct and args.mark_correct:
-							latex_output += "\t\t\t\\item (*) " + choice.text + "\n"
-					elif choice.correct and not args.mark_correct:
-							latex_output += "\t\t\t\\item " + choice.text + "\n"
-
-			latex_output += "\t\t\\end{enumerate}\n"
-			latex_output += "\t\\end{minipage}\n"
-
-		latex_output += "\\end{enumerate}\n"
-		latex_output += make_key()
-
-		latex_output += "\\end{document}"
-
-		outfile.write(latex_output)
-		outfile.close()
-		return latex_output
+def decode_xml_entities(xml_string):
+    """Decodes common XML entities in a string to their character equivalents."""
+    entity_replacements = {"&lt;": "<", "&gt;": ">", "&amp;": "&"}
+    for entity, char in entity_replacements.items():
+        xml_string = xml_string.replace(entity, char)
+    return xml_string
 
 
-convert_xml_to_latex()
-os.system("pdflatex test-temp.tex")
-os.system(f"pdfunite Cover\\ Page.pdf test-temp.pdf {output_name}-{seed}.pdf")
-os.system("rm test-temp.*")
-os.system("rm question_bank.txt")
+def xml2markdown(questions):
+    """
+    Convert parsed questions to Markdown format.
+
+    Args:
+        questions (list): A list of Question objects.
+
+    Returns:
+        None
+    """
+    outfile = open("/tmp/test-new.md", "w")
+    for question in questions:
+        question.text = html.unescape(question.text)
+        outfile.write("1.  "+question.text+"\n")
+        for choice in question.choices:
+            choice.text = html.unescape(choice.text)
+            if choice.correct:
+                decoration = "\u2713"
+            else:
+                decoration = ""
+            outfile.write(f"    a.  {choice.text} {decoration}"+"\n")
+    outfile.close()
+
+def make_key(questions, args):
+    """
+    Generate a key for the questions.
+
+    Args:
+        questions (list): A list of Question objects.
+
+    Returns:
+        str: The generated key.
+    """
+    output = ""
+    if args.make_key:
+        output = "\\clearpage\n"
+        output += "\\textbf{KEY}\n"
+        output += "\\begin{enumerate}\n"
+
+        letters = ['A','B','C','D','E']
+        for n, q in enumerate(questions):
+            for i, c in enumerate(q.choices):
+                if c.correct:
+                    output += "\t\\item " + letters[i] + "\n"
+        output += "\\end{enumerate}\n"
+    return output
+
+def convert_xml_to_latex(questions, args, template_path="template.tex"):
+    """Converts a list of Question objects to LaTeX format using a template file.
+
+    Args:
+        questions (list of Question): The questions to convert.
+        args: The command line arguments object.
+        template_path (str): Path to the LaTeX template file.
+    """
+    # Read the template file
+    with open(template_path, 'r') as file:
+        latex_template = file.read()
+
+    # Generate LaTeX code for questions
+    questions_latex = "\\begin{enumerate}\n\t\\itemsep2em\n"
+    for question in questions:
+        question.text = html.unescape(question.text)
+        questions_latex += "\t\\item\n\t\\begin{minipage}[t]{\\linewidth}\n"
+        questions_latex += "\t\t" + question.text + "\n\n"
+        questions_latex += "\t\t\\begin{enumerate}\n"
+        for choice in question.choices:
+            choice.text = html.unescape(choice.text)
+            if not choice.correct:
+                questions_latex += "\t\t\t\\item " + choice.text + "\n"
+            elif choice.correct and args.mark_correct:
+                questions_latex += "\t\t\t\\item (*) " + choice.text + "\n"
+            elif choice.correct and not args.mark_correct:
+                questions_latex += "\t\t\t\\item " + choice.text + "\n"
+        questions_latex += "\t\t\\end{enumerate}\n"
+        questions_latex += "\t\\end{minipage}\n"
+    questions_latex += "\\end{enumerate}\n"
+
+    # Replace placeholders in the template
+    final_latex = latex_template.replace("%%QUESTIONS%%", questions_latex)
+    final_latex = final_latex.replace("%%KEY%%", make_key(questions, args))
+    final_latex = final_latex.replace("%%TESTID%%", str(args.rand_seed))
+
+    # Save the final LaTeX code to a new file
+    output_path = "/tmp/test-temp.tex"
+    with open(output_path, 'w') as file:
+        file.write(final_latex)
+
+    return output_path
+
+def parse_arguments():
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(description='Convert questions from markdown to LaTeX.')
+    parser.add_argument('--input', '-i', type=str, help='Input filename', required=True)
+    parser.add_argument('--rand_seed', '-s', type=int, help='Random seed for shuffling', default=2048)
+    parser.add_argument('--output', '-o', type=str, help='Filename for the output PDF file', default="Test-Output")
+    parser.add_argument('--shuffle_questions', '-sq', action='store_true', help='Shuffle questions globally')
+    parser.add_argument('--shuffle_choices', '-sc', action='store_true', help='Shuffle multiple choice options')
+    parser.add_argument('--mark_correct', '-m', action='store_true', help='Mark correct answers')
+    parser.add_argument('--make_key', '-k', action='store_true', help='Include LaTeX key in the output')
+    parser.add_argument('--type', type=int, default=1, help='1: choices use a.b.c 2: choices use (A)(B)(C)')
+    return parser.parse_args()
+
+def process_markdown_file(input_filename):
+    """Process the input markdown file."""
+    with open(input_filename, "r") as file:
+        content = file.readlines()
+    content = [line for line in content if not line.startswith(('#', ';'))]
+    return html.escape(''.join(content))
+
+def generate_questions(markdown_text, args):
+    """Generate question objects from markdown text."""
+    body = re.split(r'\n+\-\-\-', markdown_text)  # find text before "---"
+    questions_text = re.split(r'\n+\d+\.\s+', body[0]) # split at question numbers
+    questions_text = [question for question in questions_text if len(question) > 3]
+    markup_text = "\n".join([convert_question_to_markup(question, args) for question in questions_text if question])
+
+    with open("/tmp/question_bank.txt", "w") as f:
+        f.write(markup_text)
+
+    return parse_markup(markup_text)
+
+def shuffle_questions_if_needed(questions, args):
+    """Shuffle questions and choices if specified."""
+    if args.shuffle_questions:
+        random.shuffle(questions)
+    if args.shuffle_choices:
+        for question in questions:
+            random.shuffle(question.choices)
+    return questions
+
+def compile_latex_to_pdf(latex_code, args):
+    os.system("pdflatex /tmp/test-temp.tex")
+    os.system(f"pdfunite Cover\\ Page.pdf test-temp.pdf {args.output}-{args.rand_seed}.pdf")
+
+def cleanup_temp_files():
+    os.system("rm test-temp.*")
+
+def main():
+    args = parse_arguments()
+    random.seed(args.rand_seed)
+
+    # Process the markdown file and generate question objects
+    markdown_text = process_markdown_file(args.input)
+    questions = generate_questions(markdown_text, args)
+    questions = shuffle_questions_if_needed(questions, args)
+
+    # Convert questions to LaTeX and compile the PDF
+    latex_code = convert_xml_to_latex(questions, args)
+    compile_latex_to_pdf(latex_code, args)
+
+    # Clean up temporary files
+    cleanup_temp_files()
+
+if __name__ == "__main__":
+    main()
