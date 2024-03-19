@@ -5,7 +5,7 @@
     b.  A square
     c.  A parabola
     d.  A hyperbola
-2.  If $x(t)$ and $y(t)$ are the parametric equations of a curve, the curve will have a horizontal tangent line at $t=c$ if 
+2.  If $x(t)$ and $y(t)$ are the parametric equations of a curve, the curve will have a horizontal tangent line at $t=c$ if
     a.  $y'(c) = 0$ and $x'(c) \neq 0$
     b.  $x'(c) = 0$ and $y'(c) \neq 0$
     c.  $x(c) = 0$ and $y(c) = 0$
@@ -16,31 +16,27 @@
     c.  Evaluate $y'(c)$
     d.  Evaluate $x'(c)$
 4.  To determine concavity of a parametric curve at the point where $t=c$
-    a.  Evaluate $y''(c)/x''(c)$
+    a.  Evaluate $\dfrac{\frac{d}{dt}\left(\frac{dy}{dx}\right)}{\frac{dx}{dt}}$
+		a.  Evaluate $y''(c)/x''(c)$
     b.  Evaluate $x''(c)/y''(c)$
-    c.  Evaluate $\dfrac{\frac{d}{dt}\left(\frac{dy}{dx}\right)}{\frac{dx}{dt}}$
     d.  Evaluate $\dfrac{d}{dt} \left( \dfrac{dy}{dt} \right)$
 5.  If a parametric curve has a point where $x'(a) = 0$ and $y'(a) = 0$ then
-    a.  There is a horizontal tangent line at $t=a$
+    a.  There is no tangent line at $t=a$
+		a.  There is a horizontal tangent line at $t=a$
     b.  There is a vertical tangent line at $t=a$
-    c.  There is no tangent lint at $t=a$
     d.  The curve must cross itself
 6.  The distance traveled from $t=a$ to $t=b$ of a particle with position vector $\langle x(t), y(t) \rangle$ is given by
-    a.  $\displaystyle \int_a^b \sqrt{\frac{dx}{dt}^2(t) + \frac{dy}{dt}^2(t)} \; dt$
+    a.  $\displaystyle \int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2
+					 + \left(\frac{dy}{dt}\right)^2} \; dt$
     b.  $\displaystyle \int_a^b \sqrt{x^2(t) + y^2(t)} \; dt$
-    c.  $\displaystyle \int_a^b |x'2(t) + y'(t)| \; dt$
+    c.  $\displaystyle \int_a^b |x'(t) + y'(t)| \; dt$
     d.  $\displaystyle \sqrt{(x(t)-x(0))^2 + (y(t)-y(0))^2}$
-7.  The displacement of a particle moving in the plane over an interval of time
-    a.  Can be positive or negative
-    b.  Is the same as the distance traveled
-    c.  Is never less than the distance traveled
-    d.  Depends on the shape of the path taken 
-8.  If a particle in the first quadrant is accelerating towards the $x$ axis then
+8.  If a particle in the first quadrant is moving towards the $x$ axis then
     a.  $\dfrac{dy}{dt} < 0$
     b.  $\dfrac{dx}{dt} < 0$
     c.  $\dfrac{d^2x}{dt^2} > 0$
     d.  $\dfrac{d^2y}{dt^2} > 0$
-9.  Which of the following is not a polar-rectangular transformation equation?
+9.  Which of the following is **not** a polar-rectangular transformation equation?
     a.  $\tan \theta = \dfrac{x}{y}$
     b.  $x^2 + y^2 = r^2$
     c.  $x = r \cos \theta$
@@ -55,12 +51,12 @@
      b.  Has an inner loop whenever $a>b$
      c.  Never intersects the $x$-axis
      d.  Never intersects the $y$-axis
-12.  The area enclosed by a polar curve between $\theta = \alpha$ and $\theta = \beta$ is always 
+12.  The area enclosed by a polar curve between $\theta = \alpha$ and $\theta = \beta$ is always
      a.  Dependent on if the curve intersects itself in the interval $\alpha < \theta < \beta$
-     b.  $\int_a^b \frac12 r^2(\theta) \; d\theta$
-     c.  $\int_a^b  r^2(\theta) \; d\theta$
-     d.  $\int_a^b  r(\theta) \; d\theta$
-13.  If $\dfrac{dr}{d\theta} > 0$ at a point where $\theta = \alpha$ then
+     b.  $\displaystyle \int_\alpha^\beta \frac12 r^2(\theta) \; d\theta$
+     c.  $\displaystyle \int_\alpha^\beta  r^2(\theta) \; d\theta$
+     d.  $\displaystyle \int_\alpha^\beta  r(\theta) \; d\theta$
+13.  If a polar graph is defined by $r(\theta)$ and $\dfrac{dr}{d\theta} > 0$ at a point where $\theta = \alpha$ then
      a.  The graph's radius is increasing at $\theta = \alpha$
      a.  The graph's radius is decrasing at $\theta = \alpha$
      a.  The tangent line to the graph $\theta = \alpha$ has a positive slope
@@ -70,11 +66,13 @@
      b.  Has a decreasing growth rate when $t>0$
      c.  Has an increasing growth rate when $t>0$
      d.  Can oscillate for certain initial conditions
-15.  The maximum growth rate for a logistic population with carrying capacity $L$ 
+15.  The maximum growth rate for a logistic population with carrying capacity $L$
      a.  Occurs when the population is $L/2$
      b.  Depends on the initial conditions
      c.  Always occurs at $t=0$
      d.  Can happen more than once during a given solution
-
-
-
+16.  A particle moves in a plane from an initial position given by the vector $\vec{r}_0 = \langle x_0, y_0 \rangle$ at time $t = 0$. The particle's velocity at any time $t$ is described by the vector function $\vec{v}(t) = \langle v_x(t), v_y(t) \rangle$. Assuming the velocity function is integrable, which of the following expressions correctly describes the particle's position $\vec{r}(t)$ at any later time $t$?
+     a.  $\vec{r}(t) = \vec{r}_0 + \displaystyle \int_0^t \vec{v}(t) \, dt$
+     a.  $\vec{r}(t) = \vec{r}_0 + \vec{v}(t)t$
+     a.  $\vec{r}(t) = \vec{r}_0 + \frac{1}{2}\vec{v}(t)t^2$
+     a.  $\vec{r}(t) = \vec{r}_0 + \displaystyle \int \vec{v}(t)$
