@@ -1,21 +1,20 @@
 # Math 10 Cumulative
 
-1.  Eliminate the parameter $t$: $x=t^3-2$ and $2y=1-t^2$
+1.  Eliminate the parameter $t$: $x=t^3-2$ and $y=1-t^2$
     a.  $y = 1 - \sqrt[3]{(x+2)^{2}}$
-    a.  $y = 1 + \sqrt[3]{(x+2)^{2}}$
-    a.  $y = 1 + \sqrt{(x+2)^{3}}$
-    a.  $y = 1 - \sqrt[3]{(x+2)^{2}}$
+    a.  $y = 1 + \sqrt[3]{(2x+2)^{2}}$
+    a.  $y = 1 + \sqrt[3]{(x+2)^{3}}$
+    a.  $y = 1 - \sqrt[3]{(2x+2)^{2}}$
 2.  Eliminate the parameter $t$: $x = 4 \sin(t) + 1$ and $y = 3 \cos(t) - 2$
-    a.  $\dfrac{(x-1)^2}{16} + \dfrac{(y+1)^2}{9} = 1$
-    a.  $\dfrac{(x-1)^2}{4} + \dfrac{(y+1)^2}{3} = 1$
-    a.  $\dfrac{(x-1)^2}{3} + \dfrac{(y+1)^2}{4} = 1$
+    a.  $\dfrac{(x-1)^2}{16} + \dfrac{(y+2)^2}{9} = 1$
+    a.  $\dfrac{(x-1)^2}{4} + \dfrac{(y+2)^2}{3} = 1$
+    a.  $\dfrac{(x-1)^2}{3} + \dfrac{(y+2)^2}{4} = 1$
     a.  $\dfrac{x^2}{16} + \dfrac{y^2}{9} = 1$
 3.  Convert the polar coordinate  $(6,-2\pi/3)$ to rectangular coordinates
     a.  $(-3, -3\sqrt3)$
     a.  $(3, 3\sqrt3)$
     a.  $(3\sqrt3, -3\sqrt3)$
     a.  $(-3, -3)$
-    a.  $(3, 3\sqrt3)$
 4.  Convert this equation to polar coordinates: $x^2-y^2 = 16$
     a.  $r^2 = \dfrac{16}{\cos^2 \theta - \sin^2 \theta}$
     a.  $r^2 = \dfrac{4}{\cos^2 \theta + \sin^2 \theta}$
@@ -26,7 +25,7 @@
     a.  $x = 1$
     a.  $y = 3$
     a.  $y = 1$
-6.  Which of the following is the graph of $r = \cos(3\theta.$
+6.  Which of the following is the graph of $r = \cos(3\theta)$
     a.  A 3 leaf rose with $x$-intercepts $(0,0), (1,0)$
     a.  A 6 leaf rose with $x$-intercepts $(0,0), (\pm1,0)$
     a.  A 3 leaf rose with no $x$ intercept
@@ -57,8 +56,8 @@ $s_x, s_y$ for position.
     a.  $\langle -\dfrac{10}{\sqrt{181}}, -\dfrac{9}{\sqrt{181}} \rangle$
     a.  $\langle -\dfrac{10}{\sqrt{19}}, -\dfrac{9}{\sqrt{19}} \rangle$
 4.  Which vector is perpendicular to $\langle \frac23, -\frac{17}{2} \rangle$
-    a.  $\langle  -9, -\dfrac{6}{17} \rangle$
-    a.  $\langle  9, \dfrac{18}{3} \rangle$
+    a.  $\langle  -9, \dfrac{12}{17} \rangle$
+    a.  $\langle  -9, \dfrac{18}{3} \rangle$
     a.  $\langle  -9, -\dfrac{17}{18} \rangle$
     a.  $\langle  -9, -17 \rangle$
 5.  Which vector is parallel to $\langle \frac23, -\frac{17}{2} \rangle$
