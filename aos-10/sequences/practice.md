@@ -57,8 +57,13 @@ Evaluate the following infinite limits of sequences.
 4. $\lim_{n \to \infty} \dfrac{n!}{2^n3^n}$
 5. $\lim_{n \to \infty} \tan\left(\dfrac{\pi}{2} - \dfrac{1}{n}\right)$
 6. $\lim_{n \to \infty} \tan\left(\dfrac{\pi}{2} + \dfrac{1}{n}\right)$
+<<<<<<< HEAD
 7. $\lim_{n \to \infty} \sqrt{\sin{\left(\dfrac{\pi}{4}+\dfrac{2}{n+1}\right)}}$
 8. $\lim_{n \to \infty} \dfrac{f_{n+1}}{f_n}$ where $f_n$ is the $n$th Fibonacci number $(1,1,2,3,5,8,13,21,\ldots)$ (this is most likely a calculator or computer question)
+=======
+7. $\lim_{n \to \infty} \sqrt{\sin{\dfrac{\pi}{4}}+\dfrac{2}{n+1}}$
+8. $\lim_{n \to \infty} \dfrac{f_{n+1}}{f_n}$ where $f_n$ is the $n$th Fibonacci number (this is most likely a calculator or computer question)
+>>>>>>> 799924f (exams randomizer and sequences)
 
 ## Sums of powers
 
@@ -101,8 +106,12 @@ And, of course, other shapes. Interesting ones to consider are the *hexagonal nu
 
 The familiar Pascal's triangle is probably most associated with binomial expansions $(x+y)^n$ but it encodes a host of other interesting patterns. Look in the triangle below for the triangular and tetrahedral numbers? Can you explain why they are here? Can you find a formula that describes them?
 
+<<<<<<< HEAD
 
 ![Pascal's Triangle](pascal.png){ width=50% }
+=======
+![Pascal's Triangle](<ptreal1r (1).gif>){ width=50% }
+>>>>>>> 799924f (exams randomizer and sequences)
 
 It is well known that the sums of the rows of Pascal's Triangle yield powers of two (check it out: $1+4+6+4+1 = 2^4$). Somewhat less well known is that a similar type of sum of Pascal's Triangle yields the Fibonacci numbers: $1,1,2,3,5,8,13, \ldots$. Can you find it?
 
