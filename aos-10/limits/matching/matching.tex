@@ -1,0 +1,102 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[12pt
+]{article}
+\usepackage{geometry}[0.2in]
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{Matching}\label{matching}
+
+Write the matching number and emoji next to the letters below.
+
+\subsection{Function Definitions}
+\begin{enumerate}
+\def\labelenumi{\Alph{enumi}.}
+\item \rule{0.25in}{0.5pt} \rule{0.5in}{0.5pt}
+  \(f(x)=\dfrac{x^{2}-2 x-3}{x+1}\)
+\item  \rule{0.25in}{0.5pt} \rule{0.5in}{0.5pt}
+  \(f(x)=\left\{\begin{array}{cc}2 x-1, & x<0 \\ x^{2}+x-1, & x>0 \\ 2, & x=0\end{array}\right.\)
+\item  \rule{0.25in}{0.5pt} \rule{0.5in}{0.5pt}
+  \(f(x)=\dfrac{|x+1|}{x+1}\)
+\item  \rule{0.25in}{0.5pt} \rule{0.5in}{0.5pt}
+  \(f(x)=\dfrac{x^{2}-x-2}{x^{2}+2 x+1}\)
+\item  \rule{0.25in}{0.5pt} \rule{0.5in}{0.5pt}
+  \(f(x)=\left\{\begin{array}{cc}\dfrac{\sin x}{x} & x \neq 0 \\ 1 & x=0\end{array}\right.\)
+\item  \rule{0.25in}{0.5pt} \rule{0.5in}{0.5pt}
+  \(f(x)=\left\{\begin{array}{cl}e^{x} & x<0 \\ \ln |x+1| & x>0\end{array}\right.\)
+\item  \rule{0.25in}{0.5pt} \rule{0.5in}{0.5pt}
+  \(f(x)=\dfrac{x^{2}+2 x-8}{x-2}\)
+\item  \rule{0.25in}{0.5pt} \rule{0.5in}{0.5pt}
+  \(f(x)=\dfrac{x^{2}-x-2}{x^{2}-4 x+4}\)
+\item  \rule{0.25in}{0.5pt} \rule{0.5in}{0.5pt}
+  \(f(x)=\left\{\begin{array}{cc}x^{2} & x<2 \\ x & x \geq 2\end{array}\right.\)
+\end{enumerate}
+
+\subsection{Limit behavior}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item  \(\displaystyle \lim _{x \rightarrow 0} f(x)=-1\) and \(f(x)\) is
+not continuous at \(x=0\) 
+\item  The limit of \(f(x)\) as \(x\) approaches
+-1 does not exist due unbounded behavior.
+\item  \(\displaystyle \lim _{x \rightarrow-1} f(x)=-4\) \item  \(\displaystyle \lim _{x \rightarrow-1^-} f(x)\) exists and
+\(\displaystyle \lim _{x \rightarrow-1} f(x)\) does not exist 
+\item  \(\displaystyle \lim_{x \to 0} f(x)\) does not exist 
+\item  \(f(2)\) is defined 
+\item  \(f(x)\) has a removable discontinuity at \(x=2\) 
+\item  \(f(x)\) has a vertical asymptote at \(x=2\) 
+\item  \(f(x)\) is continuous at \(x=0\)
+\end{enumerate}
+
+\end{document}
