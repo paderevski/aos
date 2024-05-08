@@ -10,30 +10,28 @@
 (D) $y=2 x-6$
 
 
-1. What is the derivative of $s(t)=\sec \sqrt{t}$ ?
+1. What is the derivative of $s(t)=\cos \left(t^2 + 1\right)$ ?
 
-(A) $\tan ^{2} \sqrt{t}$
+(A) $-2t\sin(t^2+1)$
 
-(B) $\sec \frac{1}{2 \sqrt{t}} \tan \frac{1}{2 \sqrt{t}}$
+(B) $-(t^2+1)\sin(t^2+1)$
 
-(C) $\frac{\sec \sqrt{t} \tan \sqrt{t}}{2 \sqrt{t}}$
+(C) $\cos(2t)$
 
-(D) $\sec \sqrt{t} \tan \sqrt{t}$
+(D) $-\sin(2t)$
 
 
-3. If $f, g$, and $h$ are nonzero differentiable functions, then the derivative of $\frac{f g}{h}$ is
+3. If $f, g$, and $h$ are nonzero differentiable functions, then the derivative of $\frac{f}{h}$ is
 
-(A) $\frac{f g^{\prime}+f^{\prime} g}{h^{\prime}}$
+(A) $\frac{f^{\prime} h - f h^{\prime}}{h^2}$
 
-(B) $\frac{f g^{\prime} h^{\prime}-f g h^{\prime}}{h^{2}}$
+(A) $\frac{f^{\prime} h + f h^{\prime}}{h^2}$
 
-(C) $\frac{f g h^{\prime}-f g^{\prime} h-f^{\prime} g h}{h^{2}}$
+(C) $\frac{f h^{\prime} - f^{\prime} h}{h^{2}}$
 
-(D) $\frac{f^{\prime} g h+f g^{\prime} h+f g h^{\prime}}{h^{2}}$
+(D) $\frac{f^{\prime}}{h^{\prime}}$
 
-(E) $\frac{f g^{\prime} h+f^{\prime} g h-f g h^{\prime}}{h^{2}}$
-
-4. The line tangent to the curve $y=\sqrt{16-x}$ at the point $(0,4)$ has slope
+1. The line tangent to the curve $y=\sqrt{16-x}$ at the point $(0,4)$ has slope
 
 (A) 8
 
@@ -45,30 +43,19 @@
 
 (E) -8
 
-5. At what point(s) on the curve $x^{2}-y^{2}+x=2$ is the tangent line vertical?
 
-(A) $(1,0)$ only
+1. If $y=6 \ln (3 x)$ then what is $y^{\prime}$ ?
 
-(B) $(-2,0)$ only
+(A) $\dfrac{6}{x}$
 
-(C) $(1, \sqrt{2})$ only
+(B) $\dfrac{2}{x}$
 
-(D) $(1,0)$ and $(-2,0)$
+(C) $\dfrac{1}{3x}$
 
-(E) The tangent line is never vertical
-
-6. If $y=6 \cos (3 x)$ then what is $y^{\prime}$ ?
-
-(A) $-6 \sin (3 x)$
-
-(B) $18 \sin (x)$
-
-(C) $18 \sin (3 x)$
-
-(D) $-18 \sin (3 x)$
+(D) $\dfrac{18}{x}$
 
 
-7. What is the value of
+1. What is the value of
 
 $$
 \lim _{\Delta x \rightarrow 0} \frac{2(x+\Delta x)^{2}-2 x^{2}}{\Delta x}
@@ -105,30 +92,7 @@ $$
 
 (D) $\frac{-5}{3}$
 
-
-10. Find $\frac{d y}{d x}$ if $x^{2}+4 x y+2 y^{2}=16$
-
-(A) $\frac{-x-2 y}{2 x+2 y}$
-
-(B) $\frac{-2(x+y)}{x+2 y}$
-
-(C) $\frac{-2(x+y)}{2 x+y}$
-
-(D) $\frac{-x+2 y}{x+y}$
-
-
-11. At which $x$ value(s) does the graph of $y=2 x^{3}-24 x+16$ have a horizontal tangent line?
-
-(A) 1 and -1
-
-(B) 2
-
-(C) 1
-
-(D) 2 and -2
-
-
-12. If $h(x)=f\left(x^{2}+1\right)$ then which of the following is true?
+1.  If $h(x)=f\left(x^{2}+1\right)$ then which of the following is true?
 
 (A) $h^{\prime}(x)=f^{\prime}\left(x^{2}+1\right)$
 
@@ -139,73 +103,25 @@ $$
 (D) $h^{\prime}(x)=2 x f^{\prime}\left(x^{2}+1\right)$
 
 
-13. If $f(x)=10 x^{2}-5$, what is the average rate of change of $f(x)$ over the interval
 
-$$
--1 \leq x \leq 2
-$$
+1.  If $f(x)=\sin \left(2x +1\right)$ and $g(x) = f^{\prime}(x)$, find $g^{\prime}(x)$
 
-(A) 10
+(A) $g^{\prime}(x) = -4 \sin (2x + 1)$
 
-(B) 30
+(B) $g^{\prime}(x) = 2 \sin (2x + 1)$
 
-(C) 20
+(C) $g^{\prime}(x) = 4 \sin(2x + 1) \cos(2x + 1)$
 
-(D) $\frac{20}{3}$
+(D) $g^{\prime}(x) = -4x \cos(2x + 1)$
 
 
-14. If $h(x)=f(x) g(x)$ and $f(5)=3, f^{\prime}(5)=-1, g(5)=-\frac{1}{2}, g^{\prime}(5)=2$, then what is the value of $h^{\prime}(5)$ ?
 
-(A) -2
+1. ![graph of $f(x)$](graph1.PNG) Given the graph of $f(x)$ below, select which statement is true about values of $f'(x)$
 
-(B) $\frac{13}{2}$
-
-(C) $-\frac{9}{2}$
-
-(D) $\frac{9}{2}$
-
-
-15. If $f(x)=\sin \left(x^{2}+1\right)$ then find $f^{\prime \prime}(x)$
-
-(A) $4 x^{2} \sin \left(x^{2}+1\right)+2 \cos \left(x^{2}+1\right)$
-
-(B) $-4 x^{2} \sin \left(x^{2}+1\right)+2 \cos \left(x^{2}+1\right)$
-
-(C) $4 x^{2} \sin \left(x^{2}+1\right)-2 \cos \left(x^{2}+1\right)$
-
-(D) $-4 x^{2} \sin \left(x^{2}+1\right)-2 \cos \left(x^{2}+1\right)$
-
-
-16. The height (in feet) of a ball thrown vertically upward is given by
-
-$$
-s(t)=-16 t^{2}+32 t+64
-$$
-
-where $t$ is in seconds. What is the velocity of the ball at time $t=3$ seconds?
-
-(A) $-64 \mathrm{ft} / \mathrm{s}$
-
-(B) $64 \mathrm{ft} / \mathrm{s}$
-
-(C) $-16 \mathrm{ft} / \mathrm{s}$
-
-(D) $16 \mathrm{ft} / \mathrm{s}$
-
-
-17. At which point on the graph is the slope of the tangent line closest to the average rate of change of $f(x)$ between points $X$ and $Y$?
-    
-![graph of $f(x)$](graph1.PNG)
-
-(A) A
-
-(B) $\mathrm{B}$
-
-(C) $\mathrm{C}$
-
-(D) $\mathrm{D}$
-
-(E) $\mathrm{E}$
+(A) $f'(C) < f'(D) < f'(Y)$
+(B) $f'(A) < f'(B) < f'(C)$
+(C) $f'(X) < f'(Y) < f'(C)$
+(D) $f'(X) < f'(B) < f'(E)$
 
 1.  Let $f(x)=x^{3}-6 x^{2}+10$. At which point(s) on the graph of $f$ is the tangent line parallel to the line $15 x-y=11$ ?
 
@@ -217,10 +133,49 @@ where $t$ is in seconds. What is the velocity of the ball at time $t=3$ seconds?
 
 (D) $(5,-15)$ and $(2,-6)$
 
+1. If $y(x) = \dfrac{sin(2x)}{x^2}$ find $y'(x)$
+
+(A) $\dfrac{(2 x cos(2 x) - 2 sin(2 x))}{x^3}$
+(B) $\dfrac{ 2 \cos(2x)}{x}$
+(C) $\dfrac{ x^2 \cos(2x) - 1 \sin(2x)} { x^3}$
+(D) $\dfrac{ x^2 sin(2x) + 2 \cos(2x)} {x^4}$
+
+2. Calculate $\dfrac{d}{dt} \left( \ln(e^{2t}) - t^2 \right)$
+
+(A) 2
+(B) $\dfrac{1}{2t}$
+(C) $\dfrac{2}{e^{2t}}$
+(D) $\dfrac{1}{2e^{2t}}$
+
+1. ![Derivatives table](table.png) Using the table above, evaluate the following:
+
+(A) $\dfrac{d}{dx} \left( f(x) + g(x) \right)$ at $x=4$
+(A) $\dfrac{d}{dx} \left( f(x)g(x) \right)$ at $x = 1$
+(A) $\dfrac{d}{dx} \left( \dfrac{f(x)}{g(x)} \right)$ at $x = 0$
+(A) $\dfrac{d}{dx} \left( f(g(x)) \right)$ at $x = 3$
+(A) $\dfrac{d}{dx} \left( g(x+f(x)) \right)$ at $x = 3$
+
 ---
+
 ## 5. AP Calculus AB: Section II
 
 Instructions: In the questions below, find the indicated derivatives using the following definitions
+
+
+That's taht
+
+
+| x       | 0             | 1             | 2              | 3  | 4              |
+|---------|---------------|---------------|----------------|----|----------------|
+| $f(x)$  | $\frac{1}{2}$ | $\frac{1}{3}$ | 1              | -1 | 3              |
+| $g(x)$  | -2            | 1             | $-\frac{1}{2}$ | 2  | $-\frac{1}{3}$ |
+| $f'(x)$ | $\frac{3}{2}$ | $\frac{5}{3}$ | $\frac{1}{4}$  | 0  | $-frac{4}{5}$  |
+| $g'(x)$ | $-1$          | $\frac{2}{3}$ | -4             | -3 | $-\frac{1}{3}$ |
+
+Calculate the following
+
+(A) 1
+(B) 2
 
 $$
 \begin{aligned}
