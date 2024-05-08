@@ -142,10 +142,10 @@ $$
 
 2. Calculate $\dfrac{d}{dt} \left( \ln(e^{2t}) - t^2 \right)$
 
-(A) 2
-(B) $\dfrac{1}{2t}$
-(C) $\dfrac{2}{e^{2t}}$
-(D) $\dfrac{1}{2e^{2t}}$
+(A) 0
+(B) $\dfrac{1}{2t}-2t$
+(C) $\dfrac{2}{e^{2t}}-2t$
+(D) $\dfrac{1}{2e^{2t}}-2t$
 
 1. ![Derivatives table](table.png) Using the table above, evaluate the following:
 
