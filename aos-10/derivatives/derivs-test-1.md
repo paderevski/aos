@@ -33,15 +33,13 @@
 
 1. The line tangent to the curve $y=\sqrt{16-x}$ at the point $(0,4)$ has slope
 
-(A) 8
+(A) $\dfrac{-1}{8}$
 
 (B) 4
 
-(C) $1 / 8$
+(C) $\dfrac{1}{8}$
 
-(D) $-1 / 8$
-
-(E) -8
+(D) $-4$
 
 
 1. If $y=6 \ln (3 x)$ then what is $y^{\prime}$ ?
@@ -61,9 +59,9 @@ $$
 \lim _{\Delta x \rightarrow 0} \frac{2(x+\Delta x)^{2}-2 x^{2}}{\Delta x}
 $$
 
-(A) $2 x$
+(A) $4 x$
 
-(B) $4 x$
+(B) $X x$
 
 (C) 4
 
@@ -83,23 +81,23 @@ $$
 
 9. At which $x$ value does the graph of $y=3 x^{2}-10 x+15$ have a horizontal tangent line?
 
-(A) $\dfrac{3}{5}$
+(A) $\dfrac{5}{3}$
 
 (B) $\dfrac{-3}{5}$
 
-(C) $\dfrac{5}{3}$
+(C) $\dfrac{3}{5}$
 
 (D) $\dfrac{-5}{3}$
 
 1.  If $h(x)=f\left(x^{2}+1\right)$ then which of the following is true?
 
-(A) $h^{\prime}(x)=f^{\prime}\left(x^{2}+1\right)$
+(A) $h^{\prime}(x)=2x f^{\prime}\left(x^{2}+1\right)$
 
 (B) $h^{\prime}(x)=f^{\prime}(2 x)$
 
 (C) $h^{\prime}(x)=2 x f^{\prime}(2 x)$
 
-(D) $h^{\prime}(x)=2 x f^{\prime}\left(x^{2}+1\right)$
+(D) $h^{\prime}(x)=f^{\prime}\left(x^{2}+1\right)$
 
 
 
@@ -126,19 +124,19 @@ Using the above graph, select the one true statement below.
 
 1.  Let $f(x)=x^{3}-6 x^{2}+10$. At which point(s) on the graph of $f$ is the tangent line parallel to the line $15 x-y=11$ ?
 
-(A) $(2,-6)$ and $(-2,22)$
+(A) $(5,-15)$ and $(-1,3)$
 
-(B) $(2,-6)$ and $(-2,-22)$
+(B) $(2,-6)$ and $(-2,22)$
 
-(C) $(5,-15)$ and $(-1,3)$
+(C) $(2,-6)$ and $(-2,-22)$
 
 (D) $(5,-15)$ and $(2,-6)$
 
 1. If $y(x) = \dfrac{\sin(2x)}{x^2}$ find $y'(x)$
 
-(A) $\dfrac{(2 x \cos(2 x) - 2 \sin(2 x))}{x^3}$
+(A) $\dfrac{2 x \cos(2 x) - 2 \sin(2 x)}{x^3}$
 (B) $\dfrac{ 2 \cos(2x)}{x}$
-(C) $\dfrac{ x^2 \cos(2x) - 1 \sin(2x)} { x^3}$
+(C) $\dfrac{ x^2 \cos(2x) - \sin(2x)} { x^3}$
 (D) $\dfrac{ x^2 \sin(2x) + 2 \cos(2x)} {x^4}$
 
 2. Calculate $\dfrac{d}{dt} \left( \ln(e^{2t}) - 2t \right)$
@@ -152,11 +150,11 @@ Using the above graph, select the one true statement below.
 ![Derivatives table](table.png)\
 Using the table above, evaluate the following:
 
-(A) $\dfrac{d}{dx} \left( f(x) + g(x) \right)$ at $x=4$
-(A) $\dfrac{d}{dx} \left( f(x)g(x) \right)$ at $x = 1$
-(A) $\dfrac{d}{dx} \left( \dfrac{f(x)}{g(x)} \right)$ at $x = 0$
-(A) $\dfrac{d}{dx} \left( f(g(x)) \right)$ at $x = 3$
-(A) $\dfrac{d}{dx} \left( g(x+f(x)) \right)$ at $x = 3$
+(A) $\dfrac{d}{dx} \left( f(x) + g(x) \right)$ at $x=4$ \vspace{1in}
+(A) $\dfrac{d}{dx} \left( f(x)g(x) \right)$ at $x = 1$ \vspace{1in}
+(A) $\dfrac{d}{dx} \left( \dfrac{f(x)}{g(x)} \right)$ at $x = 0$ \vspace{1in}
+(A) $\dfrac{d}{dx} \left( f(g(x)) \right)$ at $x = 3$ \vspace{1in}
+(A) $\dfrac{d}{dx} \left( g(x+f(x)) \right)$ at $x = 3$ \vspace{1in}
 
 ---
 
