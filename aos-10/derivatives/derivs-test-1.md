@@ -21,15 +21,15 @@
 (D) $-\sin(2t)$
 
 
-3. If $f, g$, and $h$ are nonzero differentiable functions, then the derivative of $\frac{f}{h}$ is
+3. If $f$ and $h$ are nonzero differentiable functions, then the derivative of $\dfrac{f}{h}$ is
 
-(A) $\frac{f^{\prime} h - f h^{\prime}}{h^2}$
+(A) $\dfrac{f^{\prime} h - f h^{\prime}}{h^2}$
 
-(A) $\frac{f^{\prime} h + f h^{\prime}}{h^2}$
+(A) $\dfrac{f^{\prime} h + f h^{\prime}}{h^2}$
 
-(C) $\frac{f h^{\prime} - f^{\prime} h}{h^{2}}$
+(C) $\dfrac{f h^{\prime} - f^{\prime} h}{h^{2}}$
 
-(D) $\frac{f^{\prime}}{h^{\prime}}$
+(D) $\dfrac{f^{\prime}}{h^{\prime}}$
 
 1. The line tangent to the curve $y=\sqrt{16-x}$ at the point $(0,4)$ has slope
 
@@ -69,28 +69,27 @@ $$
 
 (D) 2
 
-(E) Does not exist
 
-8. If $w(t)=\sqrt{t^{2}-1}$ what is the value of $w^{\prime}(4)$ ?
+1. If $w(t)=\sqrt{t^{2}-1}$ what is the value of $w^{\prime}(4)$ ?
 
-(A) $\frac{4}{\sqrt{15}}$
+(A) $\dfrac{4}{\sqrt{15}}$
 
-(B) $\frac{2}{\sqrt{15}}$
+(B) $\dfrac{2}{\sqrt{15}}$
 
-(C) $\frac{1}{\sqrt{15}}$
+(C) $\dfrac{1}{\sqrt{15}}$
 
-(D) $\frac{1}{2 \sqrt{15}}$
+(D) $\dfrac{1}{2 \sqrt{15}}$
 
 
 9. At which $x$ value does the graph of $y=3 x^{2}-10 x+15$ have a horizontal tangent line?
 
-(A) $\frac{3}{5}$
+(A) $\dfrac{3}{5}$
 
-(B) $\frac{-3}{5}$
+(B) $\dfrac{-3}{5}$
 
-(C) $\frac{5}{3}$
+(C) $\dfrac{5}{3}$
 
-(D) $\frac{-5}{3}$
+(D) $\dfrac{-5}{3}$
 
 1.  If $h(x)=f\left(x^{2}+1\right)$ then which of the following is true?
 
@@ -116,7 +115,9 @@ $$
 
 
 
-1. ![graph of $f(x)$](graph1.PNG) Given the graph of $f(x)$ below, select which statement is true about values of $f'(x)$
+1. The graph of a continuous differentiable function $f$ is shown below.\
+![graph of $f(x)$](graph1.PNG){ width=60% }\
+Using the above graph, select the one true statement below.
 
 (A) $f'(C) < f'(D) < f'(Y)$
 (B) $f'(A) < f'(B) < f'(C)$
@@ -133,21 +134,23 @@ $$
 
 (D) $(5,-15)$ and $(2,-6)$
 
-1. If $y(x) = \dfrac{sin(2x)}{x^2}$ find $y'(x)$
+1. If $y(x) = \dfrac{\sin(2x)}{x^2}$ find $y'(x)$
 
-(A) $\dfrac{(2 x cos(2 x) - 2 sin(2 x))}{x^3}$
+(A) $\dfrac{(2 x \cos(2 x) - 2 \sin(2 x))}{x^3}$
 (B) $\dfrac{ 2 \cos(2x)}{x}$
 (C) $\dfrac{ x^2 \cos(2x) - 1 \sin(2x)} { x^3}$
-(D) $\dfrac{ x^2 sin(2x) + 2 \cos(2x)} {x^4}$
+(D) $\dfrac{ x^2 \sin(2x) + 2 \cos(2x)} {x^4}$
 
-2. Calculate $\dfrac{d}{dt} \left( \ln(e^{2t}) - t^2 \right)$
+2. Calculate $\dfrac{d}{dt} \left( \ln(e^{2t}) - 2t \right)$
 
 (A) 0
-(B) $\dfrac{1}{2t}-2t$
-(C) $\dfrac{2}{e^{2t}}-2t$
-(D) $\dfrac{1}{2e^{2t}}-2t$
+(B) $\dfrac{1}{2t}-2$
+(C) $\dfrac{2}{e^{2t}}-2$
+(D) $\dfrac{1}{2e^{2t}}-2$
 
-1. ![Derivatives table](table.png) Using the table above, evaluate the following:
+1. The values of $f, g, f', g'$ are given for selected $x$ values below.\
+![Derivatives table](table.png)\
+Using the table above, evaluate the following:
 
 (A) $\dfrac{d}{dx} \left( f(x) + g(x) \right)$ at $x=4$
 (A) $\dfrac{d}{dx} \left( f(x)g(x) \right)$ at $x = 1$
