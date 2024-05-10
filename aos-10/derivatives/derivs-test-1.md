@@ -1,6 +1,7 @@
 # Math 10 Derivatives Test
 
 1. Let $f(x)=\sqrt{x}$. What is the equation of the tangent line to $f$ at the point $(4,2)$?
+
 (A) $y=\frac{1}{4} x+1$
 
 (B) $y=-\frac{1}{2} x+3$
@@ -145,52 +146,3 @@ Using the above graph, select the one true statement below.
 (B) $\dfrac{1}{2t}-2$
 (C) $\dfrac{2}{e^{2t}}-2$
 (D) $\dfrac{1}{2e^{2t}}-2$
-
-1. The values of $f, g, f', g'$ are given for selected $x$ values below.\
-![Derivatives table](table.png)\
-Using the table above, evaluate the following:
-
-(A) $\dfrac{d}{dx} \left( f(x) + g(x) \right)$ at $x=4$ \vspace{1in}
-(A) $\dfrac{d}{dx} \left( f(x)g(x) \right)$ at $x = 1$ \vspace{1in}
-(A) $\dfrac{d}{dx} \left( \dfrac{f(x)}{g(x)} \right)$ at $x = 0$ \vspace{1in}
-(A) $\dfrac{d}{dx} \left( f(g(x)) \right)$ at $x = 3$ \vspace{1in}
-(A) $\dfrac{d}{dx} \left( g(x+f(x)) \right)$ at $x = 3$ \vspace{1in}
-
----
-
-## 5. AP Calculus AB: Section II
-
-Instructions: In the questions below, find the indicated derivatives using the following definitions
-
-
-That's taht
-
-
-| x       | 0             | 1             | 2              | 3  | 4              |
-|---------|---------------|---------------|----------------|----|----------------|
-| $f(x)$  | $\frac{1}{2}$ | $\frac{1}{3}$ | 1              | -1 | 3              |
-| $g(x)$  | -2            | 1             | $-\frac{1}{2}$ | 2  | $-\frac{1}{3}$ |
-| $f'(x)$ | $\frac{3}{2}$ | $\frac{5}{3}$ | $\frac{1}{4}$  | 0  | $-frac{4}{5}$  |
-| $g'(x)$ | $-1$          | $\frac{2}{3}$ | -4             | -3 | $-\frac{1}{3}$ |
-
-Calculate the following
-
-(A) 1
-(B) 2
-
-$$
-\begin{aligned}
-p(x) & =f(x) g(x) \\
-q(x) & =\frac{f(x)}{g(x)} \\
-c(x) & =f(g(x)) \\
-s(x) & =f(2 x)
-\end{aligned}
-$$
-
-1. $f^{\prime}(4)=$
-2. $g^{\prime}(-1)=$
-3. $p^{\prime}(1)=$
-4. $q^{\prime}(1)=$
-5. $c^{\prime}(-1)=$
-6. $s^{\prime}(3)=$
-7. $p^{\prime}(7)=$
