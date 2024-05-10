@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1715352865.65047 "/home/pewhite/github/aos/aos-10/derivatives/derivs-test-2048B-final.tex" "derivs-test-2048B-final.pdf" "derivs-test-2048B-final" 1715352866.35281 0
-  "/home/pewhite/github/aos/aos-10/derivatives/derivs-test-2048B-final.tex" 1715352864.44989 9151 4033bc85d3f10404dcbea5030287dcae ""
+["pdflatex"] 1715354177.82961 "/home/pewhite/github/aos/aos-10/derivatives/derivs-test-2048B-final.tex" "derivs-test-2048B-final.pdf" "derivs-test-2048B-final" 1715354178.72205 0
+  "/home/pewhite/github/aos/aos-10/derivatives/derivs-test-2048B-final.tex" 1715354177.47556 9154 965fb69839d47eec5a2827547fd1843c ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -118,8 +118,8 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1708049735.7777 5472569 99e72973af7bd41132687409b8c9c95e ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1708049770 8219557 244299ba52fc5350193eff135024fe91 ""
   "/usr/local/texlive/2023/texmf.cnf" 1708049730.14906 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "derivs-test-2048B-final.aux" 1715352866.28593 193 0ee3e9272e9ddff58fe012e967091d55 "pdflatex"
-  "derivs-test-2048B-final.tex" 1715352864.44989 9151 4033bc85d3f10404dcbea5030287dcae ""
+  "derivs-test-2048B-final.aux" 1715354178.65159 193 0ee3e9272e9ddff58fe012e967091d55 "pdflatex"
+  "derivs-test-2048B-final.tex" 1715354177.47556 9154 965fb69839d47eec5a2827547fd1843c ""
   "graph1.PNG" 1715191937.01428 84734 f0caf5738c1c07b6f1a6a03d66bcbfb8 ""
   (generated)
   "derivs-test-2048B-final.aux"
