@@ -59,9 +59,9 @@ $$
 \lim _{\Delta x \rightarrow 0} \frac{2(x+\Delta x)^{2}-2 x^{2}}{\Delta x}
 $$
 
-(A) $4 x$
+(A) $4x$
 
-(B) $X x$
+(B) $2x$
 
 (C) 4
 
