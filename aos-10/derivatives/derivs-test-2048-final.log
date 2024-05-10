@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  10 MAY 2024 10:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  10 MAY 2024 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -484,7 +484,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box62
 )
-No file derivs-test-2048-final.aux.
+(./derivs-test-2048-final.aux)
 \openout1 = `derivs-test-2048-final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -505,6 +505,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -729,10 +730,10 @@ L3 programming layer <2024-02-13>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13798 strings out of 474142
- 215590 string characters out of 5744617
+ 13801 strings out of 474142
+ 215683 string characters out of 5744617
  1944995 words of memory out of 5000000
- 35824 multiletter control sequences out of 15000+600000
+ 35825 multiletter control sequences out of 15000+600000
  578042 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,11n,93p,1019b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -743,7 +744,7 @@ mf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fon
 ts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
 blic/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy
 10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on derivs-test-2048-final.pdf (5 pages, 185546 bytes).
+Output written on derivs-test-2048-final.pdf (5 pages, 185539 bytes).
 PDF statistics:
  173 PDF objects out of 1000 (max. 8388607)
  145 compressed objects within 2 object streams
