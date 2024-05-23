@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  23 MAY 2024 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  23 MAY 2024 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,72 +646,48 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 al/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
 3/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2023/texmf-di
 st/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/d
-vips/lm/lm-mathsy.enc}] [2] [3] [4{/usr/local/texlive/2023/texmf-dist/fonts/enc
-/dvips/lm/lm-mathex.enc}]
-<media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg, id=126, 1654.18pt x 1391.1975p
-t>
-File: media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg Graphic file (type jpg)
-<use media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg>
-Package pdftex.def Info: media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg  used o
-n input line 384.
-(pdftex.def)             Requested size: 396.98607pt x 333.87299pt.
- [5]
-<media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg, id=153, 1509.64pt x 427.5975pt
->
+vips/lm/lm-mathsy.enc}]
+<media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg, id=39, 1509.64pt x 427.5975pt>
+
 File: media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg Graphic file (type jpg)
 <use media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg>
 Package pdftex.def Info: media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg  used o
-n input line 400.
+n input line 210.
 (pdftex.def)             Requested size: 362.29797pt x 102.61896pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--403
-[]\T1/lmr/m/n/10 (+20) The graphs of the deriva-tives of the func-tions $\OML/l
-mm/m/it/10 f; g$\T1/lmr/m/n/10 (+20) , and $\OML/lmm/m/it/10 h$ \T1/lmr/m/n/10 
-(+20) are shown be-low. Which of
- []
-
-
-Underfull \hbox (badness 6758) in paragraph at lines 397--403
-\T1/lmr/m/n/10 (+20) the func-tions $\OML/lmm/m/it/10 f; g$\T1/lmr/m/n/10 (+20)
- , or $\OML/lmm/m/it/10 h$ \T1/lmr/m/n/10 (+20) have a rel-a-tive max-i-mum on 
-the open in-ter-val $\OML/lmm/m/it/10 a < x < b$ \T1/lmr/m/n/10 (+20) ?
- []
-
-[6 <./media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg>]
-<media/d7b0a695-c4ff-5482-a58c-e1186654c6aa.jpg, id=164, 898.35625pt x 427.5975
-pt>
+ [2]
+<media/d7b0a695-c4ff-5482-a58c-e1186654c6aa.jpg, id=68, 898.35625pt x 427.5975p
+t>
 File: media/d7b0a695-c4ff-5482-a58c-e1186654c6aa.jpg Graphic file (type jpg)
 <use media/d7b0a695-c4ff-5482-a58c-e1186654c6aa.jpg>
 Package pdftex.def Info: media/d7b0a695-c4ff-5482-a58c-e1186654c6aa.jpg  used o
-n input line 416.
+n input line 225.
 (pdftex.def)             Requested size: 215.59619pt x 102.61896pt.
- [7 <./media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg> <./media/d7b0a695-c4ff-5
-482-a58c-e1186654c6aa.jpg>] [8] (./test-temp.aux)
+ [3 <./media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg> <./media/d7b0a695-c4ff-5
+482-a58c-e1186654c6aa.jpg>] [4] (./test-temp.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14232 strings out of 474142
- 222877 string characters out of 5744617
- 1944995 words of memory out of 5000000
- 36164 multiletter control sequences out of 15000+600000
- 585007 words of font info for 80 fonts, out of 8000000 for 9000
+ 14137 strings out of 474142
+ 221807 string characters out of 5744617
+ 1943995 words of memory out of 5000000
+ 36157 multiletter control sequences out of 15000+600000
+ 584509 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,12n,93p,1008b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
-e/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/tex
-mf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fo
-nts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
-ublic/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lm
-r7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on test-temp.pdf (8 pages, 321670 bytes).
+e/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fon
+ts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
+blic/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy
+10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+Output written on test-temp.pdf (4 pages, 187991 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 145 named destinations out of 1000 (max. 500000)
- 14360 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 14355 words of extra memory for PDF output out of 14400 (max. 10000000)
 

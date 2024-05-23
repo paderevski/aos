@@ -222,12 +222,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
-INPUT ./media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg
-INPUT ./media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg
-INPUT ./media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg
-INPUT ./media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg
-INPUT ./media/d6fb84ff-4217-5798-98c3-0aef7c7c28ed.jpg
 INPUT ./media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg
 INPUT ./media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg
 INPUT ./media/f765d5c6-c7a8-54f4-bfaa-b2393cdce2e6.jpg
@@ -243,7 +237,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT test-temp.aux
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb
