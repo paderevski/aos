@@ -1,0 +1,156 @@
+1. Given the function defined by f(x)=3x^5-20x^3, find all values of x for which the graph of f is concave up.
+(A) x>0
+(B) -\sqrt2<x<0 or x>\sqrt2
+(C) -2<x<0 or x>2
+(D) x>\sqrt2
+(E) -2<x<2
+2. If f(x)=x+\frac{1}{x}, then the set of values for which f increases is
+(A) (-\infty,-1]?[1,?)
+(B) [-1,1]
+(C) (-\infty,\infty)
+(D) (0,\infty)
+(E) (-\infty,0)\cup(0,\infty)
+3. If f(x)=\frac{\ln\funcapply x}{x}, for all x>0, which of the following is true?
+(A) f is increasing for all x greater than 0 .
+(B) f is increasing for all x greater than 1 .
+(C) f is decreasing for all x between 0 and 1 .
+(D) f is decreasing for all x between 1 and e.
+(E) f is decreasing for all x greater than e.
+4. At what values of x does f(x)=3x^5-5x^3+15 have a relative maximum?
+(A) -1 only
+(B) 0 only
+(C) 1 only
+(D) -1 and 1 only
+(E) -1,0 and 1
+
+5. The graph of y=\frac{-5}{x-2} is concave downward for all values of x such that
+(A) x<0
+(B) x<2
+(C) {\ }x<5
+(D) x>0
+(E) {\ }x>2
+6. The absolute maximum value of f(x)=x^3-3x^2+12 on the closed interval [-2,4] occurs at x=
+(A) 4
+(B) 2
+(C) 1
+(D) 0
+(E) -2
+7. If the graph of y=x^3+ax^2+bx-4 has a point of inflection at (1,-6), what is the value of b ?
+(A) -3
+(B) 0
+(C) 1
+(D) 3
+8. The function f given by f(x)=x^3+12x-24 is
+(A) increasing for x<-2, decreasing for -2<x<2, increasing for x>2
+(B) decreasing for x<0, increasing for x>0
+(C) increasing for all x
+(D) decreasing for all x
+(E) decreasing for x<-2, increasing for -2<x<2, decreasing for x>2
+9. The derivative of f is x^4(x-2)(x+3). At how many points will the graph of f have a relative maximum?
+(A) None
+(B) One
+(C) Two
+(D) Three
+(E) Four
+10. If f(x)=x^2e^x, then the graph of f is decreasing for all x such that
+(A) x<-2
+(B) -2<x<0
+(C) x>-2
+(D) x<0
+(E) x>0
+11. The graph of y=3x^4-16x^3+24x^2+48 is concave down for
+(A) x<0
+(B) x>0
+(C) x<-2 or x>-\frac{2}{3}
+(D) x<\frac{2}{3} or x>2
+(E) \frac{2}{3}<x<2
+12. The function f given by f(x)=3x^5-4x^3-3x has a relative maximum at x=
+(A) -1
+(B) -\frac{\sqrt5}{5}
+(C) 0
+(D) \frac{\sqrt5}{5}
+(E) 1
+13. What is the x-coordinate of the point of inflection on the graph of y=\frac{1}{3}x^3+5x^2+24 ?
+(A) 5
+(B) 0
+(C) -\frac{10}{3}
+(D) -5
+(E) -10
+14. A particle moves along the x-axis so that its position at time t is given by x(t)=t^2-6t+5. For what value of t is the velocity of the particle zero?
+(A) 1
+(B) 2
+(C) 3
+(D) 4
+(E) 5
+
+15. If f^{\prime\prime}(x)=x(x+1)(x-2)^2, then the graph of f has inflection points when x=
+(A) -1 only
+(B) 2 only
+(C) -1 and 0 only
+(D) -1 and 2 only
+(E) -1,0, and 2 only
+16. The function f is given by f(x)=x^4+x^2-2. On which of the following intervals is f increasing?
+(A) \left(-\frac{1}{\sqrt2},\infty\right)
+(B) \left(-\frac{1}{\sqrt2},\frac{1}{\sqrt2}\right)
+(C) (0,\infty)
+(D) (-\infty,0)
+(E) \left(-\infty,-\frac{1}{\sqrt2}\right)
+17. If g is a differentiable function such that g(x)<0 for all real numbers x and if f^\prime(x)=\left(x^2-4\right)g(x), which of the following is true?
+(A) f has a relative maximum at x=-2 and a relative minimum at x=2.
+(B) f has a relative minimum at x=-2 and a relative maximum at x=2.
+(C) f has relative minima at x=-2 and at x=2.
+(D) f has relative maxima at x=-2 and at x=2.
+(E) It cannot be determined if f has any relative extrema.
+18. If f is the function defined by f(x)=3x^5-5x^4, what are all the x-coordinates of points of inflection for the graph of f ?
+(A) -1
+(B) 0
+(C) 1
+(D) 0 and 1
+(E) -1,0, and 1
+19. What is the derivative of y=\sec{\sqrt t}?
+(A) \sec{\sqrt t}\tan{\sqrt t}
+(B) \tan^2{\sqrt t}
+(C) \frac{\sec{\sqrt t}\tan{\sqrt t}}{2\sqrt t}
+(D) \sqrt t\tan^2{\sqrt t}
+20. At which x coordinate is the tangent line to y=3x^2-8x+12 parallel to the line 4x\ +\ 2y\ =\ 7?
+(A) 0
+(B) 1
+(C) 2
+(D) -2
+
+
+
+
+Free Response
+
+The function
+f^\prime\left(x\right)=\frac{1}{x^2-4}
+ has first derivative
+
+f^\prime\left(x\right)\ =\frac{-2x}{\left(x^2-\ 4\right)^2}
+and second derivative
+f''(x)\ =\frac{6\ x^2+8}{\left. \left(x^2-\ 4\right.\right)^3}
+Sketch the graph of \mathbit{f}\left(\mathbit{x}\right) after completing the following questions:
+
+1. State any domain restrictions for f\left(x\right)
+
+
+
+2. Determine any critical points of f\left(x\right)
+
+
+
+
+3. State intervals on which f\left(x\right) is increasing or decreasing
+
+
+
+
+
+4. State intervals on which f\left(x\right) is concave up or concave down
+
+
+
+
+
+5. Calculate any horizontal asymptotes of f\left(x\right)\bigm
