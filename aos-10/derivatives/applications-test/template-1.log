@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  23 MAY 2024 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  24 MAY 2024 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/pewhite/github/aos/aos-10/derivatives/applications-test/template.tex
-(/home/pewhite/github/aos/aos-10/derivatives/applications-test/template.tex
+**/home/pewhite/github/aos/aos-10/derivatives/applications-test/template-1.tex
+(/home/pewhite/github/aos/aos-10/derivatives/applications-test/template-1.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -421,8 +421,8 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count306
 \l__pdf_internal_box=\box63
-) (./template.aux)
-\openout1 = `template.aux'.
+) (./template-1.aux)
+\openout1 = `template-1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
@@ -522,7 +522,7 @@ Runaway argument?
 ! File ended while scanning use of \\lfoot.
 <inserted text> 
                 \par 
-<*> .../derivatives/applications-test/template.tex
+<*> ...erivatives/applications-test/template-1.tex
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -530,17 +530,17 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 ! Emergency stop.
-<*> .../derivatives/applications-test/template.tex
+<*> ...erivatives/applications-test/template-1.tex
                                                   
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
  13834 strings out of 474142
- 216262 string characters out of 5744617
+ 216282 string characters out of 5744617
  1924995 words of memory out of 5000000
  36003 multiletter control sequences out of 15000+600000
  561988 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,1n,93p,1067b,385s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,1n,93p,1069b,385s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
