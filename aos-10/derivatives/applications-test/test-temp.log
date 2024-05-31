@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  24 MAY 2024 10:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  31 MAY 2024 08:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,18 +671,16 @@ Package pdftex.def Info: media/g.png  used on input line 282.
 (pdftex.def)             Requested size: 289.07858pt x 180.03792pt.
  [5
 
- <./media/g.png>] [6
-
-] (./test-temp.aux)
+ <./media/g.png>] (./test-temp.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14166 strings out of 474142
- 221917 string characters out of 5744617
- 1944995 words of memory out of 5000000
+ 14155 strings out of 474142
+ 221841 string characters out of 5744617
+ 1943995 words of memory out of 5000000
  36168 multiletter control sequences out of 15000+600000
  584592 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -694,10 +692,10 @@ mf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fo
 nts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
 ublic/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lms
 y10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on test-temp.pdf (6 pages, 313101 bytes).
+Output written on test-temp.pdf (5 pages, 311492 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 74 named destinations out of 1000 (max. 500000)
  14374 words of extra memory for PDF output out of 14400 (max. 10000000)
 
